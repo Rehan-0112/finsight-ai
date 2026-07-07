@@ -2,40 +2,121 @@ import arxiv
 import json
 import os
 
-def fetch_arxiv_papers(query: str, max_results: int = 50) -> list:
-    client = arxiv.Client()
-    search = arxiv.Search(
-        query=query,
-        max_results=max_results,
-        sort_by=arxiv.SortCriterion.Relevance
-    )
+
+queries = [
+
+"revenue forecasting",
+
+"earnings forecasting",
+
+"financial forecasting",
+
+"corporate finance",
+
+"capital structure",
+
+"debt ratio",
+
+"leverage ratio",
+
+"financial statement analysis",
+
+"balance sheet analysis",
+
+"company valuation",
+
+"XGBoost finance",
+
+"Explainable AI Finance",
+
+"Financial NLP",
+
+"LLM finance",
+
+"risk modeling"
+
+]
+
+
+os.makedirs("data/raw", exist_ok=True)
+
+
+for query in queries:
+
     papers = []
+
+    search = arxiv.Search(
+
+        query=query,
+
+        max_results=50,
+
+        sort_by=arxiv.SortCriterion.Relevance
+
+    )
+
+    client = arxiv.Client()
+
     for result in client.results(search):
+
         papers.append({
+
             "title": result.title,
-            "authors": [a.name for a in result.authors],
-            "abstract": result.summary,
-            "published": str(result.published),
-            "url": result.entry_id,
-            "pdf_url": result.pdf_url,
-            "categories": result.categories
+
+            "authors":
+
+            [a.name for a in result.authors],
+
+            "summary":
+
+            result.summary,
+
+            "published":
+
+            str(result.published),
+
+            "pdf_url":
+
+            result.pdf_url
+
         })
-    return papers
 
-def save_papers(query: str, filename: str, output_dir: str = "data/raw/"):
-    os.makedirs(output_dir, exist_ok=True)
-    papers = fetch_arxiv_papers(query)
-    output_path = f"{output_dir}{filename}.json"
-    with open(output_path, "w") as f:
-        json.dump(papers, f, indent=2)
-    print(f"✅ Saved {len(papers)} papers → {output_path}")
 
-if __name__ == "__main__":
-    queries = {
-        "revenue_forecasting": "revenue forecasting financial prediction",
-        "anomaly_detection_finance": "anomaly detection financial time series",
-        "explainable_ai_finance": "explainable AI financial forecasting SHAP",
-        "llm_finance": "large language models financial analysis"
-    }
-    for filename, query in queries.items():
-        save_papers(query, filename)
+    filename = query.replace(" ", "_") + ".json"
+
+
+    path = os.path.join(
+
+        "data/raw",
+
+        filename
+
+    )
+
+
+    with open(
+
+        path,
+
+        "w",
+
+        encoding="utf-8"
+
+    ) as f:
+
+        json.dump(
+
+            papers,
+
+            f,
+
+            indent=4
+
+        )
+
+
+    print(
+
+        f"Saved {len(papers)} papers to {filename}"
+
+    )
