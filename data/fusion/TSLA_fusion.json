@@ -1,0 +1,94 @@
+{
+  "ticker": "TSLA",
+  "horizon": 3,
+  "forecast": {
+    "direction": "DOWN \ud83d\udcc9",
+    "confidence_pct": 71.9,
+    "current_price": 393.45,
+    "avg_accuracy": 0.5031
+  },
+  "explanation": {
+    "top_features": [
+      {
+        "feature": "MA_30",
+        "shap_value": -0.471889,
+        "impact": "negative",
+        "meaning": "MA_30 is pushing price DOWN"
+      },
+      {
+        "feature": "MA_90",
+        "shap_value": -0.352646,
+        "impact": "negative",
+        "meaning": "MA_90 is pushing price DOWN"
+      },
+      {
+        "feature": "Volume_Ratio",
+        "shap_value": 0.21148,
+        "impact": "positive",
+        "meaning": "Volume 1.54x above average (pushing price UP)"
+      },
+      {
+        "feature": "Volatility_7d",
+        "shap_value": -0.162274,
+        "impact": "negative",
+        "meaning": "Volatility_7d is pushing price DOWN"
+      },
+      {
+        "feature": "MA_7",
+        "shap_value": -0.100003,
+        "impact": "negative",
+        "meaning": "MA_7 is pushing price DOWN"
+      }
+    ],
+    "all_shap": {
+      "MA_7": -0.100003,
+      "MA_30": -0.471889,
+      "MA_90": -0.352646,
+      "Return_1d": -0.079596,
+      "Return_7d": 0.082577,
+      "Return_30d": 0.032728,
+      "Volatility_7d": -0.162274,
+      "Volatility_30d": -0.087525,
+      "Volume_Ratio": 0.21148,
+      "RSI_14": 0.003949,
+      "Price_above_MA30": 0.04522,
+      "Price_above_MA90": 0.004632,
+      "MA_cross": -0.072709,
+      "profit_margins": 0.0,
+      "debt_to_equity": 0.0,
+      "operating_margins": 0.0,
+      "earnings_growth": 0.0,
+      "revenue_growth": 0.0,
+      "current_ratio": 0.0,
+      "return_on_equity": 0.0,
+      "financial_health_score": 0.0
+    },
+    "rag_search_terms": [
+      "MA_30",
+      "MA_90",
+      "Volume_Ratio"
+    ]
+  },
+  "anomaly": {
+    "is_anomaly": false,
+    "status": "\u2705 Normal",
+    "summary": "TSLA is behaving within normal historical ranges.",
+    "deviations": [
+      {
+        "feature": "Volume_Ratio",
+        "current": 1.5412,
+        "historical_mean": 1.0025,
+        "z_score": 2.38,
+        "direction": "above normal"
+      },
+      {
+        "feature": "Return_1d",
+        "current": -0.0749,
+        "historical_mean": 0.0007,
+        "z_score": -1.99,
+        "direction": "below normal"
+      }
+    ]
+  },
+  "llm_context": "=== ML ANALYSIS FOR TSLA ===\n\nFORECAST (next 3 days):\n  Direction  : DOWN \ud83d\udcc9\n  Confidence : 71.9%\n  Current Price: $393.45\n  Model Accuracy: 50.3%\n\nTOP PREDICTION DRIVERS (SHAP):\n  - MA_30: SHAP=-0.4719 (\u2193 bearish) \u2014 MA_30 is pushing price DOWN\n  - MA_90: SHAP=-0.3526 (\u2193 bearish) \u2014 MA_90 is pushing price DOWN\n  - Volume_Ratio: SHAP=0.2115 (\u2191 bullish) \u2014 Volume 1.54x above average (pushing price UP)\n  - Volatility_7d: SHAP=-0.1623 (\u2193 bearish) \u2014 Volatility_7d is pushing price DOWN\n  - MA_7: SHAP=-0.1000 (\u2193 bearish) \u2014 MA_7 is pushing price DOWN\n\nANOMALY CHECK:\n  \u2705 No anomaly detected \u2014 TSLA is behaving within normal historical ranges.\n\nRAG SEARCH CONTEXT:\n  The following features are driving this prediction and should be\n  used to retrieve relevant academic research:\n  MA_30, MA_90, Volume_Ratio"
+}

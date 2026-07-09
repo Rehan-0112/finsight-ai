@@ -1,0 +1,94 @@
+{
+  "ticker": "AAPL",
+  "horizon": 3,
+  "forecast": {
+    "direction": "DOWN \ud83d\udcc9",
+    "confidence_pct": 95.4,
+    "current_price": 308.63,
+    "avg_accuracy": 0.4546
+  },
+  "explanation": {
+    "top_features": [
+      {
+        "feature": "MA_90",
+        "shap_value": -1.237809,
+        "impact": "negative",
+        "meaning": "MA_90 is pushing price DOWN"
+      },
+      {
+        "feature": "Volatility_7d",
+        "shap_value": -0.436691,
+        "impact": "negative",
+        "meaning": "Volatility_7d is pushing price DOWN"
+      },
+      {
+        "feature": "Return_7d",
+        "shap_value": -0.429921,
+        "impact": "negative",
+        "meaning": "7-day return at 4.87% (pushing price DOWN)"
+      },
+      {
+        "feature": "Volatility_30d",
+        "shap_value": -0.374877,
+        "impact": "negative",
+        "meaning": "30-day volatility at 0.0212 (pushing price DOWN)"
+      },
+      {
+        "feature": "MA_7",
+        "shap_value": -0.288824,
+        "impact": "negative",
+        "meaning": "MA_7 is pushing price DOWN"
+      }
+    ],
+    "all_shap": {
+      "MA_7": -0.288824,
+      "MA_30": -0.186911,
+      "MA_90": -1.237809,
+      "Return_1d": -0.12829,
+      "Return_7d": -0.429921,
+      "Return_30d": -0.12743,
+      "Volatility_7d": -0.436691,
+      "Volatility_30d": -0.374877,
+      "Volume_Ratio": -0.078585,
+      "RSI_14": 0.279603,
+      "Price_above_MA30": -0.000625,
+      "Price_above_MA90": 0.007537,
+      "MA_cross": 0.003419,
+      "profit_margins": 0.0,
+      "debt_to_equity": 0.0,
+      "operating_margins": 0.0,
+      "earnings_growth": 0.0,
+      "revenue_growth": 0.0,
+      "current_ratio": 0.0,
+      "return_on_equity": 0.0,
+      "financial_health_score": 0.0
+    },
+    "rag_search_terms": [
+      "MA_90",
+      "Volatility_7d",
+      "Return_7d"
+    ]
+  },
+  "anomaly": {
+    "is_anomaly": false,
+    "status": "\u2705 Normal",
+    "summary": "AAPL is behaving within normal historical ranges.",
+    "deviations": [
+      {
+        "feature": "Return_1d",
+        "current": 0.0484,
+        "historical_mean": 0.0008,
+        "z_score": 2.67,
+        "direction": "above normal"
+      },
+      {
+        "feature": "Volatility_7d",
+        "current": 0.036,
+        "historical_mean": 0.0156,
+        "z_score": 2.37,
+        "direction": "above normal"
+      }
+    ]
+  },
+  "llm_context": "=== ML ANALYSIS FOR AAPL ===\n\nFORECAST (next 3 days):\n  Direction  : DOWN \ud83d\udcc9\n  Confidence : 95.4%\n  Current Price: $308.63\n  Model Accuracy: 45.5%\n\nTOP PREDICTION DRIVERS (SHAP):\n  - MA_90: SHAP=-1.2378 (\u2193 bearish) \u2014 MA_90 is pushing price DOWN\n  - Volatility_7d: SHAP=-0.4367 (\u2193 bearish) \u2014 Volatility_7d is pushing price DOWN\n  - Return_7d: SHAP=-0.4299 (\u2193 bearish) \u2014 7-day return at 4.87% (pushing price DOWN)\n  - Volatility_30d: SHAP=-0.3749 (\u2193 bearish) \u2014 30-day volatility at 0.0212 (pushing price DOWN)\n  - MA_7: SHAP=-0.2888 (\u2193 bearish) \u2014 MA_7 is pushing price DOWN\n\nANOMALY CHECK:\n  \u2705 No anomaly detected \u2014 AAPL is behaving within normal historical ranges.\n\nRAG SEARCH CONTEXT:\n  The following features are driving this prediction and should be\n  used to retrieve relevant academic research:\n  MA_90, Volatility_7d, Return_7d"
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "TCS.NS",
+  "horizon": 3,
+  "forecast": {
+    "direction": "DOWN \ud83d\udcc9",
+    "confidence_pct": 94.8,
+    "current_price": 2093.5,
+    "avg_accuracy": 0.511
+  },
+  "explanation": {
+    "top_features": [
+      {
+        "feature": "Volatility_30d",
+        "shap_value": -1.64476,
+        "impact": "negative",
+        "meaning": "30-day volatility at 0.0261 (pushing price DOWN)"
+      },
+      {
+        "feature": "MA_90",
+        "shap_value": -0.395375,
+        "impact": "negative",
+        "meaning": "MA_90 is pushing price DOWN"
+      },
+      {
+        "feature": "Volume_Ratio",
+        "shap_value": -0.233299,
+        "impact": "negative",
+        "meaning": "Volume 0.95x above average (pushing price DOWN)"
+      },
+      {
+        "feature": "Return_7d",
+        "shap_value": -0.227786,
+        "impact": "negative",
+        "meaning": "7-day return at -0.73% (pushing price DOWN)"
+      },
+      {
+        "feature": "Return_1d",
+        "shap_value": -0.185573,
+        "impact": "negative",
+        "meaning": "Return_1d is pushing price DOWN"
+      }
+    ],
+    "all_shap": {
+      "MA_7": 0.033604,
+      "MA_30": -0.063751,
+      "MA_90": -0.395375,
+      "Return_1d": -0.185573,
+      "Return_7d": -0.227786,
+      "Return_30d": 0.031937,
+      "Volatility_7d": 0.065789,
+      "Volatility_30d": -1.64476,
+      "Volume_Ratio": -0.233299,
+      "RSI_14": -0.151755,
+      "Price_above_MA30": -0.001418,
+      "Price_above_MA90": -0.090795,
+      "MA_cross": -0.055571,
+      "profit_margins": 0.0,
+      "debt_to_equity": 0.0,
+      "operating_margins": 0.0,
+      "earnings_growth": 0.0,
+      "revenue_growth": 0.0,
+      "current_ratio": 0.0,
+      "return_on_equity": 0.0,
+      "financial_health_score": 0.0
+    },
+    "rag_search_terms": [
+      "Volatility_30d",
+      "MA_90",
+      "Volume_Ratio"
+    ]
+  },
+  "anomaly": {
+    "is_anomaly": true,
+    "status": "\u26a0\ufe0f ANOMALY DETECTED",
+    "summary": "TCS.NS shows anomalous behaviour. Most unusual: Volatility_30d is above normal (current: 0.0261, historical avg: 0.0133, z-score: 3.93).",
+    "deviations": [
+      {
+        "feature": "Volatility_30d",
+        "current": 0.0261,
+        "historical_mean": 0.0133,
+        "z_score": 3.93,
+        "direction": "above normal"
+      },
+      {
+        "feature": "Volatility_7d",
+        "current": 0.0246,
+        "historical_mean": 0.0126,
+        "z_score": 2.14,
+        "direction": "above normal"
+      }
+    ]
+  },
+  "llm_context": "=== ML ANALYSIS FOR TCS.NS ===\n\nFORECAST (next 3 days):\n  Direction  : DOWN \ud83d\udcc9\n  Confidence : 94.8%\n  Current Price: $2093.5\n  Model Accuracy: 51.1%\n\nTOP PREDICTION DRIVERS (SHAP):\n  - Volatility_30d: SHAP=-1.6448 (\u2193 bearish) \u2014 30-day volatility at 0.0261 (pushing price DOWN)\n  - MA_90: SHAP=-0.3954 (\u2193 bearish) \u2014 MA_90 is pushing price DOWN\n  - Volume_Ratio: SHAP=-0.2333 (\u2193 bearish) \u2014 Volume 0.95x above average (pushing price DOWN)\n  - Return_7d: SHAP=-0.2278 (\u2193 bearish) \u2014 7-day return at -0.73% (pushing price DOWN)\n  - Return_1d: SHAP=-0.1856 (\u2193 bearish) \u2014 Return_1d is pushing price DOWN\n\nANOMALY CHECK:\n  \u26a0\ufe0f ANOMALY DETECTED: TCS.NS shows anomalous behaviour. Most unusual: Volatility_30d is above normal (current: 0.0261, historical avg: 0.0133, z-score: 3.93).\n\nRAG SEARCH CONTEXT:\n  The following features are driving this prediction and should be\n  used to retrieve relevant academic research:\n  Volatility_30d, MA_90, Volume_Ratio"
+}

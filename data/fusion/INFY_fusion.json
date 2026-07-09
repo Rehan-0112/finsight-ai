@@ -1,0 +1,94 @@
+{
+  "ticker": "INFY",
+  "horizon": 3,
+  "forecast": {
+    "direction": "DOWN \ud83d\udcc9",
+    "confidence_pct": 85.4,
+    "current_price": 11.16,
+    "avg_accuracy": 0.5309
+  },
+  "explanation": {
+    "top_features": [
+      {
+        "feature": "Volatility_30d",
+        "shap_value": -1.079461,
+        "impact": "negative",
+        "meaning": "30-day volatility at 0.0304 (pushing price DOWN)"
+      },
+      {
+        "feature": "MA_30",
+        "shap_value": -0.560346,
+        "impact": "negative",
+        "meaning": "MA_30 is pushing price DOWN"
+      },
+      {
+        "feature": "RSI_14",
+        "shap_value": -0.319181,
+        "impact": "negative",
+        "meaning": "RSI at 44.4 \u2014 neutral momentum (pushing price DOWN)"
+      },
+      {
+        "feature": "Return_1d",
+        "shap_value": 0.26002,
+        "impact": "positive",
+        "meaning": "Return_1d is pushing price UP"
+      },
+      {
+        "feature": "Return_7d",
+        "shap_value": -0.233509,
+        "impact": "negative",
+        "meaning": "7-day return at 3.43% (pushing price DOWN)"
+      }
+    ],
+    "all_shap": {
+      "MA_7": 0.181741,
+      "MA_30": -0.560346,
+      "MA_90": -0.02214,
+      "Return_1d": 0.26002,
+      "Return_7d": -0.233509,
+      "Return_30d": 0.059708,
+      "Volatility_7d": 0.121761,
+      "Volatility_30d": -1.079461,
+      "Volume_Ratio": -0.100668,
+      "RSI_14": -0.319181,
+      "Price_above_MA30": -0.032929,
+      "Price_above_MA90": -0.008987,
+      "MA_cross": -0.036115,
+      "profit_margins": 0.0,
+      "debt_to_equity": 0.0,
+      "operating_margins": 0.0,
+      "earnings_growth": 0.0,
+      "revenue_growth": 0.0,
+      "current_ratio": 0.0,
+      "return_on_equity": 0.0,
+      "financial_health_score": 0.0
+    },
+    "rag_search_terms": [
+      "Volatility_30d",
+      "MA_30",
+      "RSI_14"
+    ]
+  },
+  "anomaly": {
+    "is_anomaly": false,
+    "status": "\u2705 Normal",
+    "summary": "INFY is behaving within normal historical ranges.",
+    "deviations": [
+      {
+        "feature": "Return_1d",
+        "current": 0.0479,
+        "historical_mean": -0.0004,
+        "z_score": 2.64,
+        "direction": "above normal"
+      },
+      {
+        "feature": "Volatility_30d",
+        "current": 0.0304,
+        "historical_mean": 0.0173,
+        "z_score": 2.54,
+        "direction": "above normal"
+      }
+    ]
+  },
+  "llm_context": "=== ML ANALYSIS FOR INFY ===\n\nFORECAST (next 3 days):\n  Direction  : DOWN \ud83d\udcc9\n  Confidence : 85.4%\n  Current Price: $11.16\n  Model Accuracy: 53.1%\n\nTOP PREDICTION DRIVERS (SHAP):\n  - Volatility_30d: SHAP=-1.0795 (\u2193 bearish) \u2014 30-day volatility at 0.0304 (pushing price DOWN)\n  - MA_30: SHAP=-0.5603 (\u2193 bearish) \u2014 MA_30 is pushing price DOWN\n  - RSI_14: SHAP=-0.3192 (\u2193 bearish) \u2014 RSI at 44.4 \u2014 neutral momentum (pushing price DOWN)\n  - Return_1d: SHAP=0.2600 (\u2191 bullish) \u2014 Return_1d is pushing price UP\n  - Return_7d: SHAP=-0.2335 (\u2193 bearish) \u2014 7-day return at 3.43% (pushing price DOWN)\n\nANOMALY CHECK:\n  \u2705 No anomaly detected \u2014 INFY is behaving within normal historical ranges.\n\nRAG SEARCH CONTEXT:\n  The following features are driving this prediction and should be\n  used to retrieve relevant academic research:\n  Volatility_30d, MA_30, RSI_14"
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "MSFT",
+  "horizon": 3,
+  "forecast": {
+    "direction": "DOWN \ud83d\udcc9",
+    "confidence_pct": 91.0,
+    "current_price": 390.49,
+    "avg_accuracy": 0.4938
+  },
+  "explanation": {
+    "top_features": [
+      {
+        "feature": "Volume_Ratio",
+        "shap_value": -0.601664,
+        "impact": "negative",
+        "meaning": "Volume 0.61x above average (pushing price DOWN)"
+      },
+      {
+        "feature": "Return_1d",
+        "shap_value": -0.474518,
+        "impact": "negative",
+        "meaning": "Return_1d is pushing price DOWN"
+      },
+      {
+        "feature": "Volatility_30d",
+        "shap_value": -0.370673,
+        "impact": "negative",
+        "meaning": "30-day volatility at 0.0258 (pushing price DOWN)"
+      },
+      {
+        "feature": "RSI_14",
+        "shap_value": -0.354852,
+        "impact": "negative",
+        "meaning": "RSI at 50.1 \u2014 neutral momentum (pushing price DOWN)"
+      },
+      {
+        "feature": "Return_7d",
+        "shap_value": -0.280278,
+        "impact": "negative",
+        "meaning": "7-day return at 4.43% (pushing price DOWN)"
+      }
+    ],
+    "all_shap": {
+      "MA_7": 0.144724,
+      "MA_30": -0.069348,
+      "MA_90": 0.203845,
+      "Return_1d": -0.474518,
+      "Return_7d": -0.280278,
+      "Return_30d": -0.184379,
+      "Volatility_7d": -0.250425,
+      "Volatility_30d": -0.370673,
+      "Volume_Ratio": -0.601664,
+      "RSI_14": -0.354852,
+      "Price_above_MA30": 0.003129,
+      "Price_above_MA90": -0.086425,
+      "MA_cross": 0.029709,
+      "profit_margins": 0.0,
+      "debt_to_equity": 0.0,
+      "operating_margins": 0.0,
+      "earnings_growth": 0.0,
+      "revenue_growth": 0.0,
+      "current_ratio": 0.0,
+      "return_on_equity": 0.0,
+      "financial_health_score": 0.0
+    },
+    "rag_search_terms": [
+      "Volume_Ratio",
+      "Return_1d",
+      "Volatility_30d"
+    ]
+  },
+  "anomaly": {
+    "is_anomaly": false,
+    "status": "\u2705 Normal",
+    "summary": "MSFT is behaving within normal historical ranges.",
+    "deviations": [
+      {
+        "feature": "Volatility_7d",
+        "current": 0.0319,
+        "historical_mean": 0.0157,
+        "z_score": 2.12,
+        "direction": "above normal"
+      },
+      {
+        "feature": "Volatility_30d",
+        "current": 0.0258,
+        "historical_mean": 0.0164,
+        "z_score": 1.78,
+        "direction": "above normal"
+      }
+    ]
+  },
+  "llm_context": "=== ML ANALYSIS FOR MSFT ===\n\nFORECAST (next 3 days):\n  Direction  : DOWN \ud83d\udcc9\n  Confidence : 91.0%\n  Current Price: $390.49\n  Model Accuracy: 49.4%\n\nTOP PREDICTION DRIVERS (SHAP):\n  - Volume_Ratio: SHAP=-0.6017 (\u2193 bearish) \u2014 Volume 0.61x above average (pushing price DOWN)\n  - Return_1d: SHAP=-0.4745 (\u2193 bearish) \u2014 Return_1d is pushing price DOWN\n  - Volatility_30d: SHAP=-0.3707 (\u2193 bearish) \u2014 30-day volatility at 0.0258 (pushing price DOWN)\n  - RSI_14: SHAP=-0.3549 (\u2193 bearish) \u2014 RSI at 50.1 \u2014 neutral momentum (pushing price DOWN)\n  - Return_7d: SHAP=-0.2803 (\u2193 bearish) \u2014 7-day return at 4.43% (pushing price DOWN)\n\nANOMALY CHECK:\n  \u2705 No anomaly detected \u2014 MSFT is behaving within normal historical ranges.\n\nRAG SEARCH CONTEXT:\n  The following features are driving this prediction and should be\n  used to retrieve relevant academic research:\n  Volume_Ratio, Return_1d, Volatility_30d"
+}
