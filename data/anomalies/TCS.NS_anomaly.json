@@ -1,0 +1,23 @@
+{
+  "ticker": "TCS.NS",
+  "is_anomaly": true,
+  "anomaly_score": -0.024,
+  "status": "\u26a0\ufe0f ANOMALY DETECTED",
+  "deviations": [
+    {
+      "feature": "Volatility_30d",
+      "current": 0.0261,
+      "historical_mean": 0.0133,
+      "z_score": 3.93,
+      "direction": "above normal"
+    },
+    {
+      "feature": "Volatility_7d",
+      "current": 0.0246,
+      "historical_mean": 0.0126,
+      "z_score": 2.14,
+      "direction": "above normal"
+    }
+  ],
+  "summary": "TCS.NS shows anomalous behaviour. Most unusual: Volatility_30d is above normal (current: 0.0261, historical avg: 0.0133, z-score: 3.93)."
+}

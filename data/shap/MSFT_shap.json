@@ -1,0 +1,83 @@
+{
+  "ticker": "MSFT",
+  "direction": "DOWN",
+  "confidence_pct": 91.0,
+  "top_features": [
+    {
+      "feature": "Volume_Ratio",
+      "shap_value": -0.601664,
+      "impact": "negative",
+      "meaning": "Volume 0.61x above average (pushing price DOWN)"
+    },
+    {
+      "feature": "Return_1d",
+      "shap_value": -0.474518,
+      "impact": "negative",
+      "meaning": "Return_1d is pushing price DOWN"
+    },
+    {
+      "feature": "Volatility_30d",
+      "shap_value": -0.370673,
+      "impact": "negative",
+      "meaning": "30-day volatility at 0.0258 (pushing price DOWN)"
+    },
+    {
+      "feature": "RSI_14",
+      "shap_value": -0.354852,
+      "impact": "negative",
+      "meaning": "RSI at 50.1 \u2014 neutral momentum (pushing price DOWN)"
+    },
+    {
+      "feature": "Return_7d",
+      "shap_value": -0.280278,
+      "impact": "negative",
+      "meaning": "7-day return at 4.43% (pushing price DOWN)"
+    }
+  ],
+  "all_shap": {
+    "MA_7": 0.144724,
+    "MA_30": -0.069348,
+    "MA_90": 0.203845,
+    "Return_1d": -0.474518,
+    "Return_7d": -0.280278,
+    "Return_30d": -0.184379,
+    "Volatility_7d": -0.250425,
+    "Volatility_30d": -0.370673,
+    "Volume_Ratio": -0.601664,
+    "RSI_14": -0.354852,
+    "Price_above_MA30": 0.003129,
+    "Price_above_MA90": -0.086425,
+    "MA_cross": 0.029709,
+    "profit_margins": 0.0,
+    "debt_to_equity": 0.0,
+    "operating_margins": 0.0,
+    "earnings_growth": 0.0,
+    "revenue_growth": 0.0,
+    "current_ratio": 0.0,
+    "return_on_equity": 0.0,
+    "financial_health_score": 0.0
+  },
+  "current_values": {
+    "MA_7": 372.5171377999442,
+    "MA_30": 401.0673299153646,
+    "MA_90": 399.7419809977213,
+    "Return_1d": 0.0161600694150223,
+    "Return_7d": 0.04425840424912,
+    "Return_30d": -0.0624892570281566,
+    "Volatility_7d": 0.0319262737861565,
+    "Volatility_30d": 0.0257723466150548,
+    "Volume_Ratio": 0.6111002029064009,
+    "RSI_14": 50.06410541749729,
+    "Price_above_MA30": 0.0,
+    "Price_above_MA90": 0.0,
+    "MA_cross": 0.0,
+    "profit_margins": 0.39341998,
+    "debt_to_equity": 30.271,
+    "operating_margins": 0.46326,
+    "earnings_growth": 0.234,
+    "revenue_growth": 0.183,
+    "current_ratio": 1.283,
+    "return_on_equity": 0.34013999,
+    "financial_health_score": 0.0
+  }
+}

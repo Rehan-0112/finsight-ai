@@ -1,0 +1,83 @@
+{
+  "ticker": "AAPL",
+  "direction": "DOWN",
+  "confidence_pct": 95.4,
+  "top_features": [
+    {
+      "feature": "MA_90",
+      "shap_value": -1.237809,
+      "impact": "negative",
+      "meaning": "MA_90 is pushing price DOWN"
+    },
+    {
+      "feature": "Volatility_7d",
+      "shap_value": -0.436691,
+      "impact": "negative",
+      "meaning": "Volatility_7d is pushing price DOWN"
+    },
+    {
+      "feature": "Return_7d",
+      "shap_value": -0.429921,
+      "impact": "negative",
+      "meaning": "7-day return at 4.87% (pushing price DOWN)"
+    },
+    {
+      "feature": "Volatility_30d",
+      "shap_value": -0.374877,
+      "impact": "negative",
+      "meaning": "30-day volatility at 0.0212 (pushing price DOWN)"
+    },
+    {
+      "feature": "MA_7",
+      "shap_value": -0.288824,
+      "impact": "negative",
+      "meaning": "MA_7 is pushing price DOWN"
+    }
+  ],
+  "all_shap": {
+    "MA_7": -0.288824,
+    "MA_30": -0.186911,
+    "MA_90": -1.237809,
+    "Return_1d": -0.12829,
+    "Return_7d": -0.429921,
+    "Return_30d": -0.12743,
+    "Volatility_7d": -0.436691,
+    "Volatility_30d": -0.374877,
+    "Volume_Ratio": -0.078585,
+    "RSI_14": 0.279603,
+    "Price_above_MA30": -0.000625,
+    "Price_above_MA90": 0.007537,
+    "MA_cross": 0.003419,
+    "profit_margins": 0.0,
+    "debt_to_equity": 0.0,
+    "operating_margins": 0.0,
+    "earnings_growth": 0.0,
+    "revenue_growth": 0.0,
+    "current_ratio": 0.0,
+    "return_on_equity": 0.0,
+    "financial_health_score": 0.0
+  },
+  "current_values": {
+    "MA_7": 289.4457092285156,
+    "MA_30": 299.58766682942706,
+    "MA_90": 277.95367363823783,
+    "Return_1d": 0.0484068203126522,
+    "Return_7d": 0.0486918711662485,
+    "Return_30d": 0.0323109463246054,
+    "Volatility_7d": 0.0360320639034979,
+    "Volatility_30d": 0.0211577041551994,
+    "Volume_Ratio": 0.7773680189689248,
+    "RSI_14": 58.29293134334104,
+    "Price_above_MA30": 1.0,
+    "Price_above_MA90": 1.0,
+    "MA_cross": 0.0,
+    "profit_margins": 0.27152002,
+    "debt_to_equity": 79.548,
+    "operating_margins": 0.32275,
+    "earnings_growth": 0.218,
+    "revenue_growth": 0.166,
+    "current_ratio": 1.07,
+    "return_on_equity": 1.4147099,
+    "financial_health_score": 0.0
+  }
+}

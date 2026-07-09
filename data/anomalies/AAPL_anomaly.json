@@ -1,0 +1,23 @@
+{
+  "ticker": "AAPL",
+  "is_anomaly": false,
+  "anomaly_score": 0.0185,
+  "status": "\u2705 Normal",
+  "deviations": [
+    {
+      "feature": "Return_1d",
+      "current": 0.0484,
+      "historical_mean": 0.0008,
+      "z_score": 2.67,
+      "direction": "above normal"
+    },
+    {
+      "feature": "Volatility_7d",
+      "current": 0.036,
+      "historical_mean": 0.0156,
+      "z_score": 2.37,
+      "direction": "above normal"
+    }
+  ],
+  "summary": "AAPL is behaving within normal historical ranges."
+}

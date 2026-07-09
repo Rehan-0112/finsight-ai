@@ -1,0 +1,23 @@
+{
+  "ticker": "TSLA",
+  "is_anomaly": false,
+  "anomaly_score": 0.0549,
+  "status": "\u2705 Normal",
+  "deviations": [
+    {
+      "feature": "Volume_Ratio",
+      "current": 1.5412,
+      "historical_mean": 1.0025,
+      "z_score": 2.38,
+      "direction": "above normal"
+    },
+    {
+      "feature": "Return_1d",
+      "current": -0.0749,
+      "historical_mean": 0.0007,
+      "z_score": -1.99,
+      "direction": "below normal"
+    }
+  ],
+  "summary": "TSLA is behaving within normal historical ranges."
+}

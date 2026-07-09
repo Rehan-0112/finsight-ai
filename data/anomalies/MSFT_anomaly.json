@@ -1,0 +1,23 @@
+{
+  "ticker": "MSFT",
+  "is_anomaly": false,
+  "anomaly_score": 0.0421,
+  "status": "\u2705 Normal",
+  "deviations": [
+    {
+      "feature": "Volatility_7d",
+      "current": 0.0319,
+      "historical_mean": 0.0157,
+      "z_score": 2.12,
+      "direction": "above normal"
+    },
+    {
+      "feature": "Volatility_30d",
+      "current": 0.0258,
+      "historical_mean": 0.0164,
+      "z_score": 1.78,
+      "direction": "above normal"
+    }
+  ],
+  "summary": "MSFT is behaving within normal historical ranges."
+}

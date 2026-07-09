@@ -1,0 +1,83 @@
+{
+  "ticker": "TSLA",
+  "direction": "DOWN",
+  "confidence_pct": 71.9,
+  "top_features": [
+    {
+      "feature": "MA_30",
+      "shap_value": -0.471889,
+      "impact": "negative",
+      "meaning": "MA_30 is pushing price DOWN"
+    },
+    {
+      "feature": "MA_90",
+      "shap_value": -0.352646,
+      "impact": "negative",
+      "meaning": "MA_90 is pushing price DOWN"
+    },
+    {
+      "feature": "Volume_Ratio",
+      "shap_value": 0.21148,
+      "impact": "positive",
+      "meaning": "Volume 1.54x above average (pushing price UP)"
+    },
+    {
+      "feature": "Volatility_7d",
+      "shap_value": -0.162274,
+      "impact": "negative",
+      "meaning": "Volatility_7d is pushing price DOWN"
+    },
+    {
+      "feature": "MA_7",
+      "shap_value": -0.100003,
+      "impact": "negative",
+      "meaning": "MA_7 is pushing price DOWN"
+    }
+  ],
+  "all_shap": {
+    "MA_7": -0.100003,
+    "MA_30": -0.471889,
+    "MA_90": -0.352646,
+    "Return_1d": -0.079596,
+    "Return_7d": 0.082577,
+    "Return_30d": 0.032728,
+    "Volatility_7d": -0.162274,
+    "Volatility_30d": -0.087525,
+    "Volume_Ratio": 0.21148,
+    "RSI_14": 0.003949,
+    "Price_above_MA30": 0.04522,
+    "Price_above_MA90": 0.004632,
+    "MA_cross": -0.072709,
+    "profit_margins": 0.0,
+    "debt_to_equity": 0.0,
+    "operating_margins": 0.0,
+    "earnings_growth": 0.0,
+    "revenue_growth": 0.0,
+    "current_ratio": 0.0,
+    "return_on_equity": 0.0,
+    "financial_health_score": 0.0
+  },
+  "current_values": {
+    "MA_7": 397.3642839704241,
+    "MA_30": 408.6473327636719,
+    "MA_90": 396.19566650390624,
+    "Return_1d": -0.0748882588763245,
+    "Return_7d": 0.0310265121720048,
+    "Return_30d": -0.0263788907251508,
+    "Volatility_7d": 0.0475231739921912,
+    "Volatility_30d": 0.0343232761724221,
+    "Volume_Ratio": 1.5411536791237228,
+    "RSI_14": 48.0664910789769,
+    "Price_above_MA30": 0.0,
+    "Price_above_MA90": 0.0,
+    "MA_cross": 0.0,
+    "profit_margins": 0.03946,
+    "debt_to_equity": 18.738,
+    "operating_margins": 0.04203,
+    "earnings_growth": 0.083,
+    "revenue_growth": 0.158,
+    "current_ratio": 2.043,
+    "return_on_equity": 0.04901,
+    "financial_health_score": 0.0
+  }
+}

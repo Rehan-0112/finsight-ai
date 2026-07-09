@@ -1,0 +1,23 @@
+{
+  "ticker": "INFY",
+  "is_anomaly": false,
+  "anomaly_score": 0.0057,
+  "status": "\u2705 Normal",
+  "deviations": [
+    {
+      "feature": "Return_1d",
+      "current": 0.0479,
+      "historical_mean": -0.0004,
+      "z_score": 2.64,
+      "direction": "above normal"
+    },
+    {
+      "feature": "Volatility_30d",
+      "current": 0.0304,
+      "historical_mean": 0.0173,
+      "z_score": 2.54,
+      "direction": "above normal"
+    }
+  ],
+  "summary": "INFY is behaving within normal historical ranges."
+}
