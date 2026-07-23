@@ -1,0 +1,611 @@
+[
+    {
+        "title": "Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability in the Agentic Era",
+        "authors": [
+            "Abu Noman Md Sakib",
+            "Protik Dey",
+            "Zijie Zhang",
+            "Taslima Akter"
+        ],
+        "summary": "Explainable Artificial Intelligence (XAI) is critical for ensuring trust and accountability, yet its development remains predominantly visual. For blind and low-vision (BLV) users, the lack of accessible explanations creates a fundamental barrier to the independent use of AI-driven assistive technologies. This problem intensifies as AI systems shift from single-query tools into autonomous agents that take multi-step actions and make consequential decisions across extended task horizons, where a single undetected error can propagate irreversibly before any feedback is available. This paper investigates the unique XAI requirements of the BLV community through a comprehensive analysis of user interviews and contemporary research. By examining usage patterns across environmental perception and decision support, we identify a significant modality gap. Empirical evidence suggests that while BLV users highly value conversational explanations, they frequently experience \"self-blame\" for AI failures. The paper concludes with a research agenda for accessible Explainable AI in agentic systems, advocating for multimodal interfaces, blame-aware explanation design, and participatory development.",
+        "published": "2026-03-31 19:39:52+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.00187v2"
+    },
+    {
+        "title": "FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance",
+        "authors": [
+            "Xiao-Yang Liu",
+            "Hongyang Yang",
+            "Jiechao Gao",
+            "Christina Dan Wang"
+        ],
+        "summary": "Deep reinforcement learning (DRL) has been envisioned to have a competitive edge in quantitative finance. However, there is a steep development curve for quantitative traders to obtain an agent that automatically positions to win in the market, namely \\textit{to decide where to trade, at what price} and \\textit{what quantity}, due to the error-prone programming and arduous debugging. In this paper, we present the first open-source framework \\textit{FinRL} as a full pipeline to help quantitative traders overcome the steep learning curve. FinRL is featured with simplicity, applicability and extensibility under the key principles, \\textit{full-stack framework, customization, reproducibility} and \\textit{hands-on tutoring}.\n  Embodied as a three-layer architecture with modular structures, FinRL implements fine-tuned state-of-the-art DRL algorithms and common reward functions, while alleviating the debugging workloads. Thus, we help users pipeline the strategy design at a high turnover rate. At multiple levels of time granularity, FinRL simulates various markets as training environments using historical data and live trading APIs. Being highly extensible, FinRL reserves a set of user-import interfaces and incorporates trading constraints such as market friction, market liquidity and investor's risk-aversion. Moreover, serving as practitioners' stepping stones, typical trading tasks are provided as step-by-step tutorials, e.g., stock trading, portfolio allocation, cryptocurrency trading, etc.",
+        "published": "2021-11-07 00:34:32+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.09395v1"
+    },
+    {
+        "title": "Explaining AI in Finance: Past, Present, Prospects",
+        "authors": [
+            "Barry Quinn"
+        ],
+        "summary": "This paper explores the journey of AI in finance, with a particular focus on the crucial role and potential of Explainable AI (XAI). We trace AI's evolution from early statistical methods to sophisticated machine learning, highlighting XAI's role in popular financial applications. The paper underscores the superior interpretability of methods like Shapley values compared to traditional linear regression in complex financial scenarios. It emphasizes the necessity of further XAI research, given forthcoming EU regulations. The paper demonstrates, through simulations, that XAI enhances trust in AI systems, fostering more responsible decision-making within finance.",
+        "published": "2023-06-05 10:59:53+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2306.02773v1"
+    },
+    {
+        "title": "Proceedings of The second international workshop on eXplainable AI for the Arts (XAIxArts)",
+        "authors": [
+            "Nick Bryan-Kinns",
+            "Corey Ford",
+            "Shuoyang Zheng",
+            "Helen Kennedy",
+            "Alan Chamberlain",
+            "Makayla Lewis",
+            "Drew Hemment",
+            "Zijin Li",
+            "Qiong Wu",
+            "Lanxi Xiao",
+            "Gus Xia",
+            "Jeba Rezwana",
+            "Michael Clemens",
+            "Gabriel Vigliensoni"
+        ],
+        "summary": "This second international workshop on explainable AI for the Arts (XAIxArts) brought together a community of researchers in HCI, Interaction Design, AI, explainable AI (XAI), and digital arts to explore the role of XAI for the Arts. Workshop held at the 16th ACM Conference on Creativity and Cognition (C&C 2024), Chicago, USA.",
+        "published": "2024-06-20 16:48:14+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2406.14485v8"
+    },
+    {
+        "title": "Faith in AI can narrow the futures individuals consider",
+        "authors": [
+            "Aoi Naito",
+            "Hirokazu Shirado"
+        ],
+        "summary": "Artificial intelligence (AI) predictions are increasingly used to inform human decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI predictions can also shape the reasoning people use to make a decision. In this paradigm, perceived predictive authority can alter how people reason about their future actions, leading them to forgo a guaranteed reward. Over 40% of participants treated AI as such a predictive authority about their own behavior, significantly increasing the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) and reducing earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and remained detectable even when predictions repeatedly failed. When people perceive AI as capable of predicting their personal behavior, the mere presence of AI predictions may shape their decision-making, narrowing the futures they consider.",
+        "published": "2026-03-30 19:36:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2603.28944v2"
+    },
+    {
+        "title": "Proceedings of The third international workshop on eXplainable AI for the Arts (XAIxArts)",
+        "authors": [
+            "Corey Ford",
+            "Elizabeth Wilson",
+            "Shuoyang Zheng",
+            "Gabriel Vigliensoni",
+            "Jeba Rezwana",
+            "Lanxi Xiao",
+            "Michael Clemens",
+            "Makayla Lewis",
+            "Drew Hemment",
+            "Alan Chamberlain",
+            "Helen Kennedy",
+            "Nick Bryan-Kinns"
+        ],
+        "summary": "This third international workshop on explainable AI for the Arts (XAIxArts) brought together a community of researchers in HCI, Interaction Design, AI, explainable AI (XAI), and digital arts to explore the role of XAI for the Arts. Workshop held at the 17th ACM Conference on Creativity and Cognition (C&C 2025), online.",
+        "published": "2025-11-13 16:48:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2511.10482v1"
+    },
+    {
+        "title": "Embodied Exploration of Latent Spaces and Explainable AI",
+        "authors": [
+            "Elizabeth Wilson",
+            "Mika Satomi",
+            "Alex McLean",
+            "Deva Schubert",
+            "Juan Felipe Amaya Gonzalez"
+        ],
+        "summary": "In this paper, we explore how performers' embodied interactions with a Neural Audio Synthesis model allow the exploration of the latent space of such a model, mediated through movements sensed by e-textiles. We provide background and context for the performance, highlighting the potential of embodied practices to contribute to developing explainable AI systems. By integrating various artistic domains with explainable AI principles, our interdisciplinary exploration contributes to the discourse on art, embodiment, and AI, offering insights into intuitive approaches found through bodily expression.",
+        "published": "2024-10-18 16:40:34+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2410.14590v1"
+    },
+    {
+        "title": "Large Language Models in Finance: A Survey",
+        "authors": [
+            "Yinheng Li",
+            "Shaofei Wang",
+            "Han Ding",
+            "Hang Chen"
+        ],
+        "summary": "Recent advances in large language models (LLMs) have opened new possibilities for artificial intelligence applications in finance. In this paper, we provide a practical survey focused on two key aspects of utilizing LLMs for financial tasks: existing solutions and guidance for adoption.\n  First, we review current approaches employing LLMs in finance, including leveraging pretrained models via zero-shot or few-shot learning, fine-tuning on domain-specific data, and training custom LLMs from scratch. We summarize key models and evaluate their performance improvements on financial natural language processing tasks.\n  Second, we propose a decision framework to guide financial professionals in selecting the appropriate LLM solution based on their use case constraints around data, compute, and performance needs. The framework provides a pathway from lightweight experimentation to heavy investment in customized LLMs.\n  Lastly, we discuss limitations and challenges around leveraging LLMs in financial applications. Overall, this survey aims to synthesize the state-of-the-art and provide a roadmap for responsibly applying LLMs to advance financial AI.",
+        "published": "2023-09-28 06:04:04+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2311.10723v2"
+    },
+    {
+        "title": "Foundations of GenIR",
+        "authors": [
+            "Qingyao Ai",
+            "Jingtao Zhan",
+            "Yiqun Liu"
+        ],
+        "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+        "published": "2025-01-06 08:38:29+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2501.02842v1"
+    },
+    {
+        "title": "Interaction Design for Explainable AI: Workshop Proceedings",
+        "authors": [
+            "Prashan Madumal",
+            "Ronal Singh",
+            "Joshua Newn",
+            "Frank Vetere"
+        ],
+        "summary": "As artificial intelligence (AI) systems become increasingly complex and ubiquitous, these systems will be responsible for making decisions that directly affect individuals and society as a whole. Such decisions will need to be justified due to ethical concerns as well as trust, but achieving this has become difficult due to the `black-box' nature many AI models have adopted. Explainable AI (XAI) can potentially address this problem by explaining its actions, decisions and behaviours of the system to users. However, much research in XAI is done in a vacuum using only the researchers' intuition of what constitutes a `good' explanation while ignoring the interaction and the human aspect. This workshop invites researchers in the HCI community and related fields to have a discourse about human-centred approaches to XAI rooted in interaction and to shed light and spark discussion on interaction design challenges in XAI.",
+        "published": "2018-12-13 12:45:26+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1812.08597v1"
+    },
+    {
+        "title": "Quantum Game Theory in Finance",
+        "authors": [
+            "Edward W. Piotrowski",
+            "J. Sladkowski"
+        ],
+        "summary": "  This is a short review of the background and recent development in quantum game theory and its possible application in economics and finance. The intersection of science and society is also discussed. The review is addressed to non--specialists.",
+        "published": "2004-06-18 12:50:24+00:00",
+        "pdf_url": "https://arxiv.org/pdf/quant-ph/0406129v1"
+    },
+    {
+        "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+        "authors": [
+            "Supriya Manna",
+            "Niladri Sett"
+        ],
+        "summary": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+        "published": "2024-07-31 08:11:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2408.00025v3"
+    },
+    {
+        "title": "Beyond the Veil of Similarity: Quantifying Semantic Continuity in Explainable AI",
+        "authors": [
+            "Qi Huang",
+            "Emanuele Mezzi",
+            "Osman Mutlu",
+            "Miltiadis Kofinas",
+            "Vidya Prasad",
+            "Shadnan Azwad Khan",
+            "Elena Ranguelova",
+            "Niki van Stein"
+        ],
+        "summary": "We introduce a novel metric for measuring semantic continuity in Explainable AI methods and machine learning models. We posit that for models to be truly interpretable and trustworthy, similar inputs should yield similar explanations, reflecting a consistent semantic understanding. By leveraging XAI techniques, we assess semantic continuity in the task of image recognition. We conduct experiments to observe how incremental changes in input affect the explanations provided by different XAI methods. Through this approach, we aim to evaluate the models' capability to generalize and abstract semantic concepts accurately and to evaluate different XAI methods in correctly capturing the model behaviour. This paper contributes to the broader discourse on AI interpretability by proposing a quantitative measure for semantic continuity for XAI methods, offering insights into the models' and explainers' internal reasoning processes, and promoting more reliable and transparent AI systems.",
+        "published": "2024-07-17 18:32:41+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2407.12950v2"
+    },
+    {
+        "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+        "authors": [
+            "Melissa Wilfley",
+            "Mengting Ai",
+            "Madelyn Rose Sanfilippo"
+        ],
+        "summary": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+        "published": "2026-01-23 07:26:45+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2601.16513v1"
+    },
+    {
+        "title": "More Questions than Answers? Lessons from Integrating Explainable AI into a Cyber-AI Tool",
+        "authors": [
+            "Ashley Suh",
+            "Harry Li",
+            "Caitlin Kenney",
+            "Kenneth Alperin",
+            "Steven R. Gomez"
+        ],
+        "summary": "We share observations and challenges from an ongoing effort to implement Explainable AI (XAI) in a domain-specific workflow for cybersecurity analysts. Specifically, we briefly describe a preliminary case study on the use of XAI for source code classification, where accurate assessment and timeliness are paramount. We find that the outputs of state-of-the-art saliency explanation techniques (e.g., SHAP or LIME) are lost in translation when interpreted by people with little AI expertise, despite these techniques being marketed for non-technical users. Moreover, we find that popular XAI techniques offer fewer insights for real-time human-AI workflows when they are post hoc and too localized in their explanations. Instead, we observe that cyber analysts need higher-level, easy-to-digest explanations that can offer as little disruption as possible to their workflows. We outline unaddressed gaps in practical and effective XAI, then touch on how emerging technologies like Large Language Models (LLMs) could mitigate these existing obstacles.",
+        "published": "2024-08-08 20:09:31+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2408.04746v1"
+    },
+    {
+        "title": "Explainability Paths for Sustained Artistic Practice with AI",
+        "authors": [
+            "Austin Tecks",
+            "Thomas Peschlow",
+            "Gabriel Vigliensoni"
+        ],
+        "summary": "The development of AI-driven generative audio mirrors broader AI trends, often prioritizing immediate accessibility at the expense of explainability. Consequently, integrating such tools into sustained artistic practice remains a significant challenge. In this paper, we explore several paths to improve explainability, drawing primarily from our research-creation practice in training and implementing generative audio models. As practical provisions for improved explainability, we highlight human agency over training materials, the viability of small-scale datasets, the facilitation of the iterative creative process, and the integration of interactive machine learning as a mapping tool. Importantly, these steps aim to enhance human agency over generative AI systems not only during model inference, but also when curating and preprocessing training data as well as during the training phase of models.",
+        "published": "2024-07-21 16:48:14+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2407.15216v1"
+    },
+    {
+        "title": "Explainable AI in Usable Privacy and Security: Challenges and Opportunities",
+        "authors": [
+            "Vincent Freiberger",
+            "Arthur Fleig",
+            "Erik Buchmann"
+        ],
+        "summary": "Large Language Models (LLMs) are increasingly being used for automated evaluations and explaining them. However, concerns about explanation quality, consistency, and hallucinations remain open research challenges, particularly in high-stakes contexts like privacy and security, where user trust and decision-making are at stake. In this paper, we investigate these issues in the context of PRISMe, an interactive privacy policy assessment tool that leverages LLMs to evaluate and explain website privacy policies. Based on a prior user study with 22 participants, we identify key concerns regarding LLM judgment transparency, consistency, and faithfulness, as well as variations in user preferences for explanation detail and engagement. We discuss potential strategies to mitigate these concerns, including structured evaluation criteria, uncertainty estimation, and retrieval-augmented generation (RAG). We identify a need for adaptive explanation strategies tailored to different user profiles for LLM-as-a-judge. Our goal is to showcase the application area of usable privacy and security to be promising for Human-Centered Explainable AI (HCXAI) to make an impact.",
+        "published": "2025-04-17 13:28:01+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.12931v1"
+    },
+    {
+        "title": "Play Me Something Icy: Practical Challenges, Explainability and the Semantic Gap in Generative AI Music",
+        "authors": [
+            "Jesse Allison",
+            "Drew Farrar",
+            "Treya Nash",
+            "Carlos Rom\u00e1n",
+            "Morgan Weeks",
+            "Fiona Xue Ju"
+        ],
+        "summary": "This pictorial aims to critically consider the nature of text-to-audio and text-to-music generative tools in the context of explainable AI. As a group of experimental musicians and researchers, we are enthusiastic about the creative potential of these tools and have sought to understand and evaluate them from perspectives of prompt creation, control, usability, understandability, explainability of the AI process, and overall aesthetic effectiveness of the results. One of the challenges we have identified that is not explicitly addressed by these tools is the inherent semantic gap in using text-based tools to describe something as abstract as music. Other gaps include explainability vs. useability, and user control and input vs. the human creative process. The aim of this pictorial is to raise questions for discussion and make a few general suggestions on the kinds of improvements we would like to see in generative AI music tools.",
+        "published": "2024-08-13 22:42:05+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2408.07224v1"
+    },
+    {
+        "title": "Legally-Informed Explainable AI",
+        "authors": [
+            "Gennie Mansi",
+            "Naveena Karusala",
+            "Mark Riedl"
+        ],
+        "summary": "Explanations for artificial intelligence (AI) systems are intended to support the people who are impacted by AI systems in high-stakes decision-making environments, such as doctors, patients, teachers, students, housing applicants, and many others. To protect people and support the responsible development of AI, explanations need to be actionable--helping people take pragmatic action in response to an AI system--and contestable--enabling people to push back against an AI system and its determinations. For many high-stakes domains, such as healthcare, education, and finance, the sociotechnical environment includes significant legal implications that impact how people use AI explanations. For example, physicians who use AI decision support systems may need information on how accepting or rejecting an AI determination will protect them from lawsuits or help them advocate for their patients. In this paper, we make the case for Legally-Informed Explainable AI, responding to the need to integrate and design for legal considerations when creating AI explanations. We describe three stakeholder groups with different informational and actionability needs, and provide practical recommendations to tackle design challenges around the design of explainable AI systems that incorporate legal considerations.",
+        "published": "2025-04-14 20:59:22+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.10708v1"
+    },
+    {
+        "title": "Defining Explainable AI for Requirements Analysis",
+        "authors": [
+            "Raymond Sheh",
+            "Isaac Monteath"
+        ],
+        "summary": "Explainable Artificial Intelligence (XAI) has become popular in the last few years. The Artificial Intelligence (AI) community in general, and the Machine Learning (ML) community in particular, is coming to the realisation that in many applications, for AI to be trusted, it must not only demonstrate good performance in its decisionmaking, but it also must explain these decisions and convince us that it is making the decisions for the right reasons. However, different applications have different requirements on the information required of the underlying AI system in order to convince us that it is worthy of our trust. How do we define these requirements?\n  In this paper, we present three dimensions for categorising the explanatory requirements of different applications. These are Source, Depth and Scope. We focus on the problem of matching up the explanatory requirements of different applications with the capabilities of underlying ML techniques to provide them. We deliberately avoid including aspects of explanation that are already well-covered by the existing literature and we focus our discussion on ML although the principles apply to AI more broadly.",
+        "published": "2026-02-22 07:05:49+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2602.19071v1"
+    },
+    {
+        "title": "Natural Language Interaction with Explainable AI Models",
+        "authors": [
+            "Arjun R Akula",
+            "Sinisa Todorovic",
+            "Joyce Y Chai",
+            "Song-Chun Zhu"
+        ],
+        "summary": "This paper presents an explainable AI (XAI) system that provides explanations for its predictions. The system consists of two key components -- namely, the prediction And-Or graph (AOG) model for recognizing and localizing concepts of interest in input data, and the XAI model for providing explanations to the user about the AOG's predictions. In this work, we focus on the XAI model specified to interact with the user in natural language, whereas the AOG's predictions are considered given and represented by the corresponding parse graphs (pg's) of the AOG. Our XAI model takes pg's as input and provides answers to the user's questions using the following types of reasoning: direct evidence (e.g., detection scores), part-based inference (e.g., detected parts provide evidence for the concept asked), and other evidences from spatio-temporal context (e.g., constraints from the spatio-temporal surround). We identify several correlations between user's questions and the XAI answers using Youtube Action dataset.",
+        "published": "2019-03-13 21:29:13+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1903.05720v2"
+    },
+    {
+        "title": "AI in Finance: Challenges, Techniques and Opportunities",
+        "authors": [
+            "Longbing Cao"
+        ],
+        "summary": "AI in finance broadly refers to the applications of AI techniques in financial businesses. This area has been lasting for decades with both classic and modern AI techniques applied to increasingly broader areas of finance, economy and society. In contrast to either discussing the problems, aspects and opportunities of finance that have benefited from specific AI techniques and in particular some new-generation AI and data science (AIDS) areas or reviewing the progress of applying specific techniques to resolving certain financial problems, this review offers a comprehensive and dense roadmap of the overwhelming challenges, techniques and opportunities of AI research in finance over the past decades. The landscapes and challenges of financial businesses and data are firstly outlined, followed by a comprehensive categorization and a dense overview of the decades of AI research in finance. We then structure and illustrate the data-driven analytics and learning of financial businesses and data. The comparison, criticism and discussion of classic vs. modern AI techniques for finance are followed. Lastly, open issues and opportunities address future AI-empowered finance and finance-motivated AI research.",
+        "published": "2021-07-20 01:39:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2107.09051v1"
+    },
+    {
+        "title": "Explaining how your AI system is fair",
+        "authors": [
+            "Boris Ruf",
+            "Marcin Detyniecki"
+        ],
+        "summary": "To implement fair machine learning in a sustainable way, choosing the right fairness objective is key. Since fairness is a concept of justice which comes in various, sometimes conflicting definitions, this is not a trivial task though. The most appropriate fairness definition for an artificial intelligence (AI) system is a matter of ethical standards and legal requirements, and the right choice depends on the particular use case and its context. In this position paper, we propose to use a decision tree as means to explain and justify the implemented kind of fairness to the end users. Such a structure would first of all support AI practitioners in mapping ethical principles to fairness definitions for a concrete application and therefore make the selection a straightforward and transparent process. However, this approach would also help document the reasoning behind the decision making. Due to the general complexity of the topic of fairness in AI, we argue that specifying \"fairness\" for a given use case is the best way forward to maintain confidence in AI systems. In this case, this could be achieved by sharing the reasons and principles expressed during the decision making process with the broader audience.",
+        "published": "2021-05-03 07:52:56+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2105.00667v1"
+    },
+    {
+        "title": "ACE, Action and Control via Explanations: A Proposal for LLMs to Provide Human-Centered Explainability for Multimodal AI Assistants",
+        "authors": [
+            "Elizabeth Anne Watkins",
+            "Emanuel Moss",
+            "Ramesh Manuvinakurike",
+            "Meng Shi",
+            "Richard Beckwith",
+            "Giuseppe Raffa"
+        ],
+        "summary": "In this short paper we address issues related to building multimodal AI systems for human performance support in manufacturing domains. We make two contributions: we first identify challenges of participatory design and training of such systems, and secondly, to address such challenges, we propose the ACE paradigm: \"Action and Control via Explanations\". Specifically, we suggest that LLMs can be used to produce explanations in the form of human interpretable \"semantic frames\", which in turn enable end users to provide data the AI system needs to align its multimodal models and representations, including computer vision, automatic speech recognition, and document inputs. ACE, by using LLMs to \"explain\" using semantic frames, will help the human and the AI system to collaborate, together building a more accurate model of humans activities and behaviors, and ultimately more accurate predictive outputs for better task support, and better outcomes for human users performing manual tasks.",
+        "published": "2025-02-27 19:27:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.16466v1"
+    },
+    {
+        "title": "Explaining AI Decisions: Towards Achieving Human-Centered Explainability in Smart Home Environments",
+        "authors": [
+            "Md Shajalal",
+            "Alexander Boden",
+            "Gunnar Stevens",
+            "Delong Du",
+            "Dean-Robin Kern"
+        ],
+        "summary": "Smart home systems are gaining popularity as homeowners strive to enhance their living and working environments while minimizing energy consumption. However, the adoption of artificial intelligence (AI)-enabled decision-making models in smart home systems faces challenges due to the complexity and black-box nature of these systems, leading to concerns about explainability, trust, transparency, accountability, and fairness. The emerging field of explainable artificial intelligence (XAI) addresses these issues by providing explanations for the models' decisions and actions. While state-of-the-art XAI methods are beneficial for AI developers and practitioners, they may not be easily understood by general users, particularly household members. This paper advocates for human-centered XAI methods, emphasizing the importance of delivering readily comprehensible explanations to enhance user satisfaction and drive the adoption of smart home systems. We review state-of-the-art XAI methods and prior studies focusing on human-centered explanations for general users in the context of smart home applications. Through experiments on two smart home application scenarios, we demonstrate that explanations generated by prominent XAI techniques might not be effective in helping users understand and make decisions. We thus argue for the necessity of a human-centric approach in representing explanations in smart home systems and highlight relevant human-computer interaction (HCI) methodologies, including user studies, prototyping, technology probes analysis, and heuristic evaluation, that can be employed to generate and present human-centered explanations to users.",
+        "published": "2024-04-23 22:31:42+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2404.16074v1"
+    },
+    {
+        "title": "FinRL-Podracer: High Performance and Scalable Deep Reinforcement Learning for Quantitative Finance",
+        "authors": [
+            "Zechu Li",
+            "Xiao-Yang Liu",
+            "Jiahao Zheng",
+            "Zhaoran Wang",
+            "Anwar Walid",
+            "Jian Guo"
+        ],
+        "summary": "Machine learning techniques are playing more and more important roles in finance market investment. However, finance quantitative modeling with conventional supervised learning approaches has a number of limitations. The development of deep reinforcement learning techniques is partially addressing these issues. Unfortunately, the steep learning curve and the difficulty in quick modeling and agile development are impeding finance researchers from using deep reinforcement learning in quantitative trading. In this paper, we propose an RLOps in finance paradigm and present a FinRL-Podracer framework to accelerate the development pipeline of deep reinforcement learning (DRL)-driven trading strategy and to improve both trading performance and training efficiency. FinRL-Podracer is a cloud solution that features high performance and high scalability and promises continuous training, continuous integration, and continuous delivery of DRL-driven trading strategies, facilitating a rapid transformation from algorithmic innovations into a profitable trading strategy. First, we propose a generational evolution mechanism with an ensemble strategy to improve the trading performance of a DRL agent, and schedule the training of a DRL algorithm onto a GPU cloud via multi-level mapping. Then, we carry out the training of DRL components with high-performance optimizations on GPUs. Finally, we evaluate the FinRL-Podracer framework for a stock trend prediction task on an NVIDIA DGX SuperPOD cloud. FinRL-Podracer outperforms three popular DRL libraries Ray RLlib, Stable Baseline 3 and FinRL, i.e., 12% \\sim 35% improvements in annual return, 0.1 \\sim 0.6 improvements in Sharpe ratio and 3 times \\sim 7 times speed-up in training time. We show the high scalability by training a trading agent in 10 minutes with $80$ A100 GPUs, on NASDAQ-100 constituent stocks with minute-level data over 10 years.",
+        "published": "2021-11-07 01:03:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.05188v1"
+    },
+    {
+        "title": "Optimizing Large Language Models for ESG Activity Detection in Financial Texts",
+        "authors": [
+            "Mattia Birti",
+            "Andrea Maurino",
+            "Francesco Osborne"
+        ],
+        "summary": "The integration of Environmental, Social, and Governance (ESG) factors into corporate decision-making is a fundamental aspect of sustainable finance. However, ensuring that business practices align with evolving regulatory frameworks remains a persistent challenge. AI-driven solutions for automatically assessing the alignment of sustainability reports and non-financial disclosures with specific ESG activities could greatly support this process. Yet, this task remains complex due to the limitations of general-purpose Large Language Models (LLMs) in domain-specific contexts and the scarcity of structured, high-quality datasets. In this paper, we investigate the ability of current-generation LLMs to identify text related to environmental activities. Furthermore, we demonstrate that their performance can be significantly enhanced through fine-tuning on a combination of original and synthetically generated data. To this end, we introduce ESG-Activities, a benchmark dataset containing 1,325 labelled text segments classified according to the EU ESG taxonomy. Our experimental results show that fine-tuning on ESG-Activities significantly enhances classification accuracy, with open models such as Llama 7B and Gemma 7B outperforming large proprietary solutions in specific configurations. These findings have important implications for financial analysts, policymakers, and AI researchers seeking to enhance ESG transparency and compliance through advanced natural language processing techniques.",
+        "published": "2025-02-28 14:52:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2502.21112v2"
+    },
+    {
+        "title": "Explainable AI, but explainable to whom?",
+        "authors": [
+            "Julie Gerlings",
+            "Millie S\u00f8ndergaard Jensen",
+            "Arisa Shollo"
+        ],
+        "summary": "Advances in AI technologies have resulted in superior levels of AI-based model performance. However, this has also led to a greater degree of model complexity, resulting in 'black box' models. In response to the AI black box problem, the field of explainable AI (xAI) has emerged with the aim of providing explanations catered to human understanding, trust, and transparency. Yet, we still have a limited understanding of how xAI addresses the need for explainable AI in the context of healthcare. Our research explores the differing explanation needs amongst stakeholders during the development of an AI-system for classifying COVID-19 patients for the ICU. We demonstrate that there is a constellation of stakeholders who have different explanation needs, not just the 'user'. Further, the findings demonstrate how the need for xAI emerges through concerns associated with specific stakeholder groups i.e., the development team, subject matter experts, decision makers, and the audience. Our findings contribute to the expansion of xAI by highlighting that different stakeholders have different explanation needs. From a practical perspective, the study provides insights on how AI systems can be adjusted to support different stakeholders needs, ensuring better implementation and operation in a healthcare context.",
+        "published": "2021-06-10 07:47:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2106.05568v2"
+    },
+    {
+        "title": "An Investigation of the Impact of COVID-19 Non-Pharmaceutical Interventions and Economic Support Policies on Foreign Exchange Markets with Explainable AI Techniques",
+        "authors": [
+            "Siyuan Liu",
+            "Mehmet Orcun Yalcin",
+            "Hsuan Fu",
+            "Xiuyi Fan"
+        ],
+        "summary": "Since the onset of the the COVID-19 pandemic, many countries across the world have implemented various non-pharmaceutical interventions (NPIs) to contain the spread of virus, as well as economic support policies (ESPs) to save their economies. The pandemic and the associated NPIs have triggered unprecedented waves of economic shocks to the financial markets, including the foreign exchange (FX) markets. Although there are some studies exploring the impact of the NPIs and ESPs on FX markets, the relative impact of individual NPIs or ESPs has not been studied in a combined framework. In this work, we investigate the relative impact of NPIs and ESPs with Explainable AI (XAI) techniques. Experiments over exchange rate data of G10 currencies during the period from January 1, 2020 to January 13, 2021 suggest strong impacts on exchange rate markets by all measures of the strict lockdown, such as stay at home requirements, workplace closing, international travel control, and restrictions on internal movement. Yet, the impact of individual NPI and ESP can vary across different currencies. To the best of our knowledge, this is the first work that uses XAI techniques to study the relative impact of NPIs and ESPs on the FX market. The derived insights can guide governments and policymakers to make informed decisions when facing with the ongoing pandemic and a similar situation in the near future.",
+        "published": "2021-11-02 07:02:28+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.14620v1"
+    },
+    {
+        "title": "Towards Explainable AI Planning as a Service",
+        "authors": [
+            "Michael Cashmore",
+            "Anna Collins",
+            "Benjamin Krarup",
+            "Senka Krivic",
+            "Daniele Magazzeni",
+            "David Smith"
+        ],
+        "summary": "Explainable AI is an important area of research within which Explainable Planning is an emerging topic. In this paper, we argue that Explainable Planning can be designed as a service -- that is, as a wrapper around an existing planning system that utilises the existing planner to assist in answering contrastive questions. We introduce a prototype framework to facilitate this, along with some examples of how a planner can be used to address certain types of contrastive questions. We discuss the main advantages and limitations of such an approach and we identify open questions for Explainable Planning as a service that identify several possible research directions.",
+        "published": "2019-08-14 10:25:42+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.05059v1"
+    },
+    {
+        "title": "Explainable AI And Visual Reasoning: Insights From Radiology",
+        "authors": [
+            "Robert Kaufman",
+            "David Kirsh"
+        ],
+        "summary": "Why do explainable AI (XAI) explanations in radiology, despite their promise of transparency, still fail to gain human trust? Current XAI approaches provide justification for predictions, however, these do not meet practitioners' needs. These XAI explanations lack intuitive coverage of the evidentiary basis for a given classification, posing a significant barrier to adoption. We posit that XAI explanations that mirror human processes of reasoning and justification with evidence may be more useful and trustworthy than traditional visual explanations like heat maps. Using a radiology case study, we demonstrate how radiology practitioners get other practitioners to see a diagnostic conclusion's validity. Machine-learned classifications lack this evidentiary grounding and consequently fail to elicit trust and adoption by potential users. Insights from this study may generalize to guiding principles for human-centered explanation design based on human reasoning and justification of evidence.",
+        "published": "2023-04-06 18:30:27+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2304.03318v1"
+    },
+    {
+        "title": "A model-free approach to continuous-time finance",
+        "authors": [
+            "Henry Chiu",
+            "Rama Cont"
+        ],
+        "summary": "We present a non-probabilistic, pathwise approach to continuous-time finance based on causal functional calculus. We introduce a definition of self-financing, free from any integration concept and show that the value of a self-financing portfolio is a pathwise integral (every self-financing strategy is a gradient) and that generic domain of functional calculus is inherently arbitrage-free. We then consider the problem of hedging a path-dependent payoff across a generic set of scenarios. We apply the transition principle of Isaacs in differential games and obtain a verification theorem for the optimal solution, which is characterised by a fully non-linear path-dependent equation. For the Asian option, we obtain explicit solution.",
+        "published": "2022-11-28 16:39:35+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2211.15531v1"
+    },
+    {
+        "title": "Explaining AI Without Code: A User Study on Explainable AI",
+        "authors": [
+            "Natalia Abarca",
+            "Andr\u00e9s Carvallo",
+            "Claudia L\u00f3pez Moncada",
+            "Felipe Bravo-Marquez"
+        ],
+        "summary": "The increasing use of Machine Learning (ML) in sensitive domains such as healthcare, finance, and public policy has raised concerns about the transparency of automated decisions. Explainable AI (XAI) addresses this by clarifying how models generate predictions, yet most methods demand technical expertise, limiting their value for novices. This gap is especially critical in no-code ML platforms, which seek to democratize AI but rarely include explainability. We present a human-centered XAI module in DashAI, an open-source no-code ML platform. The module integrates three complementary techniques, which are Partial Dependence Plots (PDP), Permutation Feature Importance (PFI), and KernelSHAP, into DashAI's workflow for tabular classification. A user study (N = 20; ML novices and experts) evaluated usability and the impact of explanations. Results show: (i) high task success ($\\geq80\\%$) across all explainability tasks; (ii) novices rated explanations as useful, accurate, and trustworthy on the Explanation Satisfaction Scale (ESS, Cronbach's $\u03b1$ = 0.74, a measure of internal consistency), while experts were more critical of sufficiency and completeness; and (iii) explanations improved perceived predictability and confidence on the Trust in Automation scale (TiA, $\u03b1$ = 0.60), with novices showing higher trust than experts. These findings highlight a central challenge for XAI in no-code ML, making explanations both accessible to novices and sufficiently detailed for experts.",
+        "published": "2025-12-28 15:44:43+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2602.11159v1"
+    },
+    {
+        "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+        "authors": [
+            "Gerardo Adesso"
+        ],
+        "summary": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+        "published": "2023-07-08 09:59:22+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2308.12400v1"
+    },
+    {
+        "title": "Study on the Helpfulness of Explainable Artificial Intelligence",
+        "authors": [
+            "Tobias Labarta",
+            "Elizaveta Kulicheva",
+            "Ronja Froelian",
+            "Christian Gei\u00dfler",
+            "Xenia Melman",
+            "Julian von Klitzing"
+        ],
+        "summary": "Explainable Artificial Intelligence (XAI) is essential for building advanced machine learning-powered applications, especially in critical domains such as medical diagnostics or autonomous driving. Legal, business, and ethical requirements motivate using effective XAI, but the increasing number of different methods makes it challenging to pick the right ones. Further, as explanations are highly context-dependent, measuring the effectiveness of XAI methods without users can only reveal a limited amount of information, excluding human factors such as the ability to understand it. We propose to evaluate XAI methods via the user's ability to successfully perform a proxy task, designed such that a good performance is an indicator for the explanation to provide helpful information. In other words, we address the helpfulness of XAI for human decision-making. Further, a user study on state-of-the-art methods was conducted, showing differences in their ability to generate trust and skepticism and the ability to judge the rightfulness of an AI decision correctly. Based on the results, we highly recommend using and extending this approach for more objective-based human-centered user studies to measure XAI performance in an end-to-end fashion.",
+        "published": "2024-10-14 14:03:52+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2410.11896v1"
+    },
+    {
+        "title": "Model-agnostic vs. Model-intrinsic Interpretability for Explainable Product Search",
+        "authors": [
+            "Qingyao Ai",
+            "Lakshmi Narayanan Ramasamy"
+        ],
+        "summary": "Product retrieval systems have served as the main entry for customers to discover and purchase products online. With increasing concerns on the transparency and accountability of AI systems, studies on explainable information retrieval has received more and more attention in the research community. Interestingly, in the domain of e-commerce, despite the extensive studies on explainable product recommendation, the studies of explainable product search is still in an early stage. In this paper, we study how to construct effective explainable product search by comparing model-agnostic explanation paradigms with model-intrinsic paradigms and analyzing the important factors that determine the performance of product search explanations. We propose an explainable product search model with model-intrinsic interpretability and conduct crowdsourcing to compare it with the state-of-the-art explainable product search model with model-agnostic interpretability. We observe that both paradigms have their own advantages and the effectiveness of search explanations on different properties are affected by different factors. For example, explanation fidelity is more important for user's overall satisfaction on the system while explanation novelty may be more useful in attracting user purchases. These findings could have important implications for the future studies and design of explainable product search engines.",
+        "published": "2021-08-11 16:54:05+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2108.05317v2"
+    },
+    {
+        "title": "Who is this Explanation for? Human Intelligence and Knowledge Graphs for eXplainable AI",
+        "authors": [
+            "Irene Celino"
+        ],
+        "summary": "eXplainable AI focuses on generating explanations for the output of an AI algorithm to a user, usually a decision-maker. Such user needs to interpret the AI system in order to decide whether to trust the machine outcome. When addressing this challenge, therefore, proper attention should be given to produce explanations that are interpretable by the target community of users. In this chapter, we claim for the need to better investigate what constitutes a human explanation, i.e. a justification of the machine behaviour that is interpretable and actionable by the human decision makers. In particular, we focus on the contributions that Human Intelligence can bring to eXplainable AI, especially in conjunction with the exploitation of Knowledge Graphs. Indeed, we call for a better interplay between Knowledge Representation and Reasoning, Social Sciences, Human Computation and Human-Machine Cooperation research -- as already explored in other AI branches -- in order to support the goal of eXplainable AI with the adoption of a Human-in-the-Loop approach.",
+        "published": "2020-05-27 10:47:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2005.13275v1"
+    },
+    {
+        "title": "Bridging Human Cognition and AI: A Framework for Explainable Decision-Making Systems",
+        "authors": [
+            "N. Jean",
+            "G. Le Pera"
+        ],
+        "summary": "Explainability in AI and ML models is critical for fostering trust, ensuring accountability, and enabling informed decision making in high stakes domains. Yet this objective is often unmet in practice. This paper proposes a general purpose framework that bridges state of the art explainability techniques with Malle's five category model of behavior explanation: Knowledge Structures, Simulation/Projection, Covariation, Direct Recall, and Rationalization. The framework is designed to be applicable across AI assisted decision making systems, with the goal of enhancing transparency, interpretability, and user trust. We demonstrate its practical relevance through real world case studies, including credit risk assessment and regulatory analysis powered by large language models (LLMs). By aligning technical explanations with human cognitive mechanisms, the framework lays the groundwork for more comprehensible, responsible, and ethical AI systems.",
+        "published": "2025-09-02 14:53:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2509.02388v1"
+    },
+    {
+        "title": "Meaningful human control: actionable properties for AI system development",
+        "authors": [
+            "Luciano Cavalcante Siebert",
+            "Maria Luce Lupetti",
+            "Evgeni Aizenberg",
+            "Niek Beckers",
+            "Arkady Zgonnikov",
+            "Herman Veluwenkamp",
+            "David Abbink",
+            "Elisa Giaccardi",
+            "Geert-Jan Houben",
+            "Catholijn M. Jonker",
+            "Jeroen van den Hoven",
+            "Deborah Forster",
+            "Reginald L. Lagendijk"
+        ],
+        "summary": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+        "published": "2021-11-25 11:05:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2112.01298v2"
+    },
+    {
+        "title": "Explaining the Unexplainable: A Systematic Review of Explainable AI in Finance",
+        "authors": [
+            "Md Talha Mohsin",
+            "Nabid Bin Nasim"
+        ],
+        "summary": "Practitioners and researchers trying to strike a balance between accuracy and transparency center Explainable Artificial Intelligence (XAI) at the junction of finance. This paper offers a thorough overview of the changing scene of XAI applications in finance together with domain-specific implementations, methodological developments, and trend mapping of research. Using bibliometric and content analysis, we find topic clusters, significant research, and most often used explainability strategies used in financial industries. Our results show a substantial dependence on post-hoc interpretability techniques; attention mechanisms, feature importance analysis and SHAP are the most often used techniques among them. This review stresses the need of multidisciplinary approaches combining financial knowledge with improved explainability paradigms and exposes important shortcomings in present XAI systems.",
+        "published": "2025-03-07 22:36:44+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.05966v3"
+    },
+    {
+        "title": "The New Shape of Search: How Conversational AI Recomposes Information Seeking",
+        "authors": [
+            "Michael Iannelli",
+            "Alan Ai"
+        ],
+        "summary": "Classic models cast information seeking as iterative foraging: formulate a keyword query, scan results, reformulate, gather across sources, synthesize. We ask what happens when a conversational assistant is inserted into that episode. Linking real conversations with major assistants to the same users' searches and browsing in an opt-in cross-surface panel, and reconstructing the full episode rather than a single query, we find conversational AI changes the shape of information seeking, not merely its volume. AI episodes do not uniformly collapse; they bifurcate. Most terminate in place, with no onward search or content step in the observed trace, while roughly a third scaffold into longer multi-step journeys. Which shape occurs is governed less by task type than by articulation: collapse is statistically indistinguishable across lookup, learning, and comparison episodes, yet falls monotonically with opening-ask length, from 72% at one-to-three words to 48% beyond twenty. Roughly two-fifths of assistant episodes are workbench use--drafting, coding, editing--not information seeking at all, and these collapse most. Conversational AI also does not displace search: search remains woven through roughly three-quarters of within-episode transitions, after reading a page users return to the search box over the assistant 70/30, and within-user search share does not fall. Verification is rare: searches with explicit verification language follow roughly 1% of episodes, and citation-forward interfaces do not measurably increase checking. All of this is episode structure, a compositional object identifiable without a demand counterfactual. Conversational AI recomposes the seeking episode: it answers brief asks in place and anchors invested asks in longer journeys, adding a layer rather than replacing search.",
+        "published": "2026-07-05 12:48:17+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2607.04282v1"
+    },
+    {
+        "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+        "authors": [
+            "Zhicheng Lin"
+        ],
+        "summary": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+        "published": "2024-01-27 03:53:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2401.15284v6"
+    },
+    {
+        "title": "White-Box AI Model: Next Frontier of Wireless Communications",
+        "authors": [
+            "Jiayao Yang",
+            "Jiayi Zhang",
+            "Bokai Xu",
+            "Jiakang Zheng",
+            "Zhilong Liu",
+            "Ziheng Liu",
+            "Dusit Niyato",
+            "M\u00e9rouane Debbah",
+            "Zhu Han",
+            "Bo Ai"
+        ],
+        "summary": "White-box AI (WAI), or explainable AI (XAI) model, a novel tool to achieve the reasoning behind decisions and predictions made by the AI algorithms, makes it more understandable and transparent. It offers a new approach to address key challenges of interpretability and mathematical validation in traditional black-box models. In this paper, WAI-aided wireless communication systems are proposed and investigated thoroughly to utilize the promising capabilities. First, we introduce the fundamental principles of WAI. Then, a detailed comparison between WAI and traditional black-box model is conducted in terms of optimization objectives and architecture design, with a focus on deep neural networks (DNNs) and transformer networks. Furthermore, in contrast to the traditional black-box methods, WAI leverages theory-driven causal modeling and verifiable optimization paths, thereby demonstrating potential advantages in areas such as signal processing and resource allocation. Finally, we outline future research directions for the integration of WAI in wireless communication systems.",
+        "published": "2025-04-12 08:57:17+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.09138v1"
+    },
+    {
+        "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+        "authors": [
+            "Chaeyeon Lim"
+        ],
+        "summary": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+        "published": "2025-04-23 14:41:31+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.16770v1"
+    },
+    {
+        "title": "Towards Explainable and Reliable AI in Finance",
+        "authors": [
+            "Albi Isufaj",
+            "Pablo Moll\u00e1",
+            "Helmut Prendinger"
+        ],
+        "summary": "Financial forecasting increasingly uses large neural network models, but their opacity raises challenges for trust and regulatory compliance. We present several approaches to explainable and reliable AI in finance. \\emph{First}, we describe how Time-LLM, a time series foundation model, uses a prompt to avoid a wrong directional forecast. \\emph{Second}, we show that combining foundation models for time series forecasting with a reliability estimator can filter our unreliable predictions. \\emph{Third}, we argue for symbolic reasoning encoding domain rules for transparent justification. These approaches shift emphasize executing only forecasts that are both reliable and explainable. Experiments on equity and cryptocurrency data show that the architecture reduces false positives and supports selective execution. By integrating predictive performance with reliability estimation and rule-based reasoning, our framework advances transparent and auditable financial AI systems.",
+        "published": "2025-10-30 11:05:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2510.26353v1"
+    },
+    {
+        "title": "Report on the First Knowledge Graph Reasoning Challenge 2018 -- Toward the eXplainable AI System",
+        "authors": [
+            "Takahiro Kawamura",
+            "Shusaku Egami",
+            "Koutarou Tamura",
+            "Yasunori Hokazono",
+            "Takanori Ugai",
+            "Yusuke Koyanagi",
+            "Fumihito Nishino",
+            "Seiji Okajima",
+            "Katsuhiko Murakami",
+            "Kunihiko Takamatsu",
+            "Aoi Sugiura",
+            "Shun Shiramatsu",
+            "Shawn Zhang",
+            "Kouji Kozaki"
+        ],
+        "summary": "A new challenge for knowledge graph reasoning started in 2018. Deep learning has promoted the application of artificial intelligence (AI) techniques to a wide variety of social problems. Accordingly, being able to explain the reason for an AI decision is becoming important to ensure the secure and safe use of AI techniques. Thus, we, the Special Interest Group on Semantic Web and Ontology of the Japanese Society for AI, organized a challenge calling for techniques that reason and/or estimate which characters are criminals while providing a reasonable explanation based on an open knowledge graph of a well-known Sherlock Holmes mystery story. This paper presents a summary report of the first challenge held in 2018, including the knowledge graph construction, the techniques proposed for reasoning and/or estimation, the evaluation metrics, and the results. The first prize went to an approach that formalized the problem as a constraint satisfaction problem and solved it using a lightweight formal method; the second prize went to an approach that used SPARQL and rules; the best resource prize went to a submission that constructed word embedding of characters from all sentences of Sherlock Holmes novels; and the best idea prize went to a discussion multi-agents model. We conclude this paper with the plans and issues for the next challenge in 2019.",
+        "published": "2019-08-22 03:27:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.08184v1"
+    },
+    {
+        "title": "Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda",
+        "authors": [
+            "Lennart Ante",
+            "Friedrich-Philipp Wazinski",
+            "Aman Saggu"
+        ],
+        "summary": "Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. Against this backdrop, biodiversity finance has emerged as a rapidly expanding but highly fragmented field spanning ecology, economics, finance, accounting, and policy. However, it remains emerging and complex, with the majority of relevant knowledge being produced in non-finance journals. This study employs quantitative bibliometric analysis to examine a corpus of 189,456 references underlying 3,998 articles related to biodiversity and finance. The analysis identifies eight primary research streams within the field that concern (1) strategic and financial approaches in global biodiversity conservation, (2) the impact and implementation of payments for environmental services (PES) in developing countries, (3) neoliberal influences and implications in environmental conservation, (4) biodiversity offsets and conservation, (5) ecosystem services and biodiversity, (6) integrating conservation and community interests in biodiversity management, (7) balancing agricultural intensification with biodiversity conservation, and (8) global and corporate biodiversity reporting. The characteristics of each research stream and its prevalent publications are outlined, alongside an analysis of their temporal evolution and the degree of information exchange among the research streams. The findings provide a structured map of the intellectual architecture of biodiversity finance, document pronounced silos between economically-oriented and critical/political-economy research streams, and translate these patterns into a focused research agenda and implications for policymakers, financial institutions, and corporate actors.",
+        "published": "2026-04-23 11:44:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.21569v1"
+    },
+    {
+        "title": "Explainable Attention-Based LSTM Framework for Early Detection of AI-Assisted Ransomware via File System Behavioral Analysis",
+        "authors": [
+            "Prabhudarshi Nayak",
+            "Gogulakrishnan Thiyagarajan",
+            "Debashree Priyadarshini",
+            "Vinay Bist",
+            "Rohan Swain"
+        ],
+        "summary": "Ransomware continues to evolve as one of the most disruptive cyber threats, with recent variants increasingly leveraging automated and AI-assisted techniques to evade traditional signature-based defenses. Early detection of such attacks remains a significant challenge, particularly when malicious behavior closely resembles legitimate system activity. This study proposes an explainable attention-based Long Short-Term Memory (LSTM) framework for the early detection of AI assisted ransomware variants through analysis of file system behavioral patterns. The proposed model captures temporal dependencies in file operation sequences, while an attention mechanism highlights critical behavioral indicators associated with ransomware activity. To improve transparency and trust in automated detection systems, explainable artificial intelligence (XAI) techniques are incorporated to interpret model predictions and identify influential behavioral features. Experimental evaluation using ransomware behavioral traces demonstrates that the proposed framework can effectively distinguish malicious activity at early stages of execution with high detection performance and low false-positive rates. The findings suggest that combining sequence-aware deep learning models with explainability mechanisms can significantly enhance the reliability and interpretability of next-generation ransomware defense systems. This work contributes toward the development of intelligent and transparent cyber-defense mechanisms capable of addressing emerging AI-driven malware threats.",
+        "published": "2026-04-19 16:27:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.17522v1"
+    },
+    {
+        "title": "Towards Safe, Explainable, and Regulated Autonomous Driving",
+        "authors": [
+            "Shahin Atakishiyev",
+            "Mohammad Salameh",
+            "Hengshuai Yao",
+            "Randy Goebel"
+        ],
+        "summary": "There has been recent and growing interest in the development and deployment of autonomous vehicles, encouraged by the empirical successes of powerful artificial intelligence techniques (AI), especially in the applications of deep learning and reinforcement learning. However, as demonstrated by recent traffic accidents, autonomous driving technology is not fully reliable for safe deployment. As AI is the main technology behind the intelligent navigation systems of self-driving vehicles, both the stakeholders and transportation regulators require their AI-driven software architecture to be safe, explainable, and regulatory compliant. In this paper, we propose a design framework that integrates autonomous control, explainable AI (XAI), and regulatory compliance to address this issue, and then provide an initial validation of the framework with a critical analysis in a case study. Moreover, we describe relevant XAI approaches that can help achieve the goals of the framework.",
+        "published": "2021-11-20 05:06:22+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.10518v4"
+    },
+    {
+        "title": "Towards a Praxis for Intercultural Ethics in Explainable AI",
+        "authors": [
+            "Chinasa T. Okolo"
+        ],
+        "summary": "Explainable AI (XAI) is often promoted with the idea of helping users understand how machine learning models function and produce predictions. Still, most of these benefits are reserved for those with specialized domain knowledge, such as machine learning developers. Recent research has argued that making AI explainable can be a viable way of making AI more useful in real-world contexts, especially within low-resource domains in the Global South. While AI has transcended borders, a limited amount of work focuses on democratizing the concept of explainable AI to the \"majority world\", leaving much room to explore and develop new approaches within this space that cater to the distinct needs of users within culturally and socially-diverse regions. This article introduces the concept of an intercultural ethics approach to AI explainability. It examines how cultural nuances impact the adoption and use of technology, the factors that impede how technical concepts such as AI are explained, and how integrating an intercultural ethics approach in the development of XAI can improve user understanding and facilitate efficient usage of these methods.",
+        "published": "2023-04-24 07:15:58+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2304.11861v2"
+    }
+]

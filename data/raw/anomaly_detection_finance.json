@@ -1,0 +1,611 @@
+[
+    {
+        "title": "A framework for anomaly detection using language modeling, and its applications to finance",
+        "authors": [
+            "Armineh Nourbakhsh",
+            "Grace Bang"
+        ],
+        "summary": "In the finance sector, studies focused on anomaly detection are often associated with time-series and transactional data analytics. In this paper, we lay out the opportunities for applying anomaly and deviation detection methods to text corpora and challenges associated with them. We argue that language models that use distributional semantics can play a significant role in advancing these studies in novel directions, with new applications in risk identification, predictive modeling, and trend analysis.",
+        "published": "2019-08-24 15:52:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.09156v1"
+    },
+    {
+        "title": "FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance",
+        "authors": [
+            "Xiao-Yang Liu",
+            "Hongyang Yang",
+            "Jiechao Gao",
+            "Christina Dan Wang"
+        ],
+        "summary": "Deep reinforcement learning (DRL) has been envisioned to have a competitive edge in quantitative finance. However, there is a steep development curve for quantitative traders to obtain an agent that automatically positions to win in the market, namely \\textit{to decide where to trade, at what price} and \\textit{what quantity}, due to the error-prone programming and arduous debugging. In this paper, we present the first open-source framework \\textit{FinRL} as a full pipeline to help quantitative traders overcome the steep learning curve. FinRL is featured with simplicity, applicability and extensibility under the key principles, \\textit{full-stack framework, customization, reproducibility} and \\textit{hands-on tutoring}.\n  Embodied as a three-layer architecture with modular structures, FinRL implements fine-tuned state-of-the-art DRL algorithms and common reward functions, while alleviating the debugging workloads. Thus, we help users pipeline the strategy design at a high turnover rate. At multiple levels of time granularity, FinRL simulates various markets as training environments using historical data and live trading APIs. Being highly extensible, FinRL reserves a set of user-import interfaces and incorporates trading constraints such as market friction, market liquidity and investor's risk-aversion. Moreover, serving as practitioners' stepping stones, typical trading tasks are provided as step-by-step tutorials, e.g., stock trading, portfolio allocation, cryptocurrency trading, etc.",
+        "published": "2021-11-07 00:34:32+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.09395v1"
+    },
+    {
+        "title": "Anomaly Detection of Tabular Data Using LLMs",
+        "authors": [
+            "Aodong Li",
+            "Yunhan Zhao",
+            "Chen Qiu",
+            "Marius Kloft",
+            "Padhraic Smyth",
+            "Maja Rudolph",
+            "Stephan Mandt"
+        ],
+        "summary": "Large language models (LLMs) have shown their potential in long-context understanding and mathematical reasoning. In this paper, we study the problem of using LLMs to detect tabular anomalies and show that pre-trained LLMs are zero-shot batch-level anomaly detectors. That is, without extra distribution-specific model fitting, they can discover hidden outliers in a batch of data, demonstrating their ability to identify low-density data regions. For LLMs that are not well aligned with anomaly detection and frequently output factual errors, we apply simple yet effective data-generating processes to simulate synthetic batch-level anomaly detection datasets and propose an end-to-end fine-tuning strategy to bring out the potential of LLMs in detecting real anomalies. Experiments on a large anomaly detection benchmark (ODDS) showcase i) GPT-4 has on-par performance with the state-of-the-art transductive learning-based anomaly detection methods and ii) the efficacy of our synthetic dataset and fine-tuning strategy in aligning LLMs to this task.",
+        "published": "2024-06-24 04:17:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2406.16308v1"
+    },
+    {
+        "title": "Maximally Divergent Intervals for Anomaly Detection",
+        "authors": [
+            "Erik Rodner",
+            "Bj\u00f6rn Barz",
+            "Yanira Guanche",
+            "Milan Flach",
+            "Miguel Mahecha",
+            "Paul Bodesheim",
+            "Markus Reichstein",
+            "Joachim Denzler"
+        ],
+        "summary": "We present new methods for batch anomaly detection in multivariate time series. Our methods are based on maximizing the Kullback-Leibler divergence between the data distribution within and outside an interval of the time series. An empirical analysis shows the benefits of our algorithms compared to methods that treat each time step independently from each other without optimizing with respect to all possible intervals.",
+        "published": "2016-10-21 12:30:30+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1610.06761v1"
+    },
+    {
+        "title": "Trustworthy Anomaly Detection: A Survey",
+        "authors": [
+            "Shuhan Yuan",
+            "Xintao Wu"
+        ],
+        "summary": "Anomaly detection has a wide range of real-world applications, such as bank fraud detection and cyber intrusion detection. In the past decade, a variety of anomaly detection models have been developed, which lead to big progress towards accurately detecting various anomalies. Despite the successes, anomaly detection models still face many limitations. The most significant one is whether we can trust the detection results from the models. In recent years, the research community has spent a great effort to design trustworthy machine learning models, such as developing trustworthy classification models. However, the attention to anomaly detection tasks is far from sufficient. Considering that many anomaly detection tasks are life-changing tasks involving human beings, labeling someone as anomalies or fraudsters should be extremely cautious. Hence, ensuring the anomaly detection models conducted in a trustworthy fashion is an essential requirement to deploy the models to conduct automatic decisions in the real world. In this brief survey, we summarize the existing efforts and discuss open problems towards trustworthy anomaly detection from the perspectives of interpretability, fairness, robustness, and privacy-preservation.",
+        "published": "2022-02-15 23:25:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2202.07787v1"
+    },
+    {
+        "title": "Mul-GAD: a semi-supervised graph anomaly detection framework via aggregating multi-view information",
+        "authors": [
+            "Zhiyuan Liu",
+            "Chunjie Cao",
+            "Jingzhang Sun"
+        ],
+        "summary": "Anomaly detection is defined as discovering patterns that do not conform to the expected behavior. Previously, anomaly detection was mostly conducted using traditional shallow learning techniques, but with little improvement. As the emergence of graph neural networks (GNN), graph anomaly detection has been greatly developed. However, recent studies have shown that GNN-based methods encounter challenge, in that no graph anomaly detection algorithm can perform generalization on most datasets. To bridge the tap, we propose a multi-view fusion approach for graph anomaly detection (Mul-GAD). The view-level fusion captures the extent of significance between different views, while the feature-level fusion makes full use of complementary information. We theoretically and experimentally elaborate the effectiveness of the fusion strategies. For a more comprehensive conclusion, we further investigate the effect of the objective function and the number of fused views on detection performance. Exploiting these findings, our Mul-GAD is proposed equipped with fusion strategies and the well-performed objective function. Compared with other state-of-the-art detection methods, we achieve a better detection performance and generalization in most scenarios via a series of experiments conducted on Pubmed, Amazon Computer, Amazon Photo, Weibo and Books. Our code is available at https://github.com/liuyishoua/Mul-Graph-Fusion.",
+        "published": "2022-12-11 11:34:34+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2212.05478v1"
+    },
+    {
+        "title": "Quantum Game Theory in Finance",
+        "authors": [
+            "Edward W. Piotrowski",
+            "J. Sladkowski"
+        ],
+        "summary": "  This is a short review of the background and recent development in quantum game theory and its possible application in economics and finance. The intersection of science and society is also discussed. The review is addressed to non--specialists.",
+        "published": "2004-06-18 12:50:24+00:00",
+        "pdf_url": "https://arxiv.org/pdf/quant-ph/0406129v1"
+    },
+    {
+        "title": "SplatPose & Detect: Pose-Agnostic 3D Anomaly Detection",
+        "authors": [
+            "Mathis Kruse",
+            "Marco Rudolph",
+            "Dominik Woiwode",
+            "Bodo Rosenhahn"
+        ],
+        "summary": "Detecting anomalies in images has become a well-explored problem in both academia and industry. State-of-the-art algorithms are able to detect defects in increasingly difficult settings and data modalities. However, most current methods are not suited to address 3D objects captured from differing poses. While solutions using Neural Radiance Fields (NeRFs) have been proposed, they suffer from excessive computation requirements, which hinder real-world usability. For this reason, we propose the novel 3D Gaussian splatting-based framework SplatPose which, given multi-view images of a 3D object, accurately estimates the pose of unseen views in a differentiable manner, and detects anomalies in them. We achieve state-of-the-art results in both training and inference speed, and detection performance, even when using less training data than competing methods. We thoroughly evaluate our framework using the recently proposed Pose-agnostic Anomaly Detection benchmark and its multi-pose anomaly detection (MAD) data set.",
+        "published": "2024-04-10 08:48:09+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2404.06832v1"
+    },
+    {
+        "title": "Learning Representation for Anomaly Detection of Vehicle Trajectories",
+        "authors": [
+            "Ruochen Jiao",
+            "Juyang Bai",
+            "Xiangguo Liu",
+            "Takami Sato",
+            "Xiaowei Yuan",
+            "Qi Alfred Chen",
+            "Qi Zhu"
+        ],
+        "summary": "Predicting the future trajectories of surrounding vehicles based on their history trajectories is a critical task in autonomous driving. However, when small crafted perturbations are introduced to those history trajectories, the resulting anomalous (or adversarial) trajectories can significantly mislead the future trajectory prediction module of the ego vehicle, which may result in unsafe planning and even fatal accidents. Therefore, it is of great importance to detect such anomalous trajectories of the surrounding vehicles for system safety, but few works have addressed this issue. In this work, we propose two novel methods for learning effective and efficient representations for online anomaly detection of vehicle trajectories. Different from general time-series anomaly detection, anomalous vehicle trajectory detection deals with much richer contexts on the road and fewer observable patterns on the anomalous trajectories themselves. To address these challenges, our methods exploit contrastive learning techniques and trajectory semantics to capture the patterns underlying the driving scenarios for effective anomaly detection under supervised and unsupervised settings, respectively. We conduct extensive experiments to demonstrate that our supervised method based on contrastive learning and unsupervised method based on reconstruction with semantic latent space can significantly improve the performance of anomalous trajectory detection in their corresponding settings over various baseline methods. We also demonstrate our methods' generalization ability to detect unseen patterns of anomalies.",
+        "published": "2023-03-09 02:48:59+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2303.05000v1"
+    },
+    {
+        "title": "Graph-based Anomaly Detection and Description: A Survey",
+        "authors": [
+            "Leman Akoglu",
+            "Hanghang Tong",
+            "Danai Koutra"
+        ],
+        "summary": "Detecting anomalies in data is a vital task, with numerous high-impact applications in areas such as security, finance, health care, and law enforcement. While numerous techniques have been developed in past years for spotting outliers and anomalies in unstructured collections of multi-dimensional points, with graph data becoming ubiquitous, techniques for structured {\\em graph} data have been of focus recently. As objects in graphs have long-range correlations, a suite of novel technology has been developed for anomaly detection in graph data.\n  This survey aims to provide a general, comprehensive, and structured overview of the state-of-the-art methods for anomaly detection in data represented as graphs. As a key contribution, we provide a comprehensive exploration of both data mining and machine learning algorithms for these {\\em detection} tasks. we give a general framework for the algorithms categorized under various settings: unsupervised vs. (semi-)supervised approaches, for static vs. dynamic graphs, for attributed vs. plain graphs. We highlight the effectiveness, scalability, generality, and robustness aspects of the methods. What is more, we stress the importance of anomaly {\\em attribution} and highlight the major techniques that facilitate digging out the root cause, or the `why', of the detected anomalies for further analysis and sense-making. Finally, we present several real-world applications of graph-based anomaly detection in diverse domains, including financial, auction, computer traffic, and social networks. We conclude our survey with a discussion on open theoretical and practical challenges in the field.",
+        "published": "2014-04-18 02:43:20+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1404.4679v2"
+    },
+    {
+        "title": "Representation Learning in Anomaly Detection: Successes, Limits and a Grand Challenge",
+        "authors": [
+            "Yedid Hoshen"
+        ],
+        "summary": "In this perspective paper, we argue that the dominant paradigm in anomaly detection cannot scale indefinitely and will eventually hit fundamental limits. This is due to the a no free lunch principle for anomaly detection. These limitations can be overcome when there are strong tasks priors, as is the case for many industrial tasks. When such priors do not exists, the task is much harder for anomaly detection. We pose two such tasks as grand challenges for anomaly detection: i) scientific discovery by anomaly detection ii) a \"mini-grand\" challenge of detecting the most anomalous image in the ImageNet dataset. We believe new anomaly detection tools and ideas would need to be developed to overcome these challenges.",
+        "published": "2023-07-20 17:59:11+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2307.11085v1"
+    },
+    {
+        "title": "Unlocking Vision-Language Models for Video Anomaly Detection via Fine-Grained Prompting",
+        "authors": [
+            "Shu Zou",
+            "Xinyu Tian",
+            "Lukas Wesemann",
+            "Fabian Waschkowski",
+            "Zhaoyuan Yang",
+            "Jing Zhang"
+        ],
+        "summary": "Prompting has emerged as a practical way to adapt frozen vision-language models (VLMs) for video anomaly detection (VAD). Yet, existing prompts are often overly abstract, overlooking the fine-grained human-object interactions or action semantics that define complex anomalies in surveillance videos. We propose ASK-Hint, a structured prompting framework that leverages action-centric knowledge to elicit more accurate and interpretable reasoning from frozen VLMs. Our approach organizes prompts into semantically coherent groups (e.g. violence, property crimes, public safety) and formulates fine-grained guiding questions that align model predictions with discriminative visual cues. Extensive experiments on UCF-Crime and XD-Violence show that ASK-Hint consistently improves AUC over prior baselines, achieving state-of-the-art performance compared to both fine-tuned and training-free methods. Beyond accuracy, our framework provides interpretable reasoning traces towards anomaly and demonstrates strong generalization across datasets and VLM backbones. These results highlight the critical role of prompt granularity and establish ASK-Hint as a new training-free and generalizable solution for explainable video anomaly detection.",
+        "published": "2025-10-02 16:06:31+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2510.02155v1"
+    },
+    {
+        "title": "Understanding the Effect of Bias in Deep Anomaly Detection",
+        "authors": [
+            "Ziyu Ye",
+            "Yuxin Chen",
+            "Haitao Zheng"
+        ],
+        "summary": "Anomaly detection presents a unique challenge in machine learning, due to the scarcity of labeled anomaly data. Recent work attempts to mitigate such problems by augmenting training of deep anomaly detection models with additional labeled anomaly samples. However, the labeled data often does not align with the target distribution and introduces harmful bias to the trained model. In this paper, we aim to understand the effect of a biased anomaly set on anomaly detection. Concretely, we view anomaly detection as a supervised learning task where the objective is to optimize the recall at a given false positive rate. We formally study the relative scoring bias of an anomaly detector, defined as the difference in performance with respect to a baseline anomaly detector. We establish the first finite sample rates for estimating the relative scoring bias for deep anomaly detection, and empirically validate our theoretical results on both synthetic and real-world datasets. We also provide an extensive empirical study on how a biased training anomaly set affects the anomaly score function and therefore the detection performance on different anomaly classes. Our study demonstrates scenarios in which the biased anomaly set can be useful or problematic, and provides a solid benchmark for future research.",
+        "published": "2021-05-16 03:55:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2105.07346v1"
+    },
+    {
+        "title": "New Methods and Datasets for Group Anomaly Detection From Fundamental Physics",
+        "authors": [
+            "Gregor Kasieczka",
+            "Benjamin Nachman",
+            "David Shih"
+        ],
+        "summary": "The identification of anomalous overdensities in data - group or collective anomaly detection - is a rich problem with a large number of real world applications. However, it has received relatively little attention in the broader ML community, as compared to point anomalies or other types of single instance outliers. One reason for this is the lack of powerful benchmark datasets. In this paper, we first explain how, after the Nobel-prize winning discovery of the Higgs boson, unsupervised group anomaly detection has become a new frontier of fundamental physics (where the motivation is to find new particles and forces). Then we propose a realistic synthetic benchmark dataset (LHCO2020) for the development of group anomaly detection algorithms. Finally, we compare several existing statistically-sound techniques for unsupervised group anomaly detection, and demonstrate their performance on the LHCO2020 dataset.",
+        "published": "2021-07-06 18:00:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2107.02821v1"
+    },
+    {
+        "title": "BeSTAD: Behavior-Aware Spatio-Temporal Anomaly Detection for Human Mobility Data",
+        "authors": [
+            "Junyi Xie",
+            "Jina Kim",
+            "Yao-Yi Chiang",
+            "Lingyi Zhao",
+            "Khurram Shafique"
+        ],
+        "summary": "Traditional anomaly detection in human mobility has primarily focused on trajectory-level analysis, identifying statistical outliers or spatiotemporal inconsistencies across aggregated movement traces. However, detecting individual-level anomalies, i.e., unusual deviations in a person's mobility behavior relative to their own historical patterns, within datasets encompassing large populations remains a significant challenge. In this paper, we present BeSTAD (Behavior-aware Spatio-Temporal Anomaly Detection for Human Mobility Data), an unsupervised framework that captures individualized behavioral signatures across large populations and uncovers fine-grained anomalies by jointly modeling spatial context and temporal dynamics. BeSTAD learns semantically enriched mobility representations that integrate location meaning and temporal patterns, enabling the detection of subtle deviations in individual movement behavior. BeSTAD further employs a behavior-cluster-aware modeling mechanism that builds personalized behavioral profiles from normal activity and identifies anomalies through cross-period behavioral comparison with consistent semantic alignment. Building on prior work in mobility behavior clustering, this approach enables not only the detection of behavioral shifts and deviations from established routines but also the identification of individuals exhibiting such changes within large-scale mobility datasets. By learning individual behaviors directly from unlabeled data, BeSTAD advances anomaly detection toward personalized and interpretable mobility analysis.",
+        "published": "2025-10-14 02:33:06+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2510.12076v1"
+    },
+    {
+        "title": "Anomaly Detection and Localisation using Mixed Graphical Models",
+        "authors": [
+            "Romain Laby",
+            "Fran\u00e7ois Roueff",
+            "Alexandre Gramfort"
+        ],
+        "summary": "We propose a method that performs anomaly detection and localisation within heterogeneous data using a pairwise undirected mixed graphical model. The data are a mixture of categorical and quantitative variables, and the model is learned over a dataset that is supposed not to contain any anomaly. We then use the model over temporal data, potentially a data stream, using a version of the two-sided CUSUM algorithm. The proposed decision statistic is based on a conditional likelihood ratio computed for each variable given the others. Our results show that this function allows to detect anomalies variable by variable, and thus to localise the variables involved in the anomalies more precisely than univariate methods based on simple marginals.",
+        "published": "2016-07-20 14:31:30+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1607.05974v1"
+    },
+    {
+        "title": "Multi-Flow: Multi-View-Enriched Normalizing Flows for Industrial Anomaly Detection",
+        "authors": [
+            "Mathis Kruse",
+            "Bodo Rosenhahn"
+        ],
+        "summary": "With more well-performing anomaly detection methods proposed, many of the single-view tasks have been solved to a relatively good degree. However, real-world production scenarios often involve complex industrial products, whose properties may not be fully captured by one single image. While normalizing flow based approaches already work well in single-camera scenarios, they currently do not make use of the priors in multi-view data. We aim to bridge this gap by using these flow-based models as a strong foundation and propose Multi-Flow, a novel multi-view anomaly detection method. Multi-Flow makes use of a novel multi-view architecture, whose exact likelihood estimation is enhanced by fusing information across different views. For this, we propose a new cross-view message-passing scheme, letting information flow between neighboring views. We empirically validate it on the real-world multi-view data set Real-IAD and reach a new state-of-the-art, surpassing current baselines in both image-wise and sample-wise anomaly detection tasks.",
+        "published": "2025-04-04 09:32:01+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.03306v1"
+    },
+    {
+        "title": "A Hybrid Deep Learning Anomaly Detection Framework for Intrusion Detection",
+        "authors": [
+            "Rahul Kale",
+            "Zhi Lu",
+            "Kar Wai Fok",
+            "Vrizlynn L. L. Thing"
+        ],
+        "summary": "Cyber intrusion attacks that compromise the users' critical and sensitive data are escalating in volume and intensity, especially with the growing connections between our daily life and the Internet. The large volume and high complexity of such intrusion attacks have impeded the effectiveness of most traditional defence techniques. While at the same time, the remarkable performance of the machine learning methods, especially deep learning, in computer vision, had garnered research interests from the cyber security community to further enhance and automate intrusion detections. However, the expensive data labeling and limitation of anomalous data make it challenging to train an intrusion detector in a fully supervised manner. Therefore, intrusion detection based on unsupervised anomaly detection is an important feature too. In this paper, we propose a three-stage deep learning anomaly detection based network intrusion attack detection framework. The framework comprises an integration of unsupervised (K-means clustering), semi-supervised (GANomaly) and supervised learning (CNN) algorithms. We then evaluated and showed the performance of our implemented framework on three benchmark datasets: NSL-KDD, CIC-IDS2018, and TON_IoT.",
+        "published": "2022-12-02 04:40:54+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2212.00966v1"
+    },
+    {
+        "title": "Rethinking Graph Neural Networks for Anomaly Detection",
+        "authors": [
+            "Jianheng Tang",
+            "Jiajin Li",
+            "Ziqi Gao",
+            "Jia Li"
+        ],
+        "summary": "Graph Neural Networks (GNNs) are widely applied for graph anomaly detection. As one of the key components for GNN design is to select a tailored spectral filter, we take the first step towards analyzing anomalies via the lens of the graph spectrum. Our crucial observation is the existence of anomalies will lead to the `right-shift' phenomenon, that is, the spectral energy distribution concentrates less on low frequencies and more on high frequencies. This fact motivates us to propose the Beta Wavelet Graph Neural Network (BWGNN). Indeed, BWGNN has spectral and spatial localized band-pass filters to better handle the `right-shift' phenomenon in anomalies. We demonstrate the effectiveness of BWGNN on four large-scale anomaly detection datasets. Our code and data are released at https://github.com/squareRoot3/Rethinking-Anomaly-Detection",
+        "published": "2022-05-31 02:39:05+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2205.15508v1"
+    },
+    {
+        "title": "Revisiting Graph Contrastive Learning for Anomaly Detection",
+        "authors": [
+            "Zhiyuan Liu",
+            "Chunjie Cao",
+            "Fangjian Tao",
+            "Jingzhang Sun"
+        ],
+        "summary": "Combining Graph neural networks (GNNs) with contrastive learning for anomaly detection has drawn rising attention recently. Existing graph contrastive anomaly detection (GCAD) methods have primarily focused on improving detection capability through graph augmentation and multi-scale contrast modules. However, the underlying mechanisms of how these modules work have not been fully explored. We dive into the multi-scale and graph augmentation mechanism and observed that multi-scale contrast modules do not enhance the expression, while the multi-GNN modules are the hidden contributors. Previous studies have tended to attribute the benefits brought by multi-GNN to the multi-scale modules. In the paper, we delve into the misconception and propose Multi-GNN and Augmented Graph contrastive framework MAG, which unified the existing GCAD methods in the contrastive self-supervised perspective. We extracted two variants from the MAG framework, L-MAG and M-MAG. The L-MAG is the lightweight instance of the MAG, which outperform the state-of-the-art on Cora and Pubmed with the low computational cost. The variant M-MAG equipped with multi-GNN modules further improve the detection performance. Our study sheds light on the drawback of the existing GCAD methods and demonstrates the potential of multi-GNN and graph augmentation modules. Our code is available at https://github.com/liuyishoua/MAG-Framework.",
+        "published": "2023-05-04 01:57:07+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2305.02496v1"
+    },
+    {
+        "title": "Zero-Shot Image Anomaly Detection Using Generative Foundation Models",
+        "authors": [
+            "Lemar Abdi",
+            "Amaan Valiuddin",
+            "Francisco Caetano",
+            "Christiaan Viviers",
+            "Fons van der Sommen"
+        ],
+        "summary": "Detecting out-of-distribution (OOD) inputs is pivotal for deploying safe vision systems in open-world environments. We revisit diffusion models, not as generators, but as universal perceptual templates for OOD detection. This research explores the use of score-based generative models as foundational tools for semantic anomaly detection across unseen datasets. Specifically, we leverage the denoising trajectories of Denoising Diffusion Models (DDMs) as a rich source of texture and semantic information. By analyzing Stein score errors, amplified through the Structural Similarity Index Metric (SSIM), we introduce a novel method for identifying anomalous samples without requiring re-training on each target dataset. Our approach improves over state-of-the-art and relies on training a single model on one dataset -- CelebA -- which we find to be an effective base distribution, even outperforming more commonly used datasets like ImageNet in several settings. Experimental results show near-perfect performance on some benchmarks, with notable headroom on others, highlighting both the strength and future potential of generative foundation models in anomaly detection.",
+        "published": "2025-07-30 13:56:36+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2507.22692v1"
+    },
+    {
+        "title": "Neural Collaborative Filtering to Detect Anomalies in Human Semantic Trajectories",
+        "authors": [
+            "Yueyang Liu",
+            "Lance Kennedy",
+            "Hossein Amiri",
+            "Andreas Z\u00fcfle"
+        ],
+        "summary": "Human trajectory anomaly detection has become increasingly important across a wide range of applications, including security surveillance and public health. However, existing trajectory anomaly detection methods are primarily focused on vehicle-level traffic, while human-level trajectory anomaly detection remains under-explored. Since human trajectory data is often very sparse, machine learning methods have become the preferred approach for identifying complex patterns. However, concerns regarding potential biases and the robustness of these models have intensified the demand for more transparent and explainable alternatives. In response to these challenges, our research focuses on developing a lightweight anomaly detection model specifically designed to detect anomalies in human trajectories. We propose a Neural Collaborative Filtering approach to model and predict normal mobility. Our method is designed to model users' daily patterns of life without requiring prior knowledge, thereby enhancing performance in scenarios where data is sparse or incomplete, such as in cold start situations. Our algorithm consists of two main modules. The first is the collaborative filtering module, which applies collaborative filtering to model normal mobility of individual humans to places of interest. The second is the neural module, responsible for interpreting the complex spatio-temporal relationships inherent in human trajectory data. To validate our approach, we conducted extensive experiments using simulated and real-world datasets comparing to numerous state-of-the-art trajectory anomaly detection approaches.",
+        "published": "2024-09-27 03:28:11+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2409.18427v3"
+    },
+    {
+        "title": "Good Practices and A Strong Baseline for Traffic Anomaly Detection",
+        "authors": [
+            "Yuxiang Zhao",
+            "Wenhao Wu",
+            "Yue He",
+            "Yingying Li",
+            "Xiao Tan",
+            "Shifeng Chen"
+        ],
+        "summary": "The detection of traffic anomalies is a critical component of the intelligent city transportation management system. Previous works have proposed a variety of notable insights and taken a step forward in this field, however, dealing with the complex traffic environment remains a challenge. Moreover, the lack of high-quality data and the complexity of the traffic scene, motivate us to study this problem from a hand-crafted perspective. In this paper, we propose a straightforward and efficient framework that includes pre-processing, a dynamic track module, and post-processing. With video stabilization, background modeling, and vehicle detection, the pro-processing phase aims to generate candidate anomalies. The dynamic tracking module seeks and locates the start time of anomalies by utilizing vehicle motion patterns and spatiotemporal status. Finally, we use post-processing to fine-tune the temporal boundary of anomalies. Not surprisingly, our proposed framework was ranked $1^{st}$ in the NVIDIA AI CITY 2021 leaderboard for traffic anomaly detection. The code is available at: https://github.com/Endeavour10020/AICity2021-Anomaly-Detection .",
+        "published": "2021-05-09 03:51:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2105.03827v2"
+    },
+    {
+        "title": "Contextual Learning for Anomaly Detection in Tabular Data",
+        "authors": [
+            "Spencer King",
+            "Zhilu Zhang",
+            "Ruofan Yu",
+            "Baris Coskun",
+            "Wei Ding",
+            "Qian Cui"
+        ],
+        "summary": "Anomaly detection is critical in domains such as cybersecurity and finance, especially when working with large-scale tabular data. Yet, unsupervised anomaly detection-where no labeled anomalies are available-remains challenging because traditional deep learning methods model a single global distribution, assuming all samples follow the same behavior. In contrast, real-world data often contain heterogeneous contexts (e.g., different users, accounts, or devices), where globally rare events may be normal within specific conditions. We introduce a contextual learning framework that explicitly models how normal behavior varies across contexts by learning conditional data distributions $P(\\mathbf{Y} \\mid \\mathbf{C})$ rather than a global joint distribution $P(\\mathbf{X})$. The framework encompasses (1) a probabilistic formulation for context-conditioned learning, (2) a principled bilevel optimization strategy for automatically selecting informative context features using early validation loss, and (3) theoretical grounding through variance decomposition and discriminative learning principles. We instantiate this framework using a novel conditional Wasserstein autoencoder as a simple yet effective model for tabular anomaly detection. Extensive experiments across eight benchmark datasets demonstrate that contextual learning consistently outperforms global approaches-even when the optimal context is not intuitively obvious-establishing a new foundation for anomaly detection in heterogeneous tabular data.",
+        "published": "2025-09-10 22:01:11+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2509.09030v2"
+    },
+    {
+        "title": "Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Neural Networks",
+        "authors": [
+            "Marco Schreyer",
+            "Timur Sattarov",
+            "Christian Schulze",
+            "Bernd Reimer",
+            "Damian Borth"
+        ],
+        "summary": "The detection of fraud in accounting data is a long-standing challenge in financial statement audits. Nowadays, the majority of applied techniques refer to handcrafted rules derived from known fraud scenarios. While fairly successful, these rules exhibit the drawback that they often fail to generalize beyond known fraud scenarios and fraudsters gradually find ways to circumvent them. In contrast, more advanced approaches inspired by the recent success of deep learning often lack seamless interpretability of the detected results. To overcome this challenge, we propose the application of adversarial autoencoder networks. We demonstrate that such artificial neural networks are capable of learning a semantic meaningful representation of real-world journal entries. The learned representation provides a holistic view on a given set of journal entries and significantly improves the interpretability of detected accounting anomalies. We show that such a representation combined with the networks reconstruction error can be utilized as an unsupervised and highly adaptive anomaly assessment. Experiments on two datasets and initial feedback received by forensic accountants underpinned the effectiveness of the approach.",
+        "published": "2019-08-02 07:50:29+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.00734v1"
+    },
+    {
+        "title": "Multiple Instance Learning for Detecting Anomalies over Sequential Real-World Datasets",
+        "authors": [
+            "Parastoo Kamranfar",
+            "David Lattanzi",
+            "Amarda Shehu",
+            "Daniel Barbar\u00e1"
+        ],
+        "summary": "Detecting anomalies over real-world datasets remains a challenging task. Data annotation is an intensive human labor problem, particularly in sequential datasets, where the start and end time of anomalies are not known. As a result, data collected from sequential real-world processes can be largely unlabeled or contain inaccurate labels. These characteristics challenge the application of anomaly detection techniques based on supervised learning. In contrast, Multiple Instance Learning (MIL) has been shown effective on problems with incomplete knowledge of labels in the training dataset, mainly due to the notion of bags. While largely under-leveraged for anomaly detection, MIL provides an appealing formulation for anomaly detection over real-world datasets, and it is the primary contribution of this paper. In this paper, we propose an MIL-based formulation and various algorithmic instantiations of this framework based on different design decisions for key components of the framework. We evaluate the resulting algorithms over four datasets that capture different physical processes along different modalities. The experimental evaluation draws out several observations. The MIL-based formulation performs no worse than single instance learning on easy to moderate datasets and outperforms single-instance learning on more challenging datasets. Altogether, the results show that the framework generalizes well over diverse datasets resulting from different real-world application domains.",
+        "published": "2022-10-04 16:02:09+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2210.01707v1"
+    },
+    {
+        "title": "Time Series Foundational Models: Their Role in Anomaly Detection and Prediction",
+        "authors": [
+            "Chathurangi Shyalika",
+            "Harleen Kaur Bagga",
+            "Ahan Bhatt",
+            "Renjith Prasad",
+            "Alaa Al Ghazo",
+            "Amit Sheth"
+        ],
+        "summary": "Time series foundational models (TSFM) have gained prominence in time series forecasting, promising state-of-the-art performance across various applications. However, their application in anomaly detection and prediction remains underexplored, with growing concerns regarding their black-box nature, lack of interpretability and applicability. This paper critically evaluates the efficacy of TSFM in anomaly detection and prediction tasks. We systematically analyze TSFM across multiple datasets, including those characterized by the absence of discernible patterns, trends and seasonality. Our analysis shows that while TSFMs can be extended for anomaly detection and prediction, traditional statistical and deep learning models often match or outperform TSFM in these tasks. Additionally, TSFMs require high computational resources but fail to capture sequential dependencies effectively or improve performance in few-shot or zero-shot scenarios. \\noindent The preprocessed datasets, codes to reproduce the results and supplementary materials are available at https://github.com/smtmnfg/TSFM.",
+        "published": "2024-12-26 17:15:30+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2412.19286v1"
+    },
+    {
+        "title": "Benchmarking Suite for Synthetic Aperture Radar Imagery Anomaly Detection (SARIAD) Algorithms",
+        "authors": [
+            "Lucian Chauvin",
+            "Somil Gupta",
+            "Angelina Ibarra",
+            "Joshua Peeples"
+        ],
+        "summary": "Anomaly detection is a key research challenge in computer vision and machine learning with applications in many fields from quality control to radar imaging. In radar imaging, specifically synthetic aperture radar (SAR), anomaly detection can be used for the classification, detection, and segmentation of objects of interest. However, there is no method for developing and benchmarking these methods on SAR imagery. To address this issue, we introduce SAR imagery anomaly detection (SARIAD). In conjunction with Anomalib, a deep-learning library for anomaly detection, SARIAD provides a comprehensive suite of algorithms and datasets for assessing and developing anomaly detection approaches on SAR imagery. SARIAD specifically integrates multiple SAR datasets along with tools to effectively apply various anomaly detection algorithms to SAR imagery. Several anomaly detection metrics and visualizations are available. Overall, SARIAD acts as a central package for benchmarking SAR models and datasets to allow for reproducible research in the field of anomaly detection in SAR imagery. This package is publicly available: https://github.com/Advanced-Vision-and-Learning-Lab/SARIAD.",
+        "published": "2025-04-10 20:31:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2504.08115v1"
+    },
+    {
+        "title": "SmartHome-Bench: A Comprehensive Benchmark for Video Anomaly Detection in Smart Homes Using Multi-Modal Large Language Models",
+        "authors": [
+            "Xinyi Zhao",
+            "Congjing Zhang",
+            "Pei Guo",
+            "Wei Li",
+            "Lin Chen",
+            "Chaoyue Zhao",
+            "Shuai Huang"
+        ],
+        "summary": "Video anomaly detection (VAD) is essential for enhancing safety and security by identifying unusual events across different environments. Existing VAD benchmarks, however, are primarily designed for general-purpose scenarios, neglecting the specific characteristics of smart home applications. To bridge this gap, we introduce SmartHome-Bench, the first comprehensive benchmark specially designed for evaluating VAD in smart home scenarios, focusing on the capabilities of multi-modal large language models (MLLMs). Our newly proposed benchmark consists of 1,203 videos recorded by smart home cameras, organized according to a novel anomaly taxonomy that includes seven categories, such as Wildlife, Senior Care, and Baby Monitoring. Each video is meticulously annotated with anomaly tags, detailed descriptions, and reasoning. We further investigate adaptation methods for MLLMs in VAD, assessing state-of-the-art closed-source and open-source models with various prompting techniques. Results reveal significant limitations in the current models' ability to detect video anomalies accurately. To address these limitations, we introduce the Taxonomy-Driven Reflective LLM Chain (TRLC), a new LLM chaining framework that achieves a notable 11.62% improvement in detection accuracy. The benchmark dataset and code are publicly available at https://github.com/Xinyi-0724/SmartHome-Bench-LLM.",
+        "published": "2025-06-15 23:20:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2506.12992v1"
+    },
+    {
+        "title": "Toward Faithful Explanations in Acoustic Anomaly Detection",
+        "authors": [
+            "Maab Elrashid",
+            "Anthony Desch\u00eanes",
+            "Cem Subakan",
+            "Mirco Ravanelli",
+            "R\u00e9mi Georges",
+            "Michael Morin"
+        ],
+        "summary": "Interpretability is essential for user trust in real-world anomaly detection applications. However, deep learning models, despite their strong performance, often lack transparency. In this work, we study the interpretability of autoencoder-based models for audio anomaly detection, by comparing a standard autoencoder (AE) with a mask autoencoder (MAE) in terms of detection performance and interpretability. We applied several attribution methods, including error maps, saliency maps, SmoothGrad, Integrated Gradients, GradSHAP, and Grad-CAM. Although MAE shows a slightly lower detection, it consistently provides more faithful and temporally precise explanations, suggesting a better alignment with true anomalies. To assess the relevance of the regions highlighted by the explanation method, we propose a perturbation-based faithfulness metric that replaces them with their reconstructions to simulate normal input. Our findings, based on experiments in a real industrial scenario, highlight the importance of incorporating interpretability into anomaly detection pipelines and show that masked training improves explanation quality without compromising performance.",
+        "published": "2026-01-19 02:16:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2601.12660v1"
+    },
+    {
+        "title": "LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection",
+        "authors": [
+            "Pankaj Malhotra",
+            "Anusha Ramakrishnan",
+            "Gaurangi Anand",
+            "Lovekesh Vig",
+            "Puneet Agarwal",
+            "Gautam Shroff"
+        ],
+        "summary": "Mechanical devices such as engines, vehicles, aircrafts, etc., are typically instrumented with numerous sensors to capture the behavior and health of the machine. However, there are often external factors or variables which are not captured by sensors leading to time-series which are inherently unpredictable. For instance, manual controls and/or unmonitored environmental conditions or load may lead to inherently unpredictable time-series. Detecting anomalies in such scenarios becomes challenging using standard approaches based on mathematical models that rely on stationarity, or prediction models that utilize prediction errors to detect anomalies. We propose a Long Short Term Memory Networks based Encoder-Decoder scheme for Anomaly Detection (EncDec-AD) that learns to reconstruct 'normal' time-series behavior, and thereafter uses reconstruction error to detect anomalies. We experiment with three publicly available quasi predictable time-series datasets: power demand, space shuttle, and ECG, and two real-world engine datasets with both predictive and unpredictable behavior. We show that EncDec-AD is robust and can detect anomalies from predictable, unpredictable, periodic, aperiodic, and quasi-periodic time-series. Further, we show that EncDec-AD is able to detect anomalies from short time-series (length as small as 30) as well as long time-series (length as large as 500).",
+        "published": "2016-07-01 08:25:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1607.00148v2"
+    },
+    {
+        "title": "Autoencoder-based Anomaly Detection in Streaming Data with Incremental Learning and Concept Drift Adaptation",
+        "authors": [
+            "Jin Li",
+            "Kleanthis Malialis",
+            "Marios M. Polycarpou"
+        ],
+        "summary": "In our digital universe nowadays, enormous amount of data are produced in a streaming manner in a variety of application areas. These data are often unlabelled. In this case, identifying infrequent events, such as anomalies, poses a great challenge. This problem becomes even more difficult in non-stationary environments, which can cause deterioration of the predictive performance of a model. To address the above challenges, the paper proposes an autoencoder-based incremental learning method with drift detection (strAEm++DD). Our proposed method strAEm++DD leverages on the advantages of both incremental learning and drift detection. We conduct an experimental study using real-world and synthetic datasets with severe or extreme class imbalance, and provide an empirical analysis of strAEm++DD. We further conduct a comparative study, showing that the proposed method significantly outperforms existing baseline and advanced methods.",
+        "published": "2023-05-15 19:40:04+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2305.08977v2"
+    },
+    {
+        "title": "Anomaly Detection in Human Language via Meta-Learning: A Few-Shot Approach",
+        "authors": [
+            "Saurav Singla",
+            "Aarav Singla",
+            "Advik Gupta",
+            "Parnika Gupta"
+        ],
+        "summary": "We propose a meta learning framework for detecting anomalies in human language across diverse domains with limited labeled data. Anomalies in language ranging from spam and fake news to hate speech pose a major challenge due to their sparsity and variability. We treat anomaly detection as a few shot binary classification problem and leverage meta-learning to train models that generalize across tasks. Using datasets from domains such as SMS spam, COVID-19 fake news, and hate speech, we evaluate model generalization on unseen tasks with minimal labeled anomalies. Our method combines episodic training with prototypical networks and domain resampling to adapt quickly to new anomaly detection tasks. Empirical results show that our method outperforms strong baselines in F1 and AUC scores. We also release the code and benchmarks to facilitate further research in few-shot text anomaly detection.",
+        "published": "2025-07-26 17:23:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2507.20019v1"
+    },
+    {
+        "title": "DUAL-VAD: Dual Benchmarks and Anomaly-Focused Sampling for Video Anomaly Detection",
+        "authors": [
+            "Seoik Jung",
+            "Taekyung Song",
+            "Joshua Jordan Daniel",
+            "JinYoung Lee",
+            "SungJun Lee"
+        ],
+        "summary": "Video Anomaly Detection (VAD) is critical for surveillance and public safety. However, existing benchmarks are limited to either frame-level or video-level tasks, restricting a holistic view of model generalization. This work first introduces a softmax-based frame allocation strategy that prioritizes anomaly-dense segments while maintaining full-video coverage, enabling balanced sampling across temporal scales. Building on this process, we construct two complementary benchmarks. The image-based benchmark evaluates frame-level reasoning with representative frames, while the video-based benchmark extends to temporally localized segments and incorporates an abnormality scoring task. Experiments on UCF-Crime demonstrate improvements at both the frame and video levels, and ablation studies confirm clear advantages of anomaly-focused sampling over uniform and random baselines.",
+        "published": "2025-09-15 05:48:22+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2509.11605v2"
+    },
+    {
+        "title": "FinRL-Podracer: High Performance and Scalable Deep Reinforcement Learning for Quantitative Finance",
+        "authors": [
+            "Zechu Li",
+            "Xiao-Yang Liu",
+            "Jiahao Zheng",
+            "Zhaoran Wang",
+            "Anwar Walid",
+            "Jian Guo"
+        ],
+        "summary": "Machine learning techniques are playing more and more important roles in finance market investment. However, finance quantitative modeling with conventional supervised learning approaches has a number of limitations. The development of deep reinforcement learning techniques is partially addressing these issues. Unfortunately, the steep learning curve and the difficulty in quick modeling and agile development are impeding finance researchers from using deep reinforcement learning in quantitative trading. In this paper, we propose an RLOps in finance paradigm and present a FinRL-Podracer framework to accelerate the development pipeline of deep reinforcement learning (DRL)-driven trading strategy and to improve both trading performance and training efficiency. FinRL-Podracer is a cloud solution that features high performance and high scalability and promises continuous training, continuous integration, and continuous delivery of DRL-driven trading strategies, facilitating a rapid transformation from algorithmic innovations into a profitable trading strategy. First, we propose a generational evolution mechanism with an ensemble strategy to improve the trading performance of a DRL agent, and schedule the training of a DRL algorithm onto a GPU cloud via multi-level mapping. Then, we carry out the training of DRL components with high-performance optimizations on GPUs. Finally, we evaluate the FinRL-Podracer framework for a stock trend prediction task on an NVIDIA DGX SuperPOD cloud. FinRL-Podracer outperforms three popular DRL libraries Ray RLlib, Stable Baseline 3 and FinRL, i.e., 12% \\sim 35% improvements in annual return, 0.1 \\sim 0.6 improvements in Sharpe ratio and 3 times \\sim 7 times speed-up in training time. We show the high scalability by training a trading agent in 10 minutes with $80$ A100 GPUs, on NASDAQ-100 constituent stocks with minute-level data over 10 years.",
+        "published": "2021-11-07 01:03:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.05188v1"
+    },
+    {
+        "title": "A model-free approach to continuous-time finance",
+        "authors": [
+            "Henry Chiu",
+            "Rama Cont"
+        ],
+        "summary": "We present a non-probabilistic, pathwise approach to continuous-time finance based on causal functional calculus. We introduce a definition of self-financing, free from any integration concept and show that the value of a self-financing portfolio is a pathwise integral (every self-financing strategy is a gradient) and that generic domain of functional calculus is inherently arbitrage-free. We then consider the problem of hedging a path-dependent payoff across a generic set of scenarios. We apply the transition principle of Isaacs in differential games and obtain a verification theorem for the optimal solution, which is characterised by a fully non-linear path-dependent equation. For the Asian option, we obtain explicit solution.",
+        "published": "2022-11-28 16:39:35+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2211.15531v1"
+    },
+    {
+        "title": "Large Language Models in Finance: A Survey",
+        "authors": [
+            "Yinheng Li",
+            "Shaofei Wang",
+            "Han Ding",
+            "Hang Chen"
+        ],
+        "summary": "Recent advances in large language models (LLMs) have opened new possibilities for artificial intelligence applications in finance. In this paper, we provide a practical survey focused on two key aspects of utilizing LLMs for financial tasks: existing solutions and guidance for adoption.\n  First, we review current approaches employing LLMs in finance, including leveraging pretrained models via zero-shot or few-shot learning, fine-tuning on domain-specific data, and training custom LLMs from scratch. We summarize key models and evaluate their performance improvements on financial natural language processing tasks.\n  Second, we propose a decision framework to guide financial professionals in selecting the appropriate LLM solution based on their use case constraints around data, compute, and performance needs. The framework provides a pathway from lightweight experimentation to heavy investment in customized LLMs.\n  Lastly, we discuss limitations and challenges around leveraging LLMs in financial applications. Overall, this survey aims to synthesize the state-of-the-art and provide a roadmap for responsibly applying LLMs to advance financial AI.",
+        "published": "2023-09-28 06:04:04+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2311.10723v2"
+    },
+    {
+        "title": "Interpreting anomaly detection of SDSS spectra",
+        "authors": [
+            "Edgar Ortiz Manrique",
+            "M\u00e9d\u00e9ric Boquien"
+        ],
+        "summary": "The increasing use of ML in astronomy introduces important questions about interpretability. Due to their complexity and non-linear nature, it can be challenging to understand their decision-making process. While these models can effectively identify unusual spectra, interpreting the physical nature of the flagged outliers remains a major challenge. We aim to bridge the gap between anomaly detection and physical understanding by combining deep learning with interpretable ML (iML) techniques to identify and explain anomalous galaxy spectra from SDSS data. We present a flexible framework that uses a variational autoencoder to compute multiple anomaly scores, including physically-motivated variants of the mean squared error. We adapt the iML LIME algorithm to spectroscopic data, systematically explore segmentation and perturbation strategies, and compute explanation weights that identify the features most responsible for each detection. To uncover population-level trends, we normalize the LIME weights and apply clustering to the top 1\\% most anomalous spectra. Our approach successfully separates instrumental artifacts from physically meaningful outliers and groups anomalous spectra into astrophysically coherent categories. These include dusty, metal-rich starbursts; chemically-enriched H\\,II regions with moderate excitation; and extreme emission-line galaxies with low metallicity and hard ionizing spectra. The explanation weights align with established emission-line diagnostics, enabling a physically-grounded taxonomy of spectroscopic anomalies. Our work shows that interpretable anomaly detection provides a scalable, transparent, and physically meaningful approach to exploring large spectroscopic datasets. Our framework opens the door for incorporating interpretability tools into quality control, follow-up targeting, and discovery pipelines in current and future surveys.",
+        "published": "2025-10-06 18:01:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2510.05235v1"
+    },
+    {
+        "title": "Anomaly Detection and Localization based on Double Kernelized Scoring and Matrix Kernels",
+        "authors": [
+            "Shunsuke Hirose",
+            "Tomotake Kozu",
+            "Yingzi Jin"
+        ],
+        "summary": "Anomaly detection is necessary for proper and safe operation of large-scale systems consisting of multiple devices, networks, and/or plants. Those systems are often characterized by a pair of multivariate datasets. To detect anomaly in such a system and localize element(s) associated with anomaly, one would need to estimate scores that quantify anomalousness of the entire system as well as its elements. However, it is not trivial to estimate such scores by considering changes of relationships between the elements, which strongly correlate with each other. Moreover, it is necessary to estimate the scores for the entire system and its elements from a single framework, in order to identify relationships among the scores for localizing elements associated with anomaly. Here, we developed a new method to quantify anomalousness of an entire system and its elements simultaneously.\n  The purpose of this paper is threefold. The first one is to propose a new anomaly detection method: Double Kernelized Scoring (DKS). DKS is a unified framework for entire-system anomaly scoring and element-wise anomaly scoring. Therefore, DKS allows for conducting simultaneously 1) anomaly detection for the entire system and 2) localization for identifying faulty elements responsible for the system anomaly. The second purpose is to propose a new kernel function: Matrix Kernel. The Matrix Kernel is defined between general matrices, which might have different dimensions, allowing for conducting anomaly detection on systems where the number of elements change over time. The third purpose is to demonstrate the effectiveness of the proposed method experimentally. We evaluated the proposed method with synthetic and real time series data. The results demonstrate that DKS is able to detect anomaly and localize the elements associated with it successfully.",
+        "published": "2020-12-15 05:25:43+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2012.08100v1"
+    },
+    {
+        "title": "Zero-Shot Anomaly Detection with Pre-trained Segmentation Models",
+        "authors": [
+            "Matthew Baugh",
+            "James Batten",
+            "Johanna P. M\u00fcller",
+            "Bernhard Kainz"
+        ],
+        "summary": "This technical report outlines our submission to the zero-shot track of the Visual Anomaly and Novelty Detection (VAND) 2023 Challenge. Building on the performance of the WINCLIP framework, we aim to enhance the system's localization capabilities by integrating zero-shot segmentation models. In addition, we perform foreground instance segmentation which enables the model to focus on the relevant parts of the image, thus allowing the models to better identify small or subtle deviations. Our pipeline requires no external data or information, allowing for it to be directly applied to new datasets. Our team (Variance Vigilance Vanguard) ranked third in the zero-shot track of the VAND challenge, and achieve an average F1-max score of 81.5/24.2 at a sample/pixel level on the VisA dataset.",
+        "published": "2023-06-15 16:43:07+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2306.09269v1"
+    },
+    {
+        "title": "Variational Inference for On-line Anomaly Detection in High-Dimensional Time Series",
+        "authors": [
+            "Maximilian Soelch",
+            "Justin Bayer",
+            "Marvin Ludersdorfer",
+            "Patrick van der Smagt"
+        ],
+        "summary": "Approximate variational inference has shown to be a powerful tool for modeling unknown complex probability distributions. Recent advances in the field allow us to learn probabilistic models of sequences that actively exploit spatial and temporal structure. We apply a Stochastic Recurrent Network (STORN) to learn robot time series data. Our evaluation demonstrates that we can robustly detect anomalies both off- and on-line.",
+        "published": "2016-02-23 10:31:51+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1602.07109v5"
+    },
+    {
+        "title": "ARTPS: Depth-Enhanced Hybrid Anomaly Detection and Learnable Curiosity Score for Autonomous Rover Target Prioritization",
+        "authors": [
+            "Poyraz Baydemir"
+        ],
+        "summary": "We present ARTPS (Autonomous Rover Target Prioritization System), a novel hybrid AI system that combines depth estimation, anomaly detection, and learnable curiosity scoring for autonomous exploration of planetary surfaces. Our approach integrates monocular depth estimation using Vision Transformers with multi-component anomaly detection and a weighted curiosity score that balances known value, anomaly signals, depth variance, and surface roughness. The system achieves state-of-the-art performance with AUROC of 0.94, AUPRC of 0.89, and F1-Score of 0.87 on Mars rover datasets. We demonstrate significant improvements in target prioritization accuracy through ablation studies and provide comprehensive analysis of component contributions. The hybrid fusion approach reduces false positives by 23% while maintaining high detection sensitivity across diverse terrain types.",
+        "published": "2025-08-23 17:37:05+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2509.00042v1"
+    },
+    {
+        "title": "MOCCA: Multi-Layer One-Class ClassificAtion for Anomaly Detection",
+        "authors": [
+            "Fabio Valerio Massoli",
+            "Fabrizio Falchi",
+            "Alperen Kantarci",
+            "\u015eeymanur Akti",
+            "Hazim Kemal Ekenel",
+            "Giuseppe Amato"
+        ],
+        "summary": "Anomalies are ubiquitous in all scientific fields and can express an unexpected event due to incomplete knowledge about the data distribution or an unknown process that suddenly comes into play and distorts observations. Due to such events' rarity, to train deep learning models on the Anomaly Detection (AD) task, scientists only rely on \"normal\" data, i.e., non-anomalous samples. Thus, letting the neural network infer the distribution beneath the input data. In such a context, we propose a novel framework, named Multi-layer One-Class ClassificAtion (MOCCA),to train and test deep learning models on the AD task. Specifically, we applied it to autoencoders. A key novelty in our work stems from the explicit optimization of intermediate representations for the AD task. Indeed, differently from commonly used approaches that consider a neural network as a single computational block, i.e., using the output of the last layer only, MOCCA explicitly leverages the multi-layer structure of deep architectures. Each layer's feature space is optimized for AD during training, while in the test phase, the deep representations extracted from the trained layers are combined to detect anomalies. With MOCCA, we split the training process into two steps. First, the autoencoder is trained on the reconstruction task only. Then, we only retain the encoder tasked with minimizing the L_2 distance between the output representation and a reference point, the anomaly-free training data centroid, at each considered layer. Subsequently, we combine the deep features extracted at the various trained layers of the encoder model to detect anomalies at inference time. To assess the performance of the models trained with MOCCA, we conduct extensive experiments on publicly available datasets. We show that our proposed method reaches comparable or superior performance to state-of-the-art approaches available in the literature.",
+        "published": "2020-12-09 08:32:56+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2012.12111v4"
+    },
+    {
+        "title": "Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda",
+        "authors": [
+            "Lennart Ante",
+            "Friedrich-Philipp Wazinski",
+            "Aman Saggu"
+        ],
+        "summary": "Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. Against this backdrop, biodiversity finance has emerged as a rapidly expanding but highly fragmented field spanning ecology, economics, finance, accounting, and policy. However, it remains emerging and complex, with the majority of relevant knowledge being produced in non-finance journals. This study employs quantitative bibliometric analysis to examine a corpus of 189,456 references underlying 3,998 articles related to biodiversity and finance. The analysis identifies eight primary research streams within the field that concern (1) strategic and financial approaches in global biodiversity conservation, (2) the impact and implementation of payments for environmental services (PES) in developing countries, (3) neoliberal influences and implications in environmental conservation, (4) biodiversity offsets and conservation, (5) ecosystem services and biodiversity, (6) integrating conservation and community interests in biodiversity management, (7) balancing agricultural intensification with biodiversity conservation, and (8) global and corporate biodiversity reporting. The characteristics of each research stream and its prevalent publications are outlined, alongside an analysis of their temporal evolution and the degree of information exchange among the research streams. The findings provide a structured map of the intellectual architecture of biodiversity finance, document pronounced silos between economically-oriented and critical/political-economy research streams, and translate these patterns into a focused research agenda and implications for policymakers, financial institutions, and corporate actors.",
+        "published": "2026-04-23 11:44:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.21569v1"
+    },
+    {
+        "title": "Adoption and Effectiveness of AI-Based Anomaly Detection for Cross Provider Health Data Exchange",
+        "authors": [
+            "Cao Tram Anh Hoang"
+        ],
+        "summary": "This study investigates the adoption and effectiveness of AI-based anomaly detection in cross-provider electronic health record (EHR) environments. It aims to (1) identify the organisational and digital capabilities required for successful implementation and (2) evaluate the performance and interpretability of lightweight anomaly detection approaches using contextual audit data. A semi-systematic scoping synthesis is conducted to derive a four-pillar readiness framework covering governance, infrastructure/interoperability, workforce, and AI integration, operationalised as a 10-item checklist with measurable indicators. This is complemented by a simulation of cross-provider audit logs incorporating contextual features such as provider mismatch, time of access, days since discharge, session duration, and access frequency. A rule-based approach is benchmarked against Isolation Forest, with SHAP used to explain model behaviour. Results show that rule-based methods achieve high recall but generate higher alert volumes, while Isolation Forest reduces alert burden at the cost of lower sensitivity. SHAP analysis highlights provider mismatch and off-hours access as dominant anomaly drivers. The study proposes a staged deployment strategy combining rules for coverage and machine learning for prioritisation, supported by explainability and continuous monitoring. The findings contribute a practical readiness framework and empirical insights to guide the implementation of AI-based anomaly detection in multi-provider healthcare environments.",
+        "published": "2026-03-19 15:22:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.09630v1"
+    },
+    {
+        "title": "How Decentralized is the Governance of Blockchain-based Finance: Empirical Evidence from four Governance Token Distributions",
+        "authors": [
+            "Johannes Rude Jensen",
+            "Victor von Wachter",
+            "Omri Ross"
+        ],
+        "summary": "Novel blockchain technology provides the infrastructure layer for the creation of decentralized appli-cations. A rapidly growing ecosystem of applications is built around financial services, commonly referred to as decentralized finance. Whereas the intangible concept of decentralization is presented as a key driver for the applications, defining and measuring decentralization is multifaceted. This pa-per provides a framework to quantify decentralization of governance power among blockchain appli-cations. Governance of the applications is increasingly important and requires striking a balance be-tween broad distribution, fostering user activity, and financial incentives. Therefore, we aggregate, parse, and analyze empirical data of four finance applications calculating coefficients for the statistical dispersion of the governance token distribution. The gauges potentially support IS scholars for an objective evaluation of the capabilities and limitations of token governance and for fast iteration in design-driven governance mechanisms.",
+        "published": "2021-02-02 09:52:26+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2102.10096v2"
+    },
+    {
+        "title": "Evaluating GAN-LSTM for Smart Meter Anomaly Detection in Power Systems",
+        "authors": [
+            "Fahimeh Orvati Nia",
+            "Shima Salehi",
+            "Joshua Peeples"
+        ],
+        "summary": "Advanced metering infrastructure (AMI) provides high-resolution electricity consumption data that can enhance monitoring, diagnosis, and decision making in modern power distribution systems. Detecting anomalies in these time-series measurements is challenging due to nonlinear, nonstationary, and multi-scale temporal behavior across diverse building types and operating conditions. This work presents a systematic, power-system-oriented evaluation of a GAN-LSTM framework for smart meter anomaly detection using the Large-scale Energy Anomaly Detection (LEAD) dataset, which contains one year of hourly measurements from 406 buildings. The proposed pipeline applies consistent preprocessing, temporal windowing, and threshold selection across all methods, and compares the GAN-LSTM approach against six widely used baselines, including statistical, kernel-based, reconstruction-based, and GAN-based models. Experimental results demonstrate that the GAN-LSTM significantly improves detection performance, achieving an F1-score of 0.89. These findings highlight the potential of adversarial temporal modeling as a practical tool for supporting asset monitoring, non-technical loss detection, and situational awareness in real-world power distribution networks. The code for this work is publicly available",
+        "published": "2026-01-14 18:55:39+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2601.09701v1"
+    },
+    {
+        "title": "Deep Anomaly Detection in Packet Payload",
+        "authors": [
+            "Jiaxin Liu",
+            "Xucheng Song",
+            "Yingjie Zhou",
+            "Xi Peng",
+            "Yanru Zhang",
+            "Pei Liu",
+            "Dapeng Wu"
+        ],
+        "summary": "With the widespread adoption of cloud services, especially the extensive deployment of plenty of Web applications, it is important and challenging to detect anomalies from the packet payload. For example, the anomalies in the packet payload can be expressed as a number of specific strings which may cause attacks. Although some approaches have achieved remarkable progress, they are with limited applications since they are dependent on in-depth expert knowledge, e.g., signatures describing anomalies or communication protocol at the application level. Moreover, they might fail to detect the payload anomalies that have long-term dependency relationships. To overcome these limitations and adaptively detect anomalies from the packet payload, we propose a deep learning based framework which consists of two steps. First, a novel feature engineering method is proposed to obtain the block-based features via block sequence extraction and block embedding. The block-based features could encapsulate both the high-dimension information and the underlying sequential information which facilitate the anomaly detection. Second, a neural network is designed to learn the representation of packet payload based on Long Short-Term Memory (LSTM) and Convolutional Neural Networks (CNN). Furthermore, we cast the anomaly detection as a classification problem and stack a Multi-Layer Perception (MLP) on the above representation learning network to detect anomalies. Extensive experimental results on three public datasets indicate that our model could achieve a higher detection rate, while keeping a lower false positive rate compared with five state-of-the-art methods.",
+        "published": "2019-12-05 13:03:38+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1912.02549v1"
+    },
+    {
+        "title": "Divide and Conquer: High-Resolution Industrial Anomaly Detection via Memory Efficient Tiled Ensemble",
+        "authors": [
+            "Bla\u017e Rolih",
+            "Dick Ameln",
+            "Ashwin Vaidya",
+            "Samet Akcay"
+        ],
+        "summary": "Industrial anomaly detection is an important task within computer vision with a wide range of practical use cases. The small size of anomalous regions in many real-world datasets necessitates processing the images at a high resolution. This frequently poses significant challenges concerning memory consumption during the model training and inference stages, leaving some existing methods impractical for widespread adoption. To overcome this challenge, we present the tiled ensemble approach, which reduces memory consumption by dividing the input images into a grid of tiles and training a dedicated model for each tile location. The tiled ensemble is compatible with any existing anomaly detection model without the need for any modification of the underlying architecture. By introducing overlapping tiles, we utilize the benefits of traditional stacking ensembles, leading to further improvements in anomaly detection capabilities beyond high resolution alone. We perform a comprehensive analysis using diverse underlying architectures, including Padim, PatchCore, FastFlow, and Reverse Distillation, on two standard anomaly detection datasets: MVTec and VisA. Our method demonstrates a notable improvement across setups while remaining within GPU memory constraints, consuming only as much GPU memory as a single model needs to process a single tile.",
+        "published": "2024-03-07 22:39:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2403.04932v2"
+    },
+    {
+        "title": "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data--Extended Version",
+        "authors": [
+            "Buang Zhang",
+            "Tung Kieu",
+            "Xiangfei Qiu",
+            "Chenjuan Guo",
+            "Jilin Hu",
+            "Aoying Zhou",
+            "Christian S. Jensen",
+            "Bin Yang"
+        ],
+        "summary": "Time series anomaly detection is important in modern large-scale systems and is applied in a variety of domains to analyze and monitor the operation of diverse systems. Unsupervised approaches have received widespread interest, as they do not require anomaly labels during training, thus avoiding potentially high costs and having wider applications. Among these, autoencoders have received extensive attention. They use reconstruction errors from compressed representations to define anomaly scores. However, representations learned by autoencoders are sensitive to anomalies in training time series, causing reduced accuracy. We propose a novel encode-then-decompose paradigm, where we decompose the encoded representation into stable and auxiliary representations, thereby enhancing the robustness when training with contaminated time series. In addition, we propose a novel mutual information based metric to replace the reconstruction errors for identifying anomalies. Our proposal demonstrates competitive or state-of-the-art performance on eight commonly used multi- and univariate time series benchmarks and exhibits robustness to time series with different contamination ratios.",
+        "published": "2025-10-21 18:23:20+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2510.18998v1"
+    }
+]

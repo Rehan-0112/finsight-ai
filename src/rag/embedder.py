@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
 
-from chunker import load_papers
+from src.rag.chunker import load_papers
 
 
 model = SentenceTransformer(

@@ -1,7 +1,30 @@
-venv/
-.env
-data/raw/
-data/vector_store/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# ChromaDB
+
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime generated
+data/cache/
+data/evaluation/
+logs/
+
+__pycache__/
+.pytest_cache/
+*.log

@@ -1,0 +1,618 @@
+[
+    {
+        "title": "FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance",
+        "authors": [
+            "Xiao-Yang Liu",
+            "Hongyang Yang",
+            "Jiechao Gao",
+            "Christina Dan Wang"
+        ],
+        "summary": "Deep reinforcement learning (DRL) has been envisioned to have a competitive edge in quantitative finance. However, there is a steep development curve for quantitative traders to obtain an agent that automatically positions to win in the market, namely \\textit{to decide where to trade, at what price} and \\textit{what quantity}, due to the error-prone programming and arduous debugging. In this paper, we present the first open-source framework \\textit{FinRL} as a full pipeline to help quantitative traders overcome the steep learning curve. FinRL is featured with simplicity, applicability and extensibility under the key principles, \\textit{full-stack framework, customization, reproducibility} and \\textit{hands-on tutoring}.\n  Embodied as a three-layer architecture with modular structures, FinRL implements fine-tuned state-of-the-art DRL algorithms and common reward functions, while alleviating the debugging workloads. Thus, we help users pipeline the strategy design at a high turnover rate. At multiple levels of time granularity, FinRL simulates various markets as training environments using historical data and live trading APIs. Being highly extensible, FinRL reserves a set of user-import interfaces and incorporates trading constraints such as market friction, market liquidity and investor's risk-aversion. Moreover, serving as practitioners' stepping stones, typical trading tasks are provided as step-by-step tutorials, e.g., stock trading, portfolio allocation, cryptocurrency trading, etc.",
+        "published": "2021-11-07 00:34:32+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.09395v1"
+    },
+    {
+        "title": "Quantum Game Theory in Finance",
+        "authors": [
+            "Edward W. Piotrowski",
+            "J. Sladkowski"
+        ],
+        "summary": "  This is a short review of the background and recent development in quantum game theory and its possible application in economics and finance. The intersection of science and society is also discussed. The review is addressed to non--specialists.",
+        "published": "2004-06-18 12:50:24+00:00",
+        "pdf_url": "https://arxiv.org/pdf/quant-ph/0406129v1"
+    },
+    {
+        "title": "YouZhi: Towards High-Concurrency Financial LLMs via Adaptive GQA-to-MLA Transition",
+        "authors": [
+            " PSBC LLM Team",
+            " Huawei LLM Team",
+            "Ruihan Long",
+            "Junjie Wu",
+            "Tianan Zhang",
+            "Duo Zhang",
+            "Yaozong Wu",
+            "Jinbin Fu",
+            "Chang Liu",
+            "Zhentao Tang",
+            "Wenshuang Yang",
+            "Xin Wang",
+            "Zhihao Song",
+            "Ning Huang",
+            "Wenjing Xu",
+            "Shuai Zong",
+            "Shupei Sun",
+            "Sen Wang",
+            "Jing Hu",
+            "Bin Wang",
+            "Xinyu Wang",
+            "Junkui Ju",
+            "Zequn Ding",
+            "Jie Ran",
+            "Man Luo",
+            "Shixiong Kai",
+            "Linkai Hou",
+            "Kaichao Liang",
+            "Hu Zhao",
+            "Yang Zhao",
+            "Shucheng Lin",
+            "Wei Yu",
+            "Chenghan Jiang",
+            "Jingjing Ding",
+            "Jiahui Zhang",
+            "Tian Jin",
+            "Yuhang Zhang",
+            "Dong Guo",
+            "Wei Sun",
+            "Jun Xie",
+            "Jianwei Li",
+            "Lei Cao",
+            "Pei Li",
+            "Jiabin Li",
+            "Jia Yuan",
+            "Rui Yuan",
+            "Jing Zhu",
+            "Mingxuan Yuan",
+            "Zhangcheng Lv",
+            "Xin Jiang",
+            "Xiuhong Fei",
+            "Xiaozhe Ren",
+            "Yulong Li",
+            "Zhipeng Zhang",
+            "Hang Wang",
+            "Zhaohui Xu",
+            "Rui Zhao",
+            "Yibo He",
+            "Xinzhuang Niu"
+        ],
+        "summary": "Large language models (LLMs) drive significant financial innovations, yet their high-concurrency deployment is severely bottlenecked by KV cache memory overhead, which inflates infrastructure costs and throttles scalability. To address this, we propose YouZhi-LLM, a highly efficient financial LLM empowered by a comprehensive structural transition and training pipeline natively built on the Huawei Ascend ecosystem. At its algorithmic core, YouZhi-LLM features a layer-adaptive GQA-to-MLA transition framework that dynamically assigns per-layer FreqFold sizes, maximizing KV-cache compression while minimizing perplexity degradation. To recover representation capacity and inject domain expertise, the Ascend-based training pipeline seamlessly integrates generalized knowledge distillation with financial-specific supervised fine-tuning. Evaluations demonstrate the superiority of this systematic approach, with the adaptive transition reducing perplexity degradation by up to 35% over uniform baselines. Crucially, when evaluated on Ascend NPUs via vLLM-Ascend, the massive KV-cache reduction translates directly into deployment efficiency. Compared to their respective base models, YouZhi-7B yields a 12.3% improvement in average financial benchmark score alongside a 2.69$\\times$ increase in maximum concurrency; similarly, YouZhi-14B achieves a 7.0% accuracy gain and a 2.43$\\times$ concurrency boost, establishing a new paradigm for cost-effective, high-throughput financial inference.",
+        "published": "2026-06-04 08:44:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.05868v1"
+    },
+    {
+        "title": "Large Language Models in Finance: A Survey",
+        "authors": [
+            "Yinheng Li",
+            "Shaofei Wang",
+            "Han Ding",
+            "Hang Chen"
+        ],
+        "summary": "Recent advances in large language models (LLMs) have opened new possibilities for artificial intelligence applications in finance. In this paper, we provide a practical survey focused on two key aspects of utilizing LLMs for financial tasks: existing solutions and guidance for adoption.\n  First, we review current approaches employing LLMs in finance, including leveraging pretrained models via zero-shot or few-shot learning, fine-tuning on domain-specific data, and training custom LLMs from scratch. We summarize key models and evaluate their performance improvements on financial natural language processing tasks.\n  Second, we propose a decision framework to guide financial professionals in selecting the appropriate LLM solution based on their use case constraints around data, compute, and performance needs. The framework provides a pathway from lightweight experimentation to heavy investment in customized LLMs.\n  Lastly, we discuss limitations and challenges around leveraging LLMs in financial applications. Overall, this survey aims to synthesize the state-of-the-art and provide a roadmap for responsibly applying LLMs to advance financial AI.",
+        "published": "2023-09-28 06:04:04+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2311.10723v2"
+    },
+    {
+        "title": "The LLM Pro Finance Suite: Multilingual Large Language Models for Financial Applications",
+        "authors": [
+            "Ga\u00ebtan Caillaut",
+            "Raheel Qader",
+            "Jingshu Liu",
+            "Mariam Nakhl\u00e9",
+            "Arezki Sadoune",
+            "Massinissa Ahmim",
+            "Jean-Gabriel Barthelemy"
+        ],
+        "summary": "The financial industry's growing demand for advanced natural language processing (NLP) capabilities has highlighted the limitations of generalist large language models (LLMs) in handling domain-specific financial tasks. To address this gap, we introduce the LLM Pro Finance Suite, a collection of five instruction-tuned LLMs (ranging from 8B to 70B parameters) specifically designed for financial applications. Our approach focuses on enhancing generalist instruction-tuned models, leveraging their existing strengths in instruction following, reasoning, and toxicity control, while fine-tuning them on a curated, high-quality financial corpus comprising over 50% finance-related data in English, French, and German.\n  We evaluate the LLM Pro Finance Suite on a comprehensive financial benchmark suite, demonstrating consistent improvement over state-of-the-art baselines in finance-oriented tasks and financial translation. Notably, our models maintain the strong general-domain capabilities of their base models, ensuring reliable performance across non-specialized tasks. This dual proficiency, enhanced financial expertise without compromise on general abilities, makes the LLM Pro Finance Suite an ideal drop-in replacement for existing LLMs in financial workflows, offering improved domain-specific performance while preserving overall versatility. We publicly release two 8B-parameters models to foster future research and development in financial NLP applications: https://huggingface.co/collections/DragonLLM/llm-open-finance.",
+        "published": "2025-11-07 11:08:31+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2511.08621v1"
+    },
+    {
+        "title": "FinRL-Podracer: High Performance and Scalable Deep Reinforcement Learning for Quantitative Finance",
+        "authors": [
+            "Zechu Li",
+            "Xiao-Yang Liu",
+            "Jiahao Zheng",
+            "Zhaoran Wang",
+            "Anwar Walid",
+            "Jian Guo"
+        ],
+        "summary": "Machine learning techniques are playing more and more important roles in finance market investment. However, finance quantitative modeling with conventional supervised learning approaches has a number of limitations. The development of deep reinforcement learning techniques is partially addressing these issues. Unfortunately, the steep learning curve and the difficulty in quick modeling and agile development are impeding finance researchers from using deep reinforcement learning in quantitative trading. In this paper, we propose an RLOps in finance paradigm and present a FinRL-Podracer framework to accelerate the development pipeline of deep reinforcement learning (DRL)-driven trading strategy and to improve both trading performance and training efficiency. FinRL-Podracer is a cloud solution that features high performance and high scalability and promises continuous training, continuous integration, and continuous delivery of DRL-driven trading strategies, facilitating a rapid transformation from algorithmic innovations into a profitable trading strategy. First, we propose a generational evolution mechanism with an ensemble strategy to improve the trading performance of a DRL agent, and schedule the training of a DRL algorithm onto a GPU cloud via multi-level mapping. Then, we carry out the training of DRL components with high-performance optimizations on GPUs. Finally, we evaluate the FinRL-Podracer framework for a stock trend prediction task on an NVIDIA DGX SuperPOD cloud. FinRL-Podracer outperforms three popular DRL libraries Ray RLlib, Stable Baseline 3 and FinRL, i.e., 12% \\sim 35% improvements in annual return, 0.1 \\sim 0.6 improvements in Sharpe ratio and 3 times \\sim 7 times speed-up in training time. We show the high scalability by training a trading agent in 10 minutes with $80$ A100 GPUs, on NASDAQ-100 constituent stocks with minute-level data over 10 years.",
+        "published": "2021-11-07 01:03:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.05188v1"
+    },
+    {
+        "title": "A model-free approach to continuous-time finance",
+        "authors": [
+            "Henry Chiu",
+            "Rama Cont"
+        ],
+        "summary": "We present a non-probabilistic, pathwise approach to continuous-time finance based on causal functional calculus. We introduce a definition of self-financing, free from any integration concept and show that the value of a self-financing portfolio is a pathwise integral (every self-financing strategy is a gradient) and that generic domain of functional calculus is inherently arbitrage-free. We then consider the problem of hedging a path-dependent payoff across a generic set of scenarios. We apply the transition principle of Isaacs in differential games and obtain a verification theorem for the optimal solution, which is characterised by a fully non-linear path-dependent equation. For the Asian option, we obtain explicit solution.",
+        "published": "2022-11-28 16:39:35+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2211.15531v1"
+    },
+    {
+        "title": "Research Streams in Biodiversity Finance: A Bibliometric Analysis and Research Agenda",
+        "authors": [
+            "Lennart Ante",
+            "Friedrich-Philipp Wazinski",
+            "Aman Saggu"
+        ],
+        "summary": "Biodiversity loss is accelerating at an unprecedented pace, threatening ecosystem stability, economic resilience, and human well-being, with billions required to reverse current trends. Against this backdrop, biodiversity finance has emerged as a rapidly expanding but highly fragmented field spanning ecology, economics, finance, accounting, and policy. However, it remains emerging and complex, with the majority of relevant knowledge being produced in non-finance journals. This study employs quantitative bibliometric analysis to examine a corpus of 189,456 references underlying 3,998 articles related to biodiversity and finance. The analysis identifies eight primary research streams within the field that concern (1) strategic and financial approaches in global biodiversity conservation, (2) the impact and implementation of payments for environmental services (PES) in developing countries, (3) neoliberal influences and implications in environmental conservation, (4) biodiversity offsets and conservation, (5) ecosystem services and biodiversity, (6) integrating conservation and community interests in biodiversity management, (7) balancing agricultural intensification with biodiversity conservation, and (8) global and corporate biodiversity reporting. The characteristics of each research stream and its prevalent publications are outlined, alongside an analysis of their temporal evolution and the degree of information exchange among the research streams. The findings provide a structured map of the intellectual architecture of biodiversity finance, document pronounced silos between economically-oriented and critical/political-economy research streams, and translate these patterns into a focused research agenda and implications for policymakers, financial institutions, and corporate actors.",
+        "published": "2026-04-23 11:44:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.21569v1"
+    },
+    {
+        "title": "How Decentralized is the Governance of Blockchain-based Finance: Empirical Evidence from four Governance Token Distributions",
+        "authors": [
+            "Johannes Rude Jensen",
+            "Victor von Wachter",
+            "Omri Ross"
+        ],
+        "summary": "Novel blockchain technology provides the infrastructure layer for the creation of decentralized appli-cations. A rapidly growing ecosystem of applications is built around financial services, commonly referred to as decentralized finance. Whereas the intangible concept of decentralization is presented as a key driver for the applications, defining and measuring decentralization is multifaceted. This pa-per provides a framework to quantify decentralization of governance power among blockchain appli-cations. Governance of the applications is increasingly important and requires striking a balance be-tween broad distribution, fostering user activity, and financial incentives. Therefore, we aggregate, parse, and analyze empirical data of four finance applications calculating coefficients for the statistical dispersion of the governance token distribution. The gauges potentially support IS scholars for an objective evaluation of the capabilities and limitations of token governance and for fast iteration in design-driven governance mechanisms.",
+        "published": "2021-02-02 09:52:26+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2102.10096v2"
+    },
+    {
+        "title": "Impact of the Global Crisis on SME Internal vs. External Financing in China",
+        "authors": [
+            "ShiXue He",
+            "Marcel Ausloos"
+        ],
+        "summary": "Changes in the capital structure before and after the global financial crisis for SMEs are studied, emphasizing their financing problems, distinguishing between internal financing and external financing determinants. The empirical research bears upon 158 small and medium-sized firms listed on Shenzhen and Shanghai Stock Exchanges in China over the period of 2004-2014. A regression analysis, along the lines of the Trade-Off Theory, shows that the leverage decreases with profitability, non-debt tax shields and the liquidity, and increases with firm size and tangibility. A positive relationship is found between firm growth and debt ratio, though not highly significantly. It is shown that the SMEs with high growth rates are those which will more easily obtain external financing after a financial crisis. It is recognized that the China government should reconsider SMEs taxation laws.",
+        "published": "2017-07-01 10:05:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1707.06635v1"
+    },
+    {
+        "title": "Econophysics: Empirical facts and agent-based models",
+        "authors": [
+            "Anirban Chakraborti",
+            "Ioane Muni Toke",
+            "Marco Patriarca",
+            "Frederic Abergel"
+        ],
+        "summary": "This article aims at reviewing recent empirical and theoretical developments usually grouped under the term Econophysics. Since its name was coined in 1995 by merging the words Economics and Physics, this new interdisciplinary field has grown in various directions: theoretical macroeconomics (wealth distributions), microstructure of financial markets (order book modelling), econometrics of financial bubbles and crashes, etc. In the first part of the review, we discuss on the emergence of Econophysics. Then we present empirical studies revealing statistical properties of financial time series. We begin the presentation with the widely acknowledged stylized facts which describe the returns of financial assets- fat tails, volatility clustering, autocorrelation, etc.- and recall that some of these properties are directly linked to the way time is taken into account. We continue with the statistical properties observed on order books in financial markets. For the sake of illustrating this review, (nearly) all the stated facts are reproduced using our own high-frequency financial database. Finally, contributions to the study of correlations of assets such as random matrix theory and graph theory are presented. In the second part of the review, we deal with models in Econophysics through the point of view of agent-based modelling. Amongst a large number of multi-agent-based models, we have identified three representative areas. First, using previous work originally presented in the fields of behavioural finance and market microstructure theory, econophysicists have developed agent-based models of order-driven markets that are extensively presented here. Second, kinetic theory models designed to explain some empirical facts on wealth distribution are reviewed. Third, we briefly summarize game theory models by reviewing the now classic minority game and related problems.",
+        "published": "2009-09-10 15:25:45+00:00",
+        "pdf_url": "https://arxiv.org/pdf/0909.1974v2"
+    },
+    {
+        "title": "Is decentralized finance actually decentralized? A social network analysis of the Aave protocol on the Ethereum blockchain",
+        "authors": [
+            "Ziqiao Ao",
+            "Lin William Cong",
+            "Gergely Horvath",
+            "Luyao Zhang"
+        ],
+        "summary": "Decentralized finance (DeFi) has the potential to disrupt centralized finance by validating peer-to-peer transactions through tamper-proof smart contracts, thus significantly lowering the transaction cost charged by financial intermediaries. However, the actual realization of peer-to-peer transactions and the levels and effects of decentralization are largely unknown. Our research pioneers a blockchain network study that applies social network analysis to measure the level, dynamics, and impacts of decentralization in DeFi token transactions on the Ethereum blockchain. First, we find a significant core-periphery structure in the AAVE token transaction network where the cores include the two largest centralized crypto exchanges. Second, we provide evidence that multiple network features consistently characterize decentralization dynamics. Finally, we document that a more decentralized network significantly predicts a higher return and lower volatility of the decentralized market of AAVE tokens on the Ethereum blockchain. We point out that our approach is seminal for inspiring future extensions related to the facets of application scenarios, research questions, and methodologies on the mechanics of blockchain decentralization.",
+        "published": "2022-06-16 18:26:38+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2206.08401v4"
+    },
+    {
+        "title": "Polynomial Diffusions and Applications in Finance",
+        "authors": [
+            "Damir Filipovic",
+            "Martin Larsson"
+        ],
+        "summary": "This paper provides the mathematical foundation for polynomial diffusions. They play an important role in a growing range of applications in finance, including financial market models for interest rates, credit risk, stochastic volatility, commodities and electricity. Uniqueness of polynomial diffusions is established via moment determinacy in combination with pathwise uniqueness. Existence boils down to a stochastic invariance problem that we solve for semialgebraic state spaces. Examples include the unit ball, the product of the unit cube and nonnegative orthant, and the unit simplex.",
+        "published": "2014-04-03 16:08:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1404.0989v6"
+    },
+    {
+        "title": "MME-Finance: A Multimodal Finance Benchmark for Expert-level Understanding and Reasoning",
+        "authors": [
+            "Ziliang Gan",
+            "Yu Lu",
+            "Dong Zhang",
+            "Haohan Li",
+            "Che Liu",
+            "Jian Liu",
+            "Ji Liu",
+            "Haipang Wu",
+            "Chaoyou Fu",
+            "Zenglin Xu",
+            "Rongjunchen Zhang",
+            "Yong Dai"
+        ],
+        "summary": "In recent years, multimodal benchmarks for general domains have guided the rapid development of multimodal models on general tasks. However, the financial field has its peculiarities. It features unique graphical images (e.g., candlestick charts, technical indicator charts) and possesses a wealth of specialized financial knowledge (e.g., futures, turnover rate). Therefore, benchmarks from general fields often fail to measure the performance of multimodal models in the financial domain, and thus cannot effectively guide the rapid development of large financial models. To promote the development of large financial multimodal models, we propose MME-Finance, an bilingual open-ended and practical usage-oriented Visual Question Answering (VQA) benchmark. The characteristics of our benchmark are finance and expertise, which include constructing charts that reflect the actual usage needs of users (e.g., computer screenshots and mobile photography), creating questions according to the preferences in financial domain inquiries, and annotating questions by experts with 10+ years of experience in the financial industry. Additionally, we have developed a custom-designed financial evaluation system in which visual information is first introduced in the multi-modal evaluation process. Extensive experimental evaluations of 19 mainstream MLLMs are conducted to test their perception, reasoning, and cognition capabilities. The results indicate that models performing well on general benchmarks cannot do well on MME-Finance; for instance, the top-performing open-source and closed-source models obtain 65.69 (Qwen2VL-72B) and 63.18 (GPT-4o), respectively. Their performance is particularly poor in categories most relevant to finance, such as candlestick charts and technical indicator charts. In addition, we propose a Chinese version, which helps compare performance of MLLMs under a Chinese context.",
+        "published": "2024-11-05 18:59:51+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2411.03314v1"
+    },
+    {
+        "title": "Beyond the Black Box: Interpretability of LLMs in Finance",
+        "authors": [
+            "Hariom Tatsat",
+            "Ariye Shater"
+        ],
+        "summary": "Large Language Models (LLMs) exhibit remarkable capabilities across a spectrum of tasks in financial services, including report generation, chatbots, sentiment analysis, regulatory compliance, investment advisory, financial knowledge retrieval, and summarization. However, their intrinsic complexity and lack of transparency pose significant challenges, especially in the highly regulated financial sector, where interpretability, fairness, and accountability are critical. As far as we are aware, this paper presents the first application in the finance domain of understanding and utilizing the inner workings of LLMs through mechanistic interpretability, addressing the pressing need for transparency and control in AI systems. Mechanistic interpretability is the most intuitive and transparent way to understand LLM behavior by reverse-engineering their internal workings. By dissecting the activations and circuits within these models, it provides insights into how specific features or components influence predictions - making it possible not only to observe but also to modify model behavior. In this paper, we explore the theoretical aspects of mechanistic interpretability and demonstrate its practical relevance through a range of financial use cases and experiments, including applications in trading strategies, sentiment analysis, bias, and hallucination detection. While not yet widely adopted, mechanistic interpretability is expected to become increasingly vital as adoption of LLMs increases. Advanced interpretability tools can ensure AI systems remain ethical, transparent, and aligned with evolving financial regulations. In this paper, we have put special emphasis on how these techniques can help unlock interpretability requirements for regulatory and compliance purposes - addressing both current needs and anticipating future expectations from financial regulators globally.",
+        "published": "2025-05-14 15:24:21+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2505.24650v1"
+    },
+    {
+        "title": "Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs",
+        "authors": [
+            "Akhil Theerthala"
+        ],
+        "summary": "Personalized financial advice requires consideration of user goals, constraints, risk tolerance, and jurisdiction. Prior LLM work has focused on support systems for investors and financial planners. Simultaneously, numerous recent studies examine broader personal finance tasks, including budgeting, debt management, retirement, and estate planning, through agentic pipelines that incur high maintenance costs, yielding less than 25% of their expected financial returns. In this study, we introduce a novel and reproducible framework that integrates relevant financial context with behavioral finance studies to construct supervision data for end-to-end advisors. Using this framework, we create a 19k sample reasoning dataset and conduct a comprehensive fine-tuning of the Qwen-3-8B model on the dataset. Through a held-out test split and a blind LLM-jury study, we demonstrate that through careful data curation and behavioral integration, our 8B model achieves performance comparable to significantly larger baselines (14-32B parameters) across factual accuracy, fluency, and personalization metrics while incurring 80% lower costs than the larger counterparts.",
+        "published": "2025-09-17 17:12:38+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2509.14180v1"
+    },
+    {
+        "title": "Behavioral Finance -- Asset Prices Predictability, Equity Premium Puzzle, Volatility Puzzle: The Rational Finance Approach",
+        "authors": [
+            "Svetlozar Rachev",
+            "Stoyan Stoyanov",
+            "Stefan Mittnik",
+            "Frank J. Fabozzi",
+            "Abootaleb Shirvani"
+        ],
+        "summary": "In this paper we address three main objections of behavioral finance to the theory of rational finance, considered as anomalies the theory of rational finance cannot explain: Predictability of asset returns, The Equity Premium, (The Volatility Puzzle. We offer resolutions of those objections within the rational finance. We do not claim that those are the only possible explanations of the anomalies, but offer statistical models within the rational theory of finance which can be used without relying on behavioral finance assumptions when searching for explanations of those anomalies.",
+        "published": "2017-10-09 17:45:44+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1710.03211v2"
+    },
+    {
+        "title": "Adaptation of Embedding Models to Financial Filings via LLM Distillation",
+        "authors": [
+            "Eliot Brenner",
+            "Dominic Seyler",
+            "Manjunath Hegde",
+            "Andrei Simion",
+            "Koustuv Dasgupta",
+            "Bing Xiang"
+        ],
+        "summary": "Despite advances in generative large language models (LLMs), practical application of specialized conversational AI agents remains constrained by computation costs, latency requirements, and the need for precise domain-specific relevance measures. While existing embedding models address the first two constraints, they underperform on information retrieval in specialized domains like finance. This paper introduces a scalable pipeline that trains specialized models from an unlabeled corpus using a general purpose retrieval embedding model as foundation. Our method yields an average of 27.7% improvement in MRR$\\texttt{@}$5, 44.6% improvement in mean DCG$\\texttt{@}$5 across 14 financial filing types measured over 21,800 query-document pairs, and improved NDCG on 3 of 4 document classes in FinanceBench. We adapt retrieval embeddings (bi-encoder) for RAG, not LLM generators, using LLM-judged relevance to distill domain knowledge into a compact retriever. There are prior works which pair synthetically generated queries with real passages to directly fine-tune the retrieval model. Our pipeline differs from these by introducing interaction between student and teacher models that interleaves retrieval-based mining of hard positive/negative examples from the unlabeled corpus with iterative retraining of the student model's weights using these examples. Each retrieval iteration uses the refined student model to mine the corpus for progressively harder training examples for the subsequent training iteration. The methodology provides a cost-effective solution to bridging the gap between general-purpose models and specialized domains without requiring labor-intensive human annotation.",
+        "published": "2025-12-08 22:43:14+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2512.08088v1"
+    },
+    {
+        "title": "Constrained Tabular Diffusion for Finance",
+        "authors": [
+            "Michael Cardei",
+            "Jose M Munoz",
+            "Oscar Barrera",
+            "Shreyas K Chandrahas",
+            "Partha Saha"
+        ],
+        "summary": "Generative models in finance face the dual challenge of producing realistic data while satisfying strict regulatory and economic objectives, a requirement that standard tabular diffusion models cannot provide. To address this difficulty, we introduce Constrained Tabular Diffusion for Finance (CTDF), a novel integration of sampling-time feasibility operations with mixed-type tabular diffusion in financial applications. By incorporating a training-free feasibility operator into the reverse-diffusion sampling loop, CTDF enforces hard constraints for applications such as simulation, legal compliance, and extrapolation. Extensive experiments on large-scale financial datasets demonstrate zero constraint violations and improvement in scarce data utility. CTDF establishes a robust method for generating trustworthy and compliant synthetic data, opening new avenues for rigorous generative modeling and analysis in the financial domain.",
+        "published": "2026-06-27 01:27:35+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.28674v1"
+    },
+    {
+        "title": "Explaining Risks: Axiomatic Risk Attributions for Financial Models",
+        "authors": [
+            "Dangxing Chen"
+        ],
+        "summary": "In recent years, machine learning models have achieved great success at the expense of highly complex black-box structures. By using axiomatic attribution methods, we can fairly allocate the contributions of each feature, thus allowing us to interpret the model predictions. In high-risk sectors such as finance, risk is just as important as mean predictions. Throughout this work, we address the following risk attribution problem: how to fairly allocate the risk given a model with data? We demonstrate with analysis and empirical examples that risk can be well allocated by extending the Shapley value framework.",
+        "published": "2025-06-07 04:15:27+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2506.06653v1"
+    },
+    {
+        "title": "A Scoping Review of ChatGPT Research in Accounting and Finance",
+        "authors": [
+            "Mengming Michael Dong",
+            "Theophanis C. Stratopoulos",
+            "Victor Xiaoqi Wang"
+        ],
+        "summary": "This paper provides a review of recent publications and working papers on ChatGPT and related Large Language Models (LLMs) in accounting and finance. The aim is to understand the current state of research in these two areas and identify potential research opportunities for future inquiry. We identify three common themes from these earlier studies. The first theme focuses on applications of ChatGPT and LLMs in various fields of accounting and finance. The second theme utilizes ChatGPT and LLMs as a new research tool by leveraging their capabilities such as classification, summarization, and text generation. The third theme investigates implications of LLM adoption for accounting and finance professionals, as well as for various organizations and sectors. While these earlier studies provide valuable insights, they leave many important questions unanswered or partially addressed. We propose venues for further exploration and provide technical guidance for researchers seeking to employ ChatGPT and related LLMs as a tool for their research.",
+        "published": "2024-12-07 19:45:46+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2412.05731v1"
+    },
+    {
+        "title": "Unlocking The Future of Food Security Through Access to Finance for Sustainable Agribusiness Performance",
+        "authors": [
+            "Ayobami Paul Abolade",
+            "Ibrahim Olanrewaju Lawal",
+            "Kamoru Lanre Akanbi",
+            "Ahmed Orilonise Salami"
+        ],
+        "summary": "Access to finance is vital for improving food security, particularly in developing nations where agricultural production is crucial. Despite several financial interventions targeted at increasing agricultural production, smallholder farmers continue to lack access to reasonable, timely, and sufficient financing, limiting their ability to invest in improved technology and inputs, lowering productivity and food supply. This study examines the relationship between access to finance and food security among smallholder farmers in Ogun State, employing institutional theory as a theoretical framework. The study takes a quantitative method, with a survey for the research design and a population of 37,200 agricultural smallholder farmers. A sample size of 380 was chosen using probability sampling and simple random techniques. The data were analysed via Partial Least Squares Structural Equation Modelling (PLS-SEM). The findings demonstrate a favourable relationship between access to finance and food security, with an R2-value of 0.615 indicating a robust link. These findings underline the need of improving financial institutions and implementing enabling policies to enable farmers have access to the financial resources they need to achieve food security outcomes.",
+        "published": "2025-11-23 18:42:00+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2511.18576v1"
+    },
+    {
+        "title": "Standard Benchmarks Fail -- Auditing LLM Agents in Finance Must Prioritize Risk",
+        "authors": [
+            "Zichen Chen",
+            "Jiaao Chen",
+            "Jianda Chen",
+            "Misha Sra"
+        ],
+        "summary": "Standard benchmarks fixate on how well large language model (LLM) agents perform in finance, yet say little about whether they are safe to deploy. We argue that accuracy metrics and return-based scores provide an illusion of reliability, overlooking vulnerabilities such as hallucinated facts, stale data, and adversarial prompt manipulation. We take a firm position: financial LLM agents should be evaluated first and foremost on their risk profile, not on their point-estimate performance. Drawing on risk-engineering principles, we outline a three-level agenda: model, workflow, and system, for stress-testing LLM agents under realistic failure modes. To illustrate why this shift is urgent, we audit six API-based and open-weights LLM agents on three high-impact tasks and uncover hidden weaknesses that conventional benchmarks miss. We conclude with actionable recommendations for researchers, practitioners, and regulators: audit risk-aware metrics in future studies, publish stress scenarios alongside datasets, and treat ``safety budget'' as a primary success criterion. Only by redefining what ``good'' looks like can the community responsibly advance AI-driven finance.",
+        "published": "2025-02-21 12:56:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2502.15865v2"
+    },
+    {
+        "title": "Large language models in finance : what is financial sentiment?",
+        "authors": [
+            "Kemal Kirtac",
+            "Guido Germano"
+        ],
+        "summary": "Financial sentiment has become a crucial yet complex concept in finance, increasingly used in market forecasting and investment strategies. Despite its growing importance, there remains a need to define and understand what financial sentiment truly represents and how it can be effectively measured. We explore the nature of financial sentiment and investigate how large language models (LLMs) contribute to its estimation. We trace the evolution of sentiment measurement in finance, from market-based and lexicon-based methods to advanced natural language processing techniques. The emergence of LLMs has significantly enhanced sentiment analysis, providing deeper contextual understanding and greater accuracy in extracting sentiment from financial text. We examine how BERT-based models, such as RoBERTa and FinBERT, are optimized for structured sentiment classification, while GPT-based models, including GPT-4, OPT, and LLaMA, excel in financial text generation and real-time sentiment interpretation. A comparative analysis of bidirectional and autoregressive transformer architectures highlights their respective roles in investor sentiment analysis, algorithmic trading, and financial decision-making. By exploring what financial sentiment is and how it is estimated within LLMs, we provide insights into the growing role of AI-driven sentiment analysis in finance.",
+        "published": "2025-03-05 15:51:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.03612v4"
+    },
+    {
+        "title": "AI in Finance: Challenges, Techniques and Opportunities",
+        "authors": [
+            "Longbing Cao"
+        ],
+        "summary": "AI in finance broadly refers to the applications of AI techniques in financial businesses. This area has been lasting for decades with both classic and modern AI techniques applied to increasingly broader areas of finance, economy and society. In contrast to either discussing the problems, aspects and opportunities of finance that have benefited from specific AI techniques and in particular some new-generation AI and data science (AIDS) areas or reviewing the progress of applying specific techniques to resolving certain financial problems, this review offers a comprehensive and dense roadmap of the overwhelming challenges, techniques and opportunities of AI research in finance over the past decades. The landscapes and challenges of financial businesses and data are firstly outlined, followed by a comprehensive categorization and a dense overview of the decades of AI research in finance. We then structure and illustrate the data-driven analytics and learning of financial businesses and data. The comparison, criticism and discussion of classic vs. modern AI techniques for finance are followed. Lastly, open issues and opportunities address future AI-empowered finance and finance-motivated AI research.",
+        "published": "2021-07-20 01:39:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2107.09051v1"
+    },
+    {
+        "title": "Explaining AI in Finance: Past, Present, Prospects",
+        "authors": [
+            "Barry Quinn"
+        ],
+        "summary": "This paper explores the journey of AI in finance, with a particular focus on the crucial role and potential of Explainable AI (XAI). We trace AI's evolution from early statistical methods to sophisticated machine learning, highlighting XAI's role in popular financial applications. The paper underscores the superior interpretability of methods like Shapley values compared to traditional linear regression in complex financial scenarios. It emphasizes the necessity of further XAI research, given forthcoming EU regulations. The paper demonstrates, through simulations, that XAI enhances trust in AI systems, fostering more responsible decision-making within finance.",
+        "published": "2023-06-05 10:59:53+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2306.02773v1"
+    },
+    {
+        "title": "The US 2000-2003 Market Descent: Clarifications",
+        "authors": [
+            "D. Sornette",
+            "W. -X. Zhou"
+        ],
+        "summary": "  In a recent comment (Johansen A 2003 An alternative view, Quant. Finance 3: C6-C7, cond-mat/0302141), Anders Johansen has criticized our methodology and has questioned several of our results published in [Sornette D and Zhou W-X 2002 The US 2000-2002 market descent: how much longer and deeper? Quant. Finance 2: 468-81, cond-mat/0209065] and in our two consequent preprints [cond-mat/0212010, physics/0301023]. In the present reply, we clarify the issues on (i) the analogy between rupture and crash, (ii) the Landau expansion, ``double cosine'' and Weierstrass-type solutions, (iii) the symmetry between bubbles and anti-bubbles and universality, (iv) the condition of criticality, (v) the meaning of ``bullish anti-bubbles'', (vi) the absolute value of t_c-t, (vii) the fractal log-periodic power law patterns, (viii) the similarity between the Nikkei index in 1990-2000 and the S&P500 in 2000-2002 and (ix) the present status of our prediction.",
+        "published": "2003-04-30 21:23:23+00:00",
+        "pdf_url": "https://arxiv.org/pdf/cond-mat/0305004v1"
+    },
+    {
+        "title": "Self-Financing Trading and the Ito-Doeblin Lemma",
+        "authors": [
+            "Chris Kenyon",
+            "Andrew Green"
+        ],
+        "summary": "The objective of the note is to remind readers on how self-financing works in Quantitative Finance. The authors have observed continuing uncertainty on this issue which may be because it lies exactly at the intersection of stochastic calculus and finance. The concept of a self-financing trading strategy was originally, and carefully, introduced in (Harrison and Kreps 1979) and expanded very generally in (Harrison and Pliska 1981).",
+        "published": "2015-01-12 18:47:16+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1501.02750v1"
+    },
+    {
+        "title": "IT Strategic alignment in the decentralized finance (DeFi): CBDC and digital currencies",
+        "authors": [
+            "Carlos Alberto Durigan Junior",
+            "Fernando Jose Barbin Laurindo"
+        ],
+        "summary": "Cryptocurrency can be understood as a digital asset transacted among participants in the crypto economy. Every cryptocurrency must have an associated Blockchain. Blockchain is a Distributed Ledger Technology (DLT) which supports cryptocurrencies, this may be considered as the most promising disruptive technology in the industry 4.0 context. Decentralized finance (DeFi) is a Blockchain-based financial infrastructure, the term generally refers to an open, permissionless, and highly interoperable protocol stack built on public smart contract platforms, such as the Ethereum Blockchain. It replicates existing financial services in a more open and transparent way. DeFi does not rely on intermediaries and centralized institutions. Instead, it is based on open protocols and decentralized applications (Dapps). Considering that there are many digital coins, stablecoins and central bank digital currencies (CBDCs), these currencies should interact among each other sometime. For this interaction the Information Technology elements play an important whole as enablers and IT strategic alignment. This paper considers the strategic alignment model proposed by Henderson and Venkatraman (1993) and Luftman (1996). This paper seeks to answer two main questions 1) What are the common IT elements in the DeFi? And 2) How the elements connect to the IT strategic alignment in DeFi? Through a Systematic Literature Review (SLR). Results point out that there are many IT elements already mentioned by literature, however there is a lack in the literature about the connection between IT elements and IT strategic alignment in a Decentralized Finance (DeFi) architectural network. After final considerations, limitations and future research agenda are presented. Keywords: IT Strategic alignment, Decentralized Finance (DeFi), Cryptocurrency, Digital Economy.",
+        "published": "2024-05-17 10:19:20+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2405.10678v1"
+    },
+    {
+        "title": "A Rational Finance Explanation of the Stock Predictability Puzzle",
+        "authors": [
+            "Abootaleb Shirvani",
+            "Svetlozar T. Rachev",
+            "Frank J. Fabozzi"
+        ],
+        "summary": "In this paper, we address one of the main puzzles in finance observed in the stock market by proponents of behavioral finance: the stock predictability puzzle. We offer a statistical model within the context of rational finance which can be used without relying on behavioral finance assumptions to model the predictability of stock returns. We incorporate the predictability of stock returns into the well-known Black-Scholes option pricing formula. Empirically, we analyze the option and spot trader's market predictability of stock prices by defining a forward-looking measure which we call \"implied excess predictability\". The empirical results indicate the effect of option trader's predictability of stock returns on the price of stock options is an increasing function of moneyness, while this effect is decreasing for spot traders. These empirical results indicate potential asymmetric predictability of stock prices by spot and option traders. We show in pricing options with the strike price significantly higher or lower than the stock price, the predictability of the underlying stock's return should be incorporated into the option pricing formula. In pricing options that have moneyness close to one, stock return predictability is not incorporated into the option pricing model because stock return predictability is the same for both types of traders. In other words, spot traders and option traders are equally informed about the future value of the stock market in this case. Comparing different volatility measures, we find that the difference between implied and realized variances or variance risk premium can potentially be used as a stock return predictor.",
+        "published": "2019-11-06 04:15:17+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1911.02194v1"
+    },
+    {
+        "title": "Evaluating LLMs in Finance Requires Explicit Bias Consideration",
+        "authors": [
+            "Yaxuan Kong",
+            "Hoyoung Lee",
+            "Yoontae Hwang",
+            "Alejandro Lopez-Lira",
+            "Bradford Levy",
+            "Dhagash Mehta",
+            "Qingsong Wen",
+            "Chanyeol Choi",
+            "Yongjae Lee",
+            "Stefan Zohren"
+        ],
+        "summary": "Large Language Models (LLMs) are increasingly integrated into financial workflows, but evaluation practice has not kept up. Finance-specific biases can inflate performance, contaminate backtests, and make reported results useless for any deployment claim. We identify five recurring biases in financial LLM applications. They include look-ahead bias, survivorship bias, narrative bias, objective bias, and cost bias. These biases break financial tasks in distinct ways and they often compound to create an illusion of validity. We reviewed 164 papers from 2023 to 2025 and found that no single bias is discussed in more than 28 percent of studies. This position paper argues that bias in financial LLM systems requires explicit attention and that structural validity should be enforced before any result is used to support a deployment claim. We propose a Structural Validity Framework and an evaluation checklist with minimal requirements for bias diagnosis and future system design. The material is available at https://github.com/Eleanorkong/Awesome-Financial-LLM-Bias-Mitigation.",
+        "published": "2026-02-15 17:02:01+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2602.14233v1"
+    },
+    {
+        "title": "The rise of digital finance: Financial inclusion or debt trap",
+        "authors": [
+            "Pengpeng Yue",
+            "Aslihan Gizem Korkmaz",
+            "Zhichao Yin",
+            "Haigang Zhou"
+        ],
+        "summary": "This study focuses on the impact of digital finance on households. While digital finance has brought financial inclusion, it has also increased the risk of households falling into a debt trap. We provide evidence that supports this notion and explain the channel through which digital finance increases the likelihood of financial distress. Our results show that the widespread use of digital finance increases credit market participation. The broadened access to credit markets increases household consumption by changing the marginal propensity to consume. However, the easier access to credit markets also increases the risk of households falling into a debt trap.",
+        "published": "2022-01-23 10:15:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2201.09221v1"
+    },
+    {
+        "title": "Generative Adversarial Networks in finance: an overview",
+        "authors": [
+            "Florian Eckerli",
+            "Joerg Osterrieder"
+        ],
+        "summary": "Modelling in finance is a challenging task: the data often has complex statistical properties and its inner workings are largely unknown. Deep learning algorithms are making progress in the field of data-driven modelling, but the lack of sufficient data to train these models is currently holding back several new applications. Generative Adversarial Networks (GANs) are a neural network architecture family that has achieved good results in image generation and is being successfully applied to generate time series and other types of financial data. The purpose of this study is to present an overview of how these GANs work, their capabilities and limitations in the current state of research with financial data, and present some practical applications in the industry. As a proof of concept, three known GAN architectures were tested on financial time series, and the generated data was evaluated on its statistical properties, yielding solid results. Finally, it was shown that GANs have made considerable progress in their finance applications and can be a solid additional tool for data scientists in this field.",
+        "published": "2021-06-11 13:05:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2106.06364v2"
+    },
+    {
+        "title": "Recent Advances in Reinforcement Learning in Finance",
+        "authors": [
+            "Ben Hambly",
+            "Renyuan Xu",
+            "Huining Yang"
+        ],
+        "summary": "The rapid changes in the finance industry due to the increasing amount of data have revolutionized the techniques on data processing and data analysis and brought new theoretical and computational challenges. In contrast to classical stochastic control theory and other analytical approaches for solving financial decision-making problems that heavily reply on model assumptions, new developments from reinforcement learning (RL) are able to make full use of the large amount of financial data with fewer model assumptions and to improve decisions in complex financial environments. This survey paper aims to review the recent developments and use of RL approaches in finance. We give an introduction to Markov decision processes, which is the setting for many of the commonly used RL approaches. Various algorithms are then introduced with a focus on value and policy based methods that do not require any model assumptions. Connections are made with neural networks to extend the framework to encompass deep RL algorithms. Our survey concludes by discussing the application of these RL algorithms in a variety of decision-making problems in finance, including optimal execution, portfolio optimization, option pricing and hedging, market making, smart order routing, and robo-advising.",
+        "published": "2021-12-08 19:55:26+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2112.04553v4"
+    },
+    {
+        "title": "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks",
+        "authors": [
+            "Antoine Bigeard",
+            "Langston Nashold",
+            "Rayan Krishnan",
+            "Shirley Wu"
+        ],
+        "summary": "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of Large Language Model (LLM) agents in this domain. We present the Finance Agent Benchmark, featuring challenging and diverse real-world finance research problems that require LLMs to perform complex analysis using recent SEC filings. We construct the benchmark using a taxonomy of nine financial task categories, developed in consultation with experts from banks, hedge funds, and private equity firms. The dataset includes 537 expert-authored questions covering tasks from information retrieval to complex financial modeling, each validated through a rigorous review process to ensure accuracy and relevance. Moreover, we implement an agentic harness that equips LLMs with tools sufficient to produce accurate responses, including Google Search and EDGAR database access. Overall, the Finance Agent Benchmark provides a comprehensive testbed for measuring the progress of LLM-driven finance agents. Our evaluation reveals significant limitations in current AI capabilities - even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of $3.79 per query. This underscores the need for further advancements before reliable deployment in high-stakes finance settings.",
+        "published": "2025-05-20 18:22:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2508.00828v1"
+    },
+    {
+        "title": "The Role of Social Feedback in Financing of Technology Ventures",
+        "authors": [
+            "Aleksandar Bradic"
+        ],
+        "summary": "This research examines relationship between staging of Venture Capital (VC) investments and social feedback visible in publicly available data on the Web. We address the question of Venture Capital investment sensitivity to performance and prospects of new venture, given as likelihood of obtaining future financing, available exit options and duration between investment rounds. We argue that in the case of Internet companies, publicly available social feedback data, such as search trends and website traffic information, can be used as a proxy for some of company's internal metrics such as user base growth and product adoption. In order to answer questions of interest, we compile unique dataset consisting of detailed information about Venture Capital investments in the Internet Technology sector over the period from 2004 to 2012 and associated longitudinal search trend and website traffic data. By applying methods of survival analysis, we find that positive trends in search and website traffic volumes can lead to increased likelihood of future financing and shortening of duration between subsequent financing rounds. We also find evidence that social feedback only impacts company's ability to attract next round of financing or exit via IPO, while M&A exits seem relatively independent of such performance metrics and can occur at any stage of company development. Such findings provide strong evidence in support of learning hypothesis and suggest VC's ability to identify prospects of new venture early in it's development and allocate funding accordingly. Given research also provides methodological contributions to the problem of evaluating the prospects of new startup companies using only publicly available data, and as such should be of interest in applications such as new investment screening and industry-level assessments by analysts or policy makers.",
+        "published": "2012-12-30 23:00:55+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1301.2196v1"
+    },
+    {
+        "title": "Chat Bankman-Fried: an Exploration of LLM Alignment in Finance",
+        "authors": [
+            "Claudia Biancotti",
+            "Carolina Camassa",
+            "Andrea Coletta",
+            "Oliver Giudice",
+            "Aldo Glielmo"
+        ],
+        "summary": "Advancements in large language models (LLMs) have renewed concerns about AI alignment - the consistency between human and AI goals and values. As various jurisdictions enact legislation on AI safety, the concept of alignment must be defined and measured across different domains. This paper proposes an experimental framework to assess whether LLMs adhere to ethical and legal standards in the relatively unexplored context of finance. We prompt twelve LLMs to impersonate the CEO of a financial institution and test their willingness to misuse customer assets to repay outstanding corporate debt. Beginning with a baseline configuration, we adjust preferences, incentives and constraints, analyzing the impact of each adjustment with logistic regression. Our findings reveal significant heterogeneity in the baseline propensity for unethical behavior of LLMs. Factors such as risk aversion, profit expectations, and regulatory environment consistently influence misalignment in ways predicted by economic theory, although the magnitude of these effects varies across LLMs. This paper highlights both the benefits and limitations of simulation-based, ex post safety testing. While it can inform financial authorities and institutions aiming to ensure LLM safety, there is a clear trade-off between generality and cost.",
+        "published": "2024-11-01 08:56:17+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2411.11853v3"
+    },
+    {
+        "title": "A Formally Verified Library of Mathematical Finance in Lean 4",
+        "authors": [
+            "Raphael Coelho"
+        ],
+        "summary": "We describe a library of mathematical finance built in the Lean~4 proof assistant, on top of Mathlib and the \\lean{BrownianMotion} package. It is broad: more than two hundred \\lean{sorry}-free theorems across eleven areas, from the measure-theoretic foundations of continuous-time stochastic calculus through derivative pricing to applied risk, portfolio, and fixed-income theory, and, to our knowledge, the most comprehensive machine-checked development of mathematical finance to date. Two things make it more than a catalogue. It reaches into the continuous theory far enough to construct the $L^2$ It\u00f4 integral as a bounded linear isometry and to \\emph{derive}, rather than assume, the risk-neutral pricing measure. And it audits its own faithfulness: every result is classified by how its Lean statement relates to the mathematics it claims, and a build-enforced gate pins the axioms each proof actually uses, so a reader can see precisely what has been proved and what has only been proved under added hypotheses. We close with a finding: a formal base over classical financial mathematics yields certified \\emph{unification} of known results rather than new financial theory. The contribution is therefore methodological and infrastructural (reusable verified foundations for mathematical finance, together with the faithfulness audit above), not a new financial result.",
+        "published": "2026-05-31 17:27:29+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.01356v2"
+    },
+    {
+        "title": "International Trade Finance from the Origins to the Present: Market Structures, Regulation and Governance",
+        "authors": [
+            "Olivier Accominotti",
+            "Stefano Ugolini"
+        ],
+        "summary": "This chapter presents a history of international trade finance - the oldest domain of international finance - from its emergence in the Middle Ages up to today. We describe how the structure and governance of the global trade finance market changed over time and how trade credit instruments evolved. Trade finance products initially consisted of idiosyncratic assets issued by local merchants and bankers. The financing of international trade then became increasingly centralized and credit instruments were standardized through the diffusion of the local standards of consecutive leading trading centres (Antwerp, Amsterdam, London). This process of market centralization/product standardization culminated in the nineteenth century when London became the global centre for international trade finance and the sterling bill of exchange emerged as the most widely used trade finance instrument. The structure of the trade finance market then evolved considerably following the First World War and disintegrated during the interwar de-globalization and Bretton Woods period. The reconstruction of global trade finance in the post-1970 period gave way to the decentralized market structure that prevails nowadays.",
+        "published": "2020-09-18 07:43:19+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2009.08668v1"
+    },
+    {
+        "title": "Rational Finance Approach to Behavioral Option Pricing",
+        "authors": [
+            "Jiexin Dai",
+            "Abootaleb Shirvani",
+            "Frank J. Fabozzi"
+        ],
+        "summary": "When pricing options, there may be different views on the instantaneous mean return of the underlying price process. According to Black (1972), where there exist heterogeneous views on the instantaneous mean return, this will result in arbitrage opportunities. Behavioral finance proponents argue that such heterogenous views are likely to occur and this will not impact option pricing models proposed by rational dynamic asset pricing theory and will not give rise to volatility smiles. To rectify this, a leading advocate of behavioral finance has proposed a behavioral option pricing model. As there may be unexplored links between the behavioral and rational approaches to option pricing, in this paper we revisit Shefrin (2008) option pricing model as an example and suggest one approach to modify this behavioral finance option pricing formula to be consistent with rational dynamic asset pricing theory by introducing arbitrage transaction costs which offset the gains from arbitrage trades.",
+        "published": "2020-05-10 07:44:19+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2005.05310v1"
+    },
+    {
+        "title": "RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit",
+        "authors": [
+            "Jiongnan Liu",
+            "Jiajie Jin",
+            "Zihan Wang",
+            "Jiehan Cheng",
+            "Zhicheng Dou",
+            "Ji-Rong Wen"
+        ],
+        "summary": "Although Large Language Models (LLMs) have demonstrated extraordinary capabilities in many domains, they still have a tendency to hallucinate and generate fictitious responses to user requests. This problem can be alleviated by augmenting LLMs with information retrieval (IR) systems (also known as retrieval-augmented LLMs). Applying this strategy, LLMs can generate more factual texts in response to user input according to the relevant content retrieved by IR systems from external corpora as references. In addition, by incorporating external knowledge, retrieval-augmented LLMs can answer in-domain questions that cannot be answered by solely relying on the world knowledge stored in parameters. To support research in this area and facilitate the development of retrieval-augmented LLM systems, we develop RETA-LLM, a {RET}reival-{A}ugmented LLM toolkit. In RETA-LLM, we create a complete pipeline to help researchers and users build their customized in-domain LLM-based systems. Compared with previous retrieval-augmented LLM systems, RETA-LLM provides more plug-and-play modules to support better interaction between IR systems and LLMs, including {request rewriting, document retrieval, passage extraction, answer generation, and fact checking} modules. Our toolkit is publicly available at https://github.com/RUC-GSAI/YuLan-IR/tree/main/RETA-LLM.",
+        "published": "2023-06-08 14:10:54+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2306.05212v1"
+    },
+    {
+        "title": "A framework for anomaly detection using language modeling, and its applications to finance",
+        "authors": [
+            "Armineh Nourbakhsh",
+            "Grace Bang"
+        ],
+        "summary": "In the finance sector, studies focused on anomaly detection are often associated with time-series and transactional data analytics. In this paper, we lay out the opportunities for applying anomaly and deviation detection methods to text corpora and challenges associated with them. We argue that language models that use distributional semantics can play a significant role in advancing these studies in novel directions, with new applications in risk identification, predictive modeling, and trend analysis.",
+        "published": "2019-08-24 15:52:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.09156v1"
+    },
+    {
+        "title": "Multilayer heat equations: application to finance",
+        "authors": [
+            "A. Itkin",
+            "A. Lipton",
+            "D. Muravey"
+        ],
+        "summary": "In this paper, we develop a Multilayer (ML) method for solving one-factor parabolic equations. Our approach provides a powerful alternative to the well-known finite difference and Monte Carlo methods. We discuss various advantages of this approach, which judiciously combines semi-analytical and numerical techniques and provides a fast and accurate way of finding solutions to the corresponding equations. To introduce the core of the method, we consider multilayer heat equations, known in physics for a relatively long time but never used when solving financial problems. Thus, we expand the analytic machinery of quantitative finance by augmenting it with the ML method. We demonstrate how one can solve various problems of mathematical finance by using our approach. Specifically, we develop efficient algorithms for pricing barrier options for time-dependent one-factor short-rate models, such as Black-Karasinski and Verhulst. Besides, we show how to solve the well-known Dupire equation quickly and accurately. Numerical examples confirm that our approach is considerably more efficient for solving the corresponding partial differential equations than the conventional finite difference method by being much faster and more accurate than the known alternatives.",
+        "published": "2021-02-16 18:22:12+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2102.08338v1"
+    },
+    {
+        "title": "De-risking renewable energy investments: Assessing contract design and project finance using operational wind park data",
+        "authors": [
+            "Jorge S\u00e1nchez Canales",
+            "Lion Hirth"
+        ],
+        "summary": "Investment in renewable electricity generation is highly capital intensive and therefore strongly dependent on financing conditions. In Europe, much of this investment has occurred under public support schemes that resemble long-term public contracts such as feed-in tariffs (FiTs) and contracts-for-differences (CfDs). These contracts not only subsidize renewable generation but also stabilize project cash flows by reducing exposure to electricity price volatility, thereby improving debt capacity and lowering financing costs. At the same time, they may distort operational and investment incentives by weakening exposure to wholesale market price signals. This paper studies how alternative public contract designs reduce revenue risk and how this translates into financing outcomes. Using a novel dataset of hourly turbine-level generation covering 63 German onshore wind parks over the period 2013-2024, we simulate project cash flows under two-sided CfDs, one-sided CfDs, and financial CfDs. We then evaluate their implications for cash-flow volatility, debt capacity, and the levelized cost of electricity using a project finance model based on a conservative debt-service coverage ratio (DSCR) constraint. We find that financial CfDs provide hedging performance comparable to conventional two-sided CfDs. The results suggest that the commonly assumed trade-off between revenue stabilization and efficient market integration is not inherent but depends on contract design. More broadly, public contracts can substitute missing long-term hedging markets. These results have direct policy implications for the design of renewable energy support schemes.",
+        "published": "2026-05-22 09:12:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2605.23400v1"
+    },
+    {
+        "title": "Artificial Intelligence-based Analysis of Change in Public Finance between US and International Markets",
+        "authors": [
+            "Kapil Panda"
+        ],
+        "summary": "Public finances are one of the fundamental mechanisms of economic governance that refer to the financial activities and decisions made by government entities to fund public services, projects, and operations through assets. In today's globalized landscape, even subtle shifts in one nation's public debt landscape can have significant impacts on that of international finances, necessitating a nuanced understanding of the correlations between international and national markets to help investors make informed investment decisions. Therefore, by leveraging the capabilities of artificial intelligence, this study utilizes neural networks to depict the correlations between US and International Public Finances and predict the changes in international public finances based on the changes in US public finances. With the neural network model achieving a commendable Mean Squared Error (MSE) value of 2.79, it is able to affirm a discernible correlation and also plot the effect of US market volatility on international markets. To further test the accuracy and significance of the model, an economic analysis was conducted that aimed to correlate the changes seen by the results of the model with historical stock market changes. This model demonstrates significant potential for investors to predict changes in international public finances based on signals from US markets, marking a significant stride in comprehending the intricacies of global public finances and the role of artificial intelligence in decoding its multifaceted patterns for practical forecasting.",
+        "published": "2023-12-10 21:29:49+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2403.18823v1"
+    },
+    {
+        "title": "Assessing Consistency and Reproducibility in the Outputs of Large Language Models: Evidence Across Diverse Finance and Accounting Tasks",
+        "authors": [
+            "Julian Junyan Wang",
+            "Victor Xiaoqi Wang"
+        ],
+        "summary": "This study provides the first comprehensive assessment of consistency and reproducibility in Large Language Model (LLM) outputs in finance and accounting research. We evaluate how consistently LLMs produce outputs given identical inputs through extensive experimentation with 50 independent runs across five common tasks: classification, sentiment analysis, summarization, text generation, and prediction. Using three OpenAI models (GPT-3.5-turbo, GPT-4o-mini, and GPT-4o), we generate over 3.4 million outputs from diverse financial source texts and data, covering MD&As, FOMC statements, finance news articles, earnings call transcripts, and financial statements. Our findings reveal substantial but task-dependent consistency, with binary classification and sentiment analysis achieving near-perfect reproducibility, while complex tasks show greater variability. More advanced models do not consistently demonstrate better consistency and reproducibility, with task-specific patterns emerging. LLMs significantly outperform expert human annotators in consistency and maintain high agreement even where human experts significantly disagree. We further find that simple aggregation strategies across 3-5 runs dramatically improve consistency. We also find that aggregation may come with an additional benefit of improved accuracy for sentiment analysis when using newer models. Simulation analysis reveals that despite measurable inconsistency in LLM outputs, downstream statistical inferences remain remarkably robust. These findings address concerns about what we term \"G-hacking,\" the selective reporting of favorable outcomes from multiple generative AI runs, by demonstrating that such risks are relatively low for finance and accounting tasks.",
+        "published": "2025-03-21 09:43:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.16974v4"
+    },
+    {
+        "title": "On the new properties of conditional expectations with applications in finance",
+        "authors": [
+            "Ismihan Bayramoglu"
+        ],
+        "summary": "The concept of conditional expectation is important in applications of probability and statistics in many areas such as reliability engineering, economy, finance, and actuarial sciences due to its property of being the best predictor of a random variable as a function of another random variable. This concept also is essential in the martingale theory and theory of Markov processes. Even though, there has been studied and published many interesting properties of conditional expectations with respect to a sigma-algebra generated by a random variable it remains an attractive subject having interesting applications in many fields. In this paper, we present some new properties of the conditional expectation of a random variable given another random variable and describe useful applications in problems of per-share-price of stock markets. The copula and dependence properties of conditional expectations as random variables are also studied. We present also some new equalities having interesting applications and results in martingale theory and Markov processes. Keywords: Conditional expectation, sigma algebra, per-share price, order statistics, prediction Conflicts of interest statement: We declare that have no conflicts of interest.",
+        "published": "2022-10-06 12:18:34+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2210.02859v2"
+    },
+    {
+        "title": "The Construction of Instruction-tuned LLMs for Finance without Instruction Data Using Continual Pretraining and Model Merging",
+        "authors": [
+            "Masanori Hirano",
+            "Kentaro Imajo"
+        ],
+        "summary": "This paper proposes a novel method for constructing instruction-tuned large language models (LLMs) for finance without instruction data. Traditionally, developing such domain-specific LLMs has been resource-intensive, requiring a large dataset and significant computational power for continual pretraining and instruction tuning. Our study proposes a simpler approach that combines domain-specific continual pretraining with model merging. Given that general-purpose pretrained LLMs and their instruction-tuned LLMs are often publicly available, they can be leveraged to obtain the necessary instruction task vector. By merging this with a domain-specific pretrained vector, we can effectively create instruction-tuned LLMs for finance without additional instruction data. Our process involves two steps: first, we perform continual pretraining on financial data; second, we merge the instruction-tuned vector with the domain-specific pretrained vector. Our experiments demonstrate the successful construction of instruction-tuned LLMs for finance. One major advantage of our method is that the instruction-tuned and domain-specific pretrained vectors are nearly independent. This independence makes our approach highly effective. The Japanese financial instruction-tuned LLMs we developed in this study are available at https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge.",
+        "published": "2024-09-30 01:23:28+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2409.19854v1"
+    },
+    {
+        "title": "Fractional processes as models in stochastic finance",
+        "authors": [
+            "Christian Bender",
+            "Tommi Sottinen",
+            "Esko Valkeila"
+        ],
+        "summary": "We survey some new progress on the pricing models driven by fractional Brownian motion \\cb{or} mixed fractional Brownian motion. In particular, we give results on arbitrage opportunities, hedging, and option pricing in these models. We summarize some recent results on fractional Black & Scholes pricing model with transaction costs. We end the paper by giving some approximation results and indicating some open problems related to the paper.",
+        "published": "2010-04-19 06:46:59+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1004.3106v1"
+    },
+    {
+        "title": "IPO Finance Agent: Benchmark of LLM Financial Analysts Beyond Finance Agent v2, with Automated Rubric Generation, on the SpaceX (SPCX) IPO",
+        "authors": [
+            "Mostapha Benhenda"
+        ],
+        "summary": "Finance Agent v2 (by Vals AI) has emerged as the reference benchmark for evaluating both Anthropic Claude and OpenAI ChatGPT frontier language models on financial tasks. However, it narrowly deals with periodic reporting from publicly traded companies (SEC 10-K and 10-Q filings), and its agentic harness relies on naive, unenriched chunk retrieval. Neither the task design nor the retrieval approach addresses the distinct challenges of IPO due diligence. SEC S-1 filings combine historical financial statements, governance structures, pro forma and common-control accounting treatments, capital-formation narratives, and underwriting-sensitive risk disclosures within substantially longer documents than typical periodic filings. That is why we introduce IPO Finance Agent, which extends the Finance Agent v2 framework along two directions: task domain and retrieval architecture. During our experiments, the original Finance Agent v2 harness basically failed to deliver any output related to the SpaceX S-1 filing, due to document length. We therefore had to improve the agentic harness with contextual retrieval, a more realistic and industry-standard approach for long documents. We also built a dataset of 1,000 IPO-diligence questions, and publicly release 70 questions on the SpaceX (SPCX) S-1 filing to support reproducibility, while the remainder are held private to guard against benchmark contamination. In addition, we introduce an evaluator-optimizer pipeline to automatically generate evaluation rubrics for the benchmark: candidate facts are extracted from model answers, consolidated into draft criteria, then automatically audited for omissions, hallucinations, mistiered items, and redundancy, with LLM feedback driving iterative repair, targeted enrichment, and deduplication. Human experts only review final rubrics before deployment. Results show that the best-performing evaluated model, Zhipu GLM-5.2, reaches 79.8% accuracy, and the most cost-efficient model on the resulting Pareto frontier, Xiaomi MiMo-2.5 Pro, reaches slightly lower accuracy (77.2%) at 0.05 USD per query, while exceeding the current Finance Agent v2 leaderboard ceiling, Google Gemini 3.5 Flash at 57.9% for 2.51 USD per query, and undercutting even FABv2's cheapest entry (MiniMax M3: 48.3% at 0.32 USD) on cost-efficiency. Code and data are released on GitHub https://github.com/benstaf/ipoagent",
+        "published": "2026-06-22 08:42:19+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.23032v3"
+    }
+]

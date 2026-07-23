@@ -1,0 +1,590 @@
+[
+    {
+        "title": "Forecasting intermittent time series with Gaussian Processes and Tweedie likelihood",
+        "authors": [
+            "Stefano Damato",
+            "Dario Azzimonti",
+            "Giorgio Corani"
+        ],
+        "summary": "We adopt Gaussian Processes (GPs) as latent functions for probabilistic forecasting of intermittent time series. The model is trained in a Bayesian framework that accounts for the uncertainty about the latent function. We couple the latent GP variable with two types of forecast distributions: the negative binomial (NegBinGP) and the Tweedie distribution (TweedieGP). While the negative binomial has already been used in forecasting intermittent time series, this is the first time in which a fully parameterized Tweedie density is used for intermittent time series. We properly evaluate the Tweedie density, which has both a point mass at zero and heavy tails, avoiding simplifying assumptions made in existing models. We test our models on thousands of intermittent count time series. Results show that our models provide consistently better probabilistic forecasts than the competitors. In particular, TweedieGP obtains the best estimates of the highest quantiles, thus showing that it is more flexible than NegBinGP.",
+        "published": "2025-02-26 12:31:56+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2502.19086v5"
+    },
+    {
+        "title": "Quantile Regression for Qualifying Match of GEFCom2017 Probabilistic Load Forecasting",
+        "authors": [
+            "Florian Ziel"
+        ],
+        "summary": "We present a simple quantile regression-based forecasting method that was applied in a probabilistic load forecasting framework of the Global Energy Forecasting Competition 2017 (GEFCom2017). The hourly load data is log transformed and split into a long-term trend component and a remainder term. The key forecasting element is the quantile regression approach for the remainder term that takes into account weekly and annual seasonalities such as their interactions. Temperature information is only used to stabilize the forecast of the long-term trend component. Public holidays information is ignored. Still, the forecasting method placed second in the open data track and fourth in the definite data track with our forecasting method, which is remarkable given simplicity of the model. The method also outperforms the Vanilla benchmark consistently.",
+        "published": "2018-09-10 19:31:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1809.03561v1"
+    },
+    {
+        "title": "Lasso estimation for GEFCom2014 probabilistic electric load forecasting",
+        "authors": [
+            "Florian Ziel",
+            "Bidong Liu"
+        ],
+        "summary": "We present a methodology for probabilistic load forecasting that is based on lasso (least absolute shrinkage and selection operator) estimation. The model considered can be regarded as a bivariate time-varying threshold autoregressive(AR) process for the hourly electric load and temperature. The joint modeling approach incorporates the temperature effects directly, and reflects daily, weekly, and annual seasonal patterns and public holiday effects. We provide two empirical studies, one based on the probabilistic load forecasting track of the Global Energy Forecasting Competition 2014 (GEFCom2014-L), and the other based on another recent probabilistic load forecasting competition that follows a setup similar to that of GEFCom2014-L. In both empirical case studies, the proposed methodology outperforms two multiple linear regression based benchmarks from among the top eight entries to GEFCom2014-L.",
+        "published": "2016-03-04 08:39:22+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1603.01376v1"
+    },
+    {
+        "title": "Probabilistic Hierarchical Forecasting with Deep Poisson Mixtures",
+        "authors": [
+            "Kin G. Olivares",
+            "O. Nganba Meetei",
+            "Ruijun Ma",
+            "Rohan Reddy",
+            "Mengfei Cao",
+            "Lee Dicker"
+        ],
+        "summary": "Hierarchical forecasting problems arise when time series have a natural group structure, and predictions at multiple levels of aggregation and disaggregation across the groups are needed. In such problems, it is often desired to satisfy the aggregation constraints in a given hierarchy, referred to as hierarchical coherence in the literature. Maintaining coherence while producing accurate forecasts can be a challenging problem, especially in the case of probabilistic forecasting. We present a novel method capable of accurate and coherent probabilistic forecasts for time series when reliable hierarchical information is present. We call it Deep Poisson Mixture Network (DPMN). It relies on the combination of neural networks and a statistical model for the joint distribution of the hierarchical multivariate time series structure. By construction, the model guarantees hierarchical coherence and provides simple rules for aggregation and disaggregation of the predictive distributions. We perform an extensive empirical evaluation comparing the DPMN to other state-of-the-art methods which produce hierarchically coherent probabilistic forecasts on multiple public datasets. Comparing to existing coherent probabilistic models, we obtain a relative improvement in the overall Continuous Ranked Probability Score (CRPS) of 11.8% on Australian domestic tourism data, and 8.1% on the Favorita grocery sales dataset, where time series are grouped with geographical hierarchies or travel intent hierarchies. For San Francisco Bay Area highway traffic, where the series' hierarchical structure is randomly assigned, and their correlations are less informative, our method does not show significant performance differences over statistical baselines.",
+        "published": "2021-10-25 18:02:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2110.13179v8"
+    },
+    {
+        "title": "LASSO Principal Component Averaging -- a fully automated approach for point forecast pooling",
+        "authors": [
+            "Bartosz Uniejewski",
+            "Katarzyna Maciejowska"
+        ],
+        "summary": "This paper develops a novel, fully automated forecast averaging scheme, which combines LASSO estimation method with Principal Component Averaging (PCA). LASSO-PCA (LPCA) explores a pool of predictions based on a single model but calibrated to windows of different sizes. It uses information criteria to select tuning parameters and hence reduces the impact of researchers' at hock decisions. The method is applied to average predictions of hourly day-ahead electricity prices over 650 point forecasts obtained with various lengths of calibration windows. It is evaluated on four European and American markets with almost two and a half year of out-of-sample period and compared to other semi- and fully automated methods, such as simple mean, AW/WAW, LASSO and PCA. The results indicate that the LASSO averaging is very efficient in terms of forecast error reduction, whereas PCA method is robust to the selection of the specification parameter. LPCA inherits the advantages of both methods and outperforms other approaches in terms of MAE, remaining insensitive the the choice of a tuning parameter.",
+        "published": "2022-07-11 11:44:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2207.04794v1"
+    },
+    {
+        "title": "Probabilistic Forecasting in Day-Ahead Electricity Markets: Simulating Peak and Off-Peak Prices",
+        "authors": [
+            "Peru Muniain",
+            "Florian Ziel"
+        ],
+        "summary": "In this paper we include dependency structures for electricity price forecasting and forecasting evaluation. We work with off-peak and peak time series from the German-Austrian day-ahead price, hence we analyze bivariate data. We first estimate the mean of the two time series, and then in a second step we estimate the residuals. The mean equation is estimated by OLS and elastic net and the residuals are estimated by maximum likelihood. Our contribution is to include a bivariate jump component on a mean reverting jump diffusion model in the residuals. The models' forecasts are evaluated using four different criteria, including the energy score to measure whether the correlation structure between the time series is properly included or not. In the results it is observed that the models with bivariate jumps provide better results with the energy score, which means that it is important to consider this structure in order to properly forecast correlated time series.",
+        "published": "2018-10-19 09:27:16+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1810.08418v2"
+    },
+    {
+        "title": "Hurricane Forecasting: A Novel Multimodal Machine Learning Framework",
+        "authors": [
+            "L\u00e9onard Boussioux",
+            "Cynthia Zeng",
+            "Th\u00e9o Gu\u00e9nais",
+            "Dimitris Bertsimas"
+        ],
+        "summary": "This paper describes a novel machine learning (ML) framework for tropical cyclone intensity and track forecasting, combining multiple ML techniques and utilizing diverse data sources. Our multimodal framework, called Hurricast, efficiently combines spatial-temporal data with statistical data by extracting features with deep-learning encoder-decoder architectures and predicting with gradient-boosted trees. We evaluate our models in the North Atlantic and Eastern Pacific basins on 2016-2019 for 24-hour lead time track and intensity forecasts and show they achieve comparable mean absolute error and skill to current operational forecast models while computing in seconds. Furthermore, the inclusion of Hurricast into an operational forecast consensus model could improve over the National Hurricane Center's official forecast, thus highlighting the complementary properties with existing approaches. In summary, our work demonstrates that utilizing machine learning techniques to combine different data sources can lead to new opportunities in tropical cyclone forecasting.",
+        "published": "2020-11-11 23:55:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2011.06125v4"
+    },
+    {
+        "title": "Network Revenue Management with Demand Learning and Fair Resource-Consumption Balancing",
+        "authors": [
+            "Xi Chen",
+            "Jiameng Lyu",
+            "Yining Wang",
+            "Yuan Zhou"
+        ],
+        "summary": "In addition to maximizing the total revenue, decision-makers in lots of industries would like to guarantee balanced consumption across different resources. For instance, in the retailing industry, ensuring a balanced consumption of resources from different suppliers enhances fairness and helps main a healthy channel relationship; in the cloud computing industry, resource-consumption balance helps increase customer satisfaction and reduce operational costs. Motivated by these practical needs, this paper studies the price-based network revenue management (NRM) problem with both demand learning and fair resource-consumption balancing. We introduce the regularized revenue, i.e., the total revenue with a balancing regularization, as our objective to incorporate fair resource-consumption balancing into the revenue maximization goal. We propose a primal-dual-type online policy with the Upper-Confidence-Bound (UCB) demand learning method to maximize the regularized revenue. We adopt several innovative techniques to make our algorithm a unified and computationally efficient framework for the continuous price set and a wide class of balancing regularizers. Our algorithm achieves a worst-case regret of $\\widetilde O(N^{5/2}\\sqrt{T})$, where $N$ denotes the number of products and $T$ denotes the number of time periods. Numerical experiments in a few NRM examples demonstrate the effectiveness of our algorithm in simultaneously achieving revenue maximization and fair resource-consumption balancing",
+        "published": "2022-07-22 15:55:49+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2207.11159v3"
+    },
+    {
+        "title": "Revenue maximization in an optical router node - allocation of service windows",
+        "authors": [
+            "Murtuza Ali Abidini",
+            "Onno Boxma",
+            "Ton Koonen",
+            "Jacques Resing"
+        ],
+        "summary": "In this paper we study a revenue maximization problem for optical routing nodes. We model the routing node as a single server polling model with the aim to assign visit periods (service windows) to the different stations (ports) such that the mean profit per cycle is maximized. Under reasonable assumptions regarding retrial and dropping probabilities of packets the optimization problem becomes a separable concave resource allocation problem, which can be solved using existing algorithms.",
+        "published": "2016-02-02 15:57:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1602.00986v1"
+    },
+    {
+        "title": "A Hybrid Strategy for Probabilistic Forecasting and Trading of Aggregated Wind-Solar Power: Design and Analysis in HEFTCom2024",
+        "authors": [
+            "Chuanqing Pu",
+            "Feilong Fan",
+            "Nengling Tai",
+            "Songyuan Liu",
+            "Jinming Yu"
+        ],
+        "summary": "Obtaining accurate probabilistic energy forecasts and making effective decisions amid diverse uncertainties are routine challenges in future energy systems. This paper presents the winning solution of team GEB, which ranked 3rd in trading, 4th in forecasting, and 1st among student teams in the IEEE Hybrid Energy Forecasting and Trading Competition 2024 (HEFTCom2024). The solution provides accurate probabilistic forecasts for a wind-solar hybrid system, and achieves substantial trading revenue in the day-ahead electricity market. Key components include: (1) a stacking-based approach combining sister forecasts from various Numerical Weather Predictions (NWPs) to provide wind power forecasts, (2) an online solar post-processing model to address the distribution shift in the online test set caused by increased solar capacity, (3) a probabilistic aggregation method for accurate quantile forecasts of hybrid generation, and (4) a stochastic trading strategy to maximize expected trading revenue considering uncertainties in electricity prices. This paper also explores the potential of end-to-end learning to further enhance the trading revenue by shifting the distribution of forecast errors. Detailed case studies are provided to validate the effectiveness of these proposed methods. Code for all mentioned methods is available for reproduction and further research in both industry and academia.",
+        "published": "2025-05-15 14:55:11+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2505.10367v2"
+    },
+    {
+        "title": "Revenue Forecasting for Enterprise Products",
+        "authors": [
+            "Amita Gajewar",
+            "Gagan Bansal"
+        ],
+        "summary": "For any business, planning is a continuous process, and typically business-owners focus on making both long-term planning aligned with a particular strategy as well as short-term planning that accommodates the dynamic market situations. An ability to perform an accurate financial forecast is crucial for effective planning. In this paper, we focus on providing an intelligent and efficient solution that will help in forecasting revenue using machine learning algorithms. We experiment with three different revenue forecasting models, and here we provide detailed insights into the methodology and their relative performance measured on real finance data. As a real-world application of our models, we partner with Microsoft's Finance organization (department that reports Microsoft's finances) to provide them a guidance on the projected revenue for upcoming quarters.",
+        "published": "2016-11-21 20:41:12+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1701.06624v1"
+    },
+    {
+        "title": "Multivariate Dynamic Modeling for Bayesian Forecasting of Business Revenue",
+        "authors": [
+            "Anna K. Yanchenko",
+            "Graham Tierney",
+            "Joseph Lawson",
+            "Christoph Hellmayr",
+            "Andrew Cron",
+            "Mike West"
+        ],
+        "summary": "Forecasting enterprise-wide revenue is critical to many companies and presents several challenges and opportunities for significant business impact. This case study is based on model developments to address these challenges for forecasting in a large-scale retail company. Focused on multivariate revenue forecasting across collections of supermarkets and product Categories, hierarchical dynamic models are natural: these are able to couple revenue streams in an integrated forecasting model, while allowing conditional decoupling to enable relevant and sensitive analysis together with scalable computation. Structured models exploit multi-scale modeling to cascade information on price and promotion activities as predictors relevant across Categories and groups of stores. With a context-relevant focus on forecasting revenue 12 weeks ahead, the study highlights product Categories that benefit from multi-scale information, defines insights into when, how and why multivariate models improve forecast accuracy, and shows how cross-Category dependencies can relate to promotion decisions in one Category impacting others. Bayesian modeling developments underlying the case study are accessible in custom code for interested readers.",
+        "published": "2021-12-10 17:18:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2112.05678v1"
+    },
+    {
+        "title": "Probabilistic Recalibration of Forecasts",
+        "authors": [
+            "Carlo Graziani",
+            "Robert Rosner",
+            "Jennifer M. Adams",
+            "Reason L. Machete"
+        ],
+        "summary": "We present a scheme by which a probabilistic forecasting system whose predictions have poor probabilistic calibration may be recalibrated by incorporating past performance information to produce a new forecasting system that is demonstrably superior to the original, in that one may use it to consistently win wagers against someone using the original system. The scheme utilizes Gaussian process (GP) modeling to estimate a probability distribution over the Probability Integral Transform (PIT) of a scalar predictand. The GP density estimate gives closed-form access to information entropy measures associated with the estimated distribution, which allows prediction of winnings in wagers against the base forecasting system. A separate consequence of the procedure is that the recalibrated forecast has a uniform expected PIT distribution. A distinguishing feature of the procedure is that it is appropriate even if the PIT values are not i.i.d. The recalibration scheme is formulated in a framework that exploits the deep connections between information theory, forecasting, and betting. We demonstrate the effectiveness of the scheme in two case studies: a laboratory experiment with a nonlinear circuit and seasonal forecasts of the intensity of the El Ni\u00f1o-Southern Oscillation phenomenon.",
+        "published": "2019-04-05 03:04:42+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1904.02855v1"
+    },
+    {
+        "title": "Financial density forecasts: A comprehensive comparison of risk-neutral and historical schemes",
+        "authors": [
+            "Ricardo Crisostomo",
+            "Lorena Couso"
+        ],
+        "summary": "We investigate the forecasting ability of the most commonly used benchmarks in financial economics. We approach the usual caveats of probabilistic forecasts studies -small samples, limited models and non-holistic validations- by performing a comprehensive comparison of 15 predictive schemes during a time period of over 21 years. All densities are evaluated in terms of their statistical consistency, local accuracy and forecasting errors. Using a new composite indicator, the Integrated Forecast Score (IFS), we show that risk-neutral densities outperform historical-based predictions in terms of information content. We find that the Variance Gamma model generates the highest out-of-sample likelihood of observed prices and the lowest predictive errors, whereas the ARCH-based GJR-FHS delivers the most consistent forecasts across the entire density range. In contrast, lognormal densities, the Heston model or the Breeden-Litzenberger formula yield biased predictions and are rejected in statistical tests.",
+        "published": "2018-01-24 14:50:49+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1801.08007v2"
+    },
+    {
+        "title": "Wind energy forecasting with missing values within a fully conditional specification framework",
+        "authors": [
+            "Honglin Wen",
+            "Pierre Pinson",
+            "Jie Gu",
+            "Zhijian Jin"
+        ],
+        "summary": "Wind power forecasting is essential to power system operation and electricity markets. As abundant data became available thanks to the deployment of measurement infrastructures and the democratization of meteorological modelling, extensive data-driven approaches have been developed within both point and probabilistic forecasting frameworks. These models usually assume that the dataset at hand is complete and overlook missing value issues that often occur in practice. In contrast to that common approach, we rigorously consider here the wind power forecasting problem in the presence of missing values, by jointly accommodating imputation and forecasting tasks. Our approach allows inferring the joint distribution of input features and target variables at the model estimation stage based on incomplete observations only. We place emphasis on a fully conditional specification method owing to its desirable properties, e.g., being assumption-free when it comes to these joint distributions. Then, at the operational forecasting stage, with available features at hand, one can issue forecasts by implicitly imputing all missing entries. The approach is applicable to both point and probabilistic forecasting, while yielding competitive forecast quality within both simulation and real-world case studies. It confirms that by using a powerful universal imputation method like fully conditional specification, the proposed approach is superior to the common approach, especially in the context of probabilistic forecasting.",
+        "published": "2022-03-15 20:57:58+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2203.08252v2"
+    },
+    {
+        "title": "Creating Probabilistic Forecasts from Arbitrary Deterministic Forecasts using Conditional Invertible Neural Networks",
+        "authors": [
+            "Kaleb Phipps",
+            "Benedikt Heidrich",
+            "Marian Turowski",
+            "Moritz Wittig",
+            "Ralf Mikut",
+            "Veit Hagenmeyer"
+        ],
+        "summary": "In various applications, probabilistic forecasts are required to quantify the inherent uncertainty associated with the forecast. However, numerous modern forecasting methods are still designed to create deterministic forecasts. Transforming these deterministic forecasts into probabilistic forecasts is often challenging and based on numerous assumptions that may not hold in real-world situations. Therefore, the present article proposes a novel approach for creating probabilistic forecasts from arbitrary deterministic forecasts. In order to implement this approach, we use a conditional Invertible Neural Network (cINN). More specifically, we apply a cINN to learn the underlying distribution of the data and then combine the uncertainty from this distribution with an arbitrary deterministic forecast to generate accurate probabilistic forecasts. Our approach enables the simple creation of probabilistic forecasts without complicated statistical loss functions or further assumptions. Besides showing the mathematical validity of our approach, we empirically show that our approach noticeably outperforms traditional methods for including uncertainty in deterministic forecasts and generally outperforms state-of-the-art probabilistic forecasting benchmarks.",
+        "published": "2023-02-03 15:11:39+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2302.01800v1"
+    },
+    {
+        "title": "Application of data compression techniques to time series forecasting",
+        "authors": [
+            "K. S. Chirikhin",
+            "B. Ya. Ryabko"
+        ],
+        "summary": "In this study we show that standard well-known file compression programs (zlib, bzip2, etc.) are able to forecast real-world time series data well. The strength of our approach is its ability to use a set of data compression algorithms and \"automatically\" choose the best one of them during the process of forecasting. Besides, modern data-compressors are able to find many kinds of latent regularities using some methods of artificial intelligence (for example, some data-compressors are based on finding the smallest formal grammar that describes the time series). Thus, our approach makes it possible to apply some particular methods of artificial intelligence for time-series forecasting.\n  As examples of the application of the proposed method, we made forecasts for the monthly T-index and the Kp-index time series using standard compressors. In both cases, we used the Mean Absolute Error (MAE) as an accuracy measure.\n  For the monthly T-index time series, we made 18 forecasts beyond the available data for each month since January 2011 to July 2017. We show that, in comparison with the forecasts made by the Australian Bureau of Meteorology, our method more accurately predicts one value ahead.\n  The Kp-index time series consists of 3-hour values ranging from 0 to 9. For each day from February 4, 2018 to March 28, 2018, we made forecasts for 24 values ahead. We compared our forecasts with the forecasts made by the Space Weather Prediction Center (SWPC). The results showed that the accuracy of our method is similar to the accuracy of the SWPC's method. As in the previous case, we also obtained more accurate one-step forecasts.",
+        "published": "2019-04-08 03:59:18+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1904.03825v1"
+    },
+    {
+        "title": "Simplifying and Improving: Revisiting Bulgaria's Revenue Forecasting Models",
+        "authors": [
+            "Fabio Ashtar Telarico"
+        ],
+        "summary": "In the thirty years since the end of real socialism, Bulgaria's went from having a rather radically 'different' tax system to adopting flat-rate taxation with marginal tax rates that fell from figures as high as 40% to 10% for both the corporate-income tax and the personal-income tax. Crucially, the econometric forecasting models in use at the Bulgarian Ministry of Finance hinted at an increase in tax revenue compatible with the so-called 'Laffer curve'. Similarly, many economists held the view that revenues would have increased. However, reality fell short of those expectations based on forecasting models and rooted in mainstream economic theory. Thus, this paper asks whether there are betterperforming forecasting models for personal-and corporate-income tax-revenues in Bulgaria that are readily implementable and overperform the ones currently in use. After articulating a constructive critique of the current forecasting models, the paper offers readily implementable, transparent alternatives and proves their superiority.",
+        "published": "2023-02-17 09:23:51+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2303.09405v1"
+    },
+    {
+        "title": "Forecasting pandemic tax revenues in a small, open economy",
+        "authors": [
+            "Fabio Ashtar Telarico"
+        ],
+        "summary": "Tax analysis and forecasting of revenues are of paramount importance to ensure fiscal policy's viability and sustainability. However, the measures taken to contain the spread of the recent pandemic pose an unprecedented challenge to established models and approaches. This paper proposes a model to forecast tax revenues in Bulgaria for the fiscal years 2020-2022 built in accordance with the International Monetary Fund's recommendations on a dataset covering the period between 1995 and 2019. The study further discusses the actual trustworthiness of official Bulgarian forecasts, contrasting those figures with the model previously estimated. This study's quantitative results both confirm the pandemic's assumed negative impact on tax revenues and prove that econometrics can be tweaked to produce consistent revenue forecasts even in the relatively-unexplored case of Bulgaria offering new insights to policymakers and advocates.",
+        "published": "2021-12-22 10:39:59+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2112.15431v1"
+    },
+    {
+        "title": "SDWPF: A Dataset for Spatial Dynamic Wind Power Forecasting Challenge at KDD Cup 2022",
+        "authors": [
+            "Jingbo Zhou",
+            "Xinjiang Lu",
+            "Yixiong Xiao",
+            "Jiantao Su",
+            "Junfu Lyu",
+            "Yanjun Ma",
+            "Dejing Dou"
+        ],
+        "summary": "The variability of wind power supply can present substantial challenges to incorporating wind power into a grid system. Thus, Wind Power Forecasting (WPF) has been widely recognized as one of the most critical issues in wind power integration and operation. There has been an explosion of studies on wind power forecasting problems in the past decades. Nevertheless, how to well handle the WPF problem is still challenging, since high prediction accuracy is always demanded to ensure grid stability and security of supply. We present a unique Spatial Dynamic Wind Power Forecasting dataset: SDWPF, which includes the spatial distribution of wind turbines, as well as the dynamic context factors. Whereas, most of the existing datasets have only a small number of wind turbines without knowing the locations and context information of wind turbines at a fine-grained time scale. By contrast, SDWPF provides the wind power data of 134 wind turbines from a wind farm over half a year with their relative positions and internal statuses. We use this dataset to launch the Baidu KDD Cup 2022 to examine the limit of current WPF solutions. The dataset is released at https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets.",
+        "published": "2022-08-08 18:38:45+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2208.04360v2"
+    },
+    {
+        "title": "FFORMPP: Feature-based forecast model performance prediction",
+        "authors": [
+            "Thiyanga S. Talagala",
+            "Feng Li",
+            "Yanfei Kang"
+        ],
+        "summary": "This paper introduces a novel meta-learning algorithm for time series forecast model performance prediction. We model the forecast error as a function of time series features calculated from the historical time series with an efficient Bayesian multivariate surface regression approach. The minimum predicted forecast error is then used to identify an individual model or a combination of models to produce the final forecasts. It is well-known that the performance of most meta-learning models depends on the representativeness of the reference dataset used for training. In such circumstances, we augment the reference dataset with a feature-based time series simulation approach, namely GRATIS, in generating a rich and representative time series collection. The proposed framework is tested using the M4 competition data and is compared against commonly used forecasting approaches. Our approach provides comparable performances to other model selection/combination approaches but at a lower computational cost and a higher degree of interpretability, which is important for supporting decisions. We also provide useful insights regarding which forecasting models are expected to work better for particular types of time series, the intrinsic mechanisms of the meta-learners and how the forecasting performances are affected by various factors.",
+        "published": "2019-08-30 01:32:34+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.11500v3"
+    },
+    {
+        "title": "Large-scale Uncertainty Estimation and Its Application in Revenue Forecast of SMEs",
+        "authors": [
+            "Zebang Zhang",
+            "Kui Zhao",
+            "Kai Huang",
+            "Quanhui Jia",
+            "Yanming Fang",
+            "Quan Yu"
+        ],
+        "summary": "The economic and banking importance of the small and medium enterprise (SME) sector is well recognized in contemporary society. Business credit loans are very important for the operation of SMEs, and the revenue is a key indicator of credit limit management. Therefore, it is very beneficial to construct a reliable revenue forecasting model. If the uncertainty of an enterprise's revenue forecasting can be estimated, a more proper credit limit can be granted. Natural gradient boosting approach, which estimates the uncertainty of prediction by a multi-parameter boosting algorithm based on the natural gradient. However, its original implementation is not easy to scale into big data scenarios, and computationally expensive compared to state-of-the-art tree-based models (such as XGBoost). In this paper, we propose a Scalable Natural Gradient Boosting Machines that is simple to implement, readily parallelizable, interpretable and yields high-quality predictive uncertainty estimates. According to the characteristics of revenue distribution, we derive an uncertainty quantification function. We demonstrate that our method can distinguish between samples that are accurate and inaccurate on revenue forecasting of SMEs. What's more, interpretability can be naturally obtained from the model, satisfying the financial needs.",
+        "published": "2020-05-02 06:17:44+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2005.00718v1"
+    },
+    {
+        "title": "Well Googled is Half Done: Multimodal Forecasting of New Fashion Product Sales with Image-based Google Trends",
+        "authors": [
+            "Geri Skenderi",
+            "Christian Joppi",
+            "Matteo Denitto",
+            "Marco Cristani"
+        ],
+        "summary": "New fashion product sales forecasting is a challenging problem that involves many business dynamics and cannot be solved by classical forecasting approaches. In this paper, we investigate the effectiveness of systematically probing exogenous knowledge in the form of Google Trends time series and combining it with multi-modal information related to a brand-new fashion item, in order to effectively forecast its sales despite the lack of past data. In particular, we propose a neural network-based approach, where an encoder learns a representation of the exogenous time series, while the decoder forecasts the sales based on the Google Trends encoding and the available visual and metadata information. Our model works in a non-autoregressive manner, avoiding the compounding effect of large first-step errors. As a second contribution, we present VISUELLE, a publicly available dataset for the task of new fashion product sales forecasting, containing multimodal information for 5577 real, new products sold between 2016-2019 from Nunalie, an Italian fast-fashion company. The dataset is equipped with images of products, metadata, related sales, and associated Google Trends. We use VISUELLE to compare our approach against state-of-the-art alternatives and several baselines, showing that our neural network-based approach is the most accurate in terms of both percentage and absolute error. It is worth noting that the addition of exogenous knowledge boosts the forecasting accuracy by 1.5% in terms of Weighted Absolute Percentage Error (WAPE), revealing the importance of exploiting informative external information. The code and dataset are both available at https://github.com/HumaticsLAB/GTM-Transformer.",
+        "published": "2021-09-20 20:15:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2109.09824v6"
+    },
+    {
+        "title": "Timing, Entry, and Revenue in Clock-Based Platform Markets",
+        "authors": [
+            "Thomas Pitz",
+            "Vinicius Ferraz"
+        ],
+        "summary": "On platforms where time-to-contract is itself payoff-relevant--Aalsmeer's flower auctions, ride-hailing dispatch, on-demand-labor matching--the textbook revenue equivalence between Dutch and first-price formats holds the trading outcome fixed. Once participation is endogenous and both sides bear waiting costs, the trading format directly shapes who enters, market thickness, volume, and platform revenue. The platform's ranking of the descending clock against immediate and batched posted-price benchmarks is decided by two estimable primitives on each side of the market: an earnings gap and a timing gap. A bidirectional four-case classification identifies when the descending clock dominates at every level of waiting costs, only above a floor, only below a ceiling, or not at all; the last case is unconditional -- when the descending clock charges no more per trade and contracts no faster than the posted-price benchmark, it cannot win. No format admits a universal ranking. The local verdict propagates through endogenous entry, and cross-side complementarity amplifies shared local advantages into joint dominance. A conditional revenue theorem converts entry and volume gains into a platform-revenue ranking. In calibrated parameterizations the revenue-ranking switching boundary lies near $p_0/\\bar v\\approx 1$, inside the empirical range for ride-hailing platforms. A measurement protocol provides explicit nonparametric estimators for the six reduced-form objects and a test statistic for the dominance condition, and a Lean~4 formalization audits the algebraic and order-theoretic content. In markets where goods or services cannot wait, the speed of the trading mechanism is a primitive of market design.",
+        "published": "2026-04-12 13:30:55+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2604.10638v2"
+    },
+    {
+        "title": "LLM-Mixer: Multiscale Mixing in LLMs for Time Series Forecasting",
+        "authors": [
+            "Md Kowsher",
+            "Md. Shohanur Islam Sobuj",
+            "Nusrat Jahan Prottasha",
+            "E. Alejandro Alanis",
+            "Ozlem Ozmen Garibay",
+            "Niloofar Yousefi"
+        ],
+        "summary": "Time series forecasting remains a challenging task, particularly in the context of complex multiscale temporal patterns. This study presents LLM-Mixer, a framework that improves forecasting accuracy through the combination of multiscale time-series decomposition with pre-trained LLMs (Large Language Models). LLM-Mixer captures both short-term fluctuations and long-term trends by decomposing the data into multiple temporal resolutions and processing them with a frozen LLM, guided by a textual prompt specifically designed for time-series data. Extensive experiments conducted on multivariate and univariate datasets demonstrate that LLM-Mixer achieves competitive performance, outperforming recent state-of-the-art models across various forecasting horizons. This work highlights the potential of combining multiscale analysis and LLMs for effective and scalable time-series forecasting.",
+        "published": "2024-10-15 15:08:57+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2410.11674v2"
+    },
+    {
+        "title": "Maximizing Store Revenues using Tabu Search for Floor Space Optimization",
+        "authors": [
+            "Jiefeng Xu",
+            "Evren Gul",
+            "Alvin Lim"
+        ],
+        "summary": "Floor space optimization is a critical revenue management problem commonly encountered by retailers. It maximizes store revenue by optimally allocating floor space to product categories which are assigned to their most appropriate planograms. We formulate the problem as a connected multi-choice knapsack problem with an additional global constraint and propose a tabu search based meta-heuristic that exploits the multiple special neighborhood structures. We also incorporate a mechanism to determine how to combine the multiple neighborhood moves. A candidate list strategy based on learning from prior search history is also employed to improve the search quality. The results of computational testing with a set of test problems show that our tabu search heuristic can solve all problems within a reasonable amount of time. Analyses of individual contributions of relevant components of the algorithm were conducted with computational experiments.",
+        "published": "2020-11-04 22:42:54+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2011.04422v1"
+    },
+    {
+        "title": "Realized Volatility Forecasting for New Issues and Spin-Offs using Multi-Source Transfer Learning",
+        "authors": [
+            "Andreas Teller",
+            "Uta Pigorsch",
+            "Christian Pigorsch"
+        ],
+        "summary": "Forecasting the volatility of financial assets is essential for various financial applications. This paper addresses the challenging task of forecasting the volatility of financial assets with limited historical data, such as new issues or spin-offs, by proposing a multi-source transfer learning approach. Specifically, we exploit complementary source data of assets with a substantial historical data record by selecting source time series instances that are most similar to the limited target data of the new issue/spin-off. Based on these instances and the target data, we estimate linear and non-linear realized volatility models and compare their forecasting performance to forecasts of models trained exclusively on the target data, and models trained on the entire source and target data. The results show that our transfer learning approach outperforms the alternative models and that the integration of complementary data is also beneficial immediately after the initial trading day of the new issue/spin-off.",
+        "published": "2025-03-16 20:56:44+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.12648v1"
+    },
+    {
+        "title": "Early Warning with Calibrated and Sharper Probabilistic Forecasts",
+        "authors": [
+            "Reason Lesego Machete"
+        ],
+        "summary": "Given a nonlinear model, a probabilistic forecast may be obtained by Monte Carlo simulations. At a given forecast horizon, Monte Carlo simulations yield sets of discrete forecasts, which can be converted to density forecasts. The resulting density forecasts will inevitably be downgraded by model mis-specification. In order to enhance the quality of the density forecasts, one can mix them with the unconditional density. This paper examines the value of combining conditional density forecasts with the unconditional density. The findings have positive implications for issuing early warnings in different disciplines including economics and meteorology, but UK inflation forecasts are considered as an example.",
+        "published": "2011-12-29 19:31:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1112.6390v3"
+    },
+    {
+        "title": "ForecastBench-Sim: A Simulated-World Forecasting Benchmark",
+        "authors": [
+            "Jaeho Lee",
+            "Nick Merrill",
+            "Ezra Karger"
+        ],
+        "summary": "Forecasting benchmarks for general-purpose AI systems usually inherit the constraints of the real world: outcomes resolve slowly, tail events are rare, and counterfactual questions are difficult to score. We introduce ForecastBench-Sim, a simulated-world forecasting benchmark built on game rollouts from Freeciv, a turn-based strategy game modelled on the Civilization series. Forecasters receive a fixed world report (a structured snapshot of the current game state) and answer questions about hidden future states; the benchmark then continues the simulation and scores forecasts. Because the world is simulated, the same setup can generate continuous or binary forecasting questions at arbitrary time horizons, paired intervention worlds for conditional or causal questions, and resolved examples of rare or disruptive outcomes. We describe the benchmark pipeline, question families, scoring protocol, and release artifacts, and report validation slices from model evaluations and an anonymized human pilot. ForecastBench-Sim is intended to complement real-world forecasting benchmarks by providing controlled, immediately resolvable tasks for studying probabilistic reasoning under dynamic world states.",
+        "published": "2026-06-17 04:52:41+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.18686v1"
+    },
+    {
+        "title": "Comparing the Forecasting Performances of Linear Models for Electricity Prices with High RES Penetration",
+        "authors": [
+            "Angelica Gianfreda",
+            "Francesco Ravazzolo",
+            "Luca Rossini"
+        ],
+        "summary": "This paper compares alternative univariate versus multivariate models, frequentist versus Bayesian autoregressive and vector autoregressive specifications, for hourly day-ahead electricity prices, both with and without renewable energy sources. The accuracy of point and density forecasts are inspected in four main European markets (Germany, Denmark, Italy and Spain) characterized by different levels of renewable energy power generation. Our results show that the Bayesian VAR specifications with exogenous variables dominate other multivariate and univariate specifications, in terms of both point and density forecasting.",
+        "published": "2018-01-03 17:48:08+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1801.01093v3"
+    },
+    {
+        "title": "Hierarchical forecasting with a top-down alignment of independent level forecasts",
+        "authors": [
+            "Matthias Anderer",
+            "Feng Li"
+        ],
+        "summary": "Hierarchical forecasting with intermittent time series is a challenge in both research and empirical studies. Extensive research focuses on improving the accuracy of each hierarchy, especially the intermittent time series at bottom levels. Then hierarchical reconciliation could be used to improve the overall performance further. In this paper, we present a \\emph{hierarchical-forecasting-with-alignment} approach that treats the bottom level forecasts as mutable to ensure higher forecasting accuracy on the upper levels of the hierarchy. We employ a pure deep learning forecasting approach N-BEATS for continuous time series at the top levels and a widely used tree-based algorithm LightGBM for the intermittent time series at the bottom level. The \\emph{hierarchical-forecasting-with-alignment} approach is a simple yet effective variant of the bottom-up method, accounting for biases that are difficult to observe at the bottom level. It allows suboptimal forecasts at the lower level to retain a higher overall performance. The approach in this empirical study was developed by the first author during the M5 Forecasting Accuracy competition, ranking second place. The method is also business orientated and could benefit for business strategic planning.",
+        "published": "2021-03-15 10:00:23+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2103.08250v4"
+    },
+    {
+        "title": "Interpretable Water Level Forecaster with Spatiotemporal Causal Attention Mechanisms",
+        "authors": [
+            "Sungchul Hong",
+            "Yunjin Choi",
+            "Jong-June Jeon"
+        ],
+        "summary": "Accurate forecasting of river water levels is vital for effectively managing traffic flow and mitigating the risks associated with natural disasters. This task presents challenges due to the intricate factors influencing the flow of a river. Recent advances in machine learning have introduced numerous effective forecasting methods. However, these methods lack interpretability due to their complex structure, resulting in limited reliability. Addressing this issue, this study proposes a deep learning model that quantifies interpretability, with an emphasis on water level forecasting. This model focuses on generating quantitative interpretability measurements, which align with the common knowledge embedded in the input data. This is facilitated by the utilization of a transformer architecture that is purposefully designed with masking, incorporating a multi-layer network that captures spatiotemporal causation. We perform a comparative analysis on the Han River dataset obtained from Seoul, South Korea, from 2016 to 2021. The results illustrate that our approach offers enhanced interpretability consistent with common knowledge, outperforming competing methods and also enhances robustness against distribution shift.",
+        "published": "2023-02-28 04:37:26+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2303.00515v8"
+    },
+    {
+        "title": "Continuous Ensemble Weather Forecasting with Diffusion models",
+        "authors": [
+            "Martin Andrae",
+            "Tomas Landelius",
+            "Joel Oskarsson",
+            "Fredrik Lindsten"
+        ],
+        "summary": "Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.",
+        "published": "2024-10-07 18:51:23+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2410.05431v2"
+    },
+    {
+        "title": "SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks",
+        "authors": [
+            "Alessio Brini",
+            "Giacomo Toscano"
+        ],
+        "summary": "This paper introduces SpotV2Net, a multivariate intraday spot volatility forecasting model based on a Graph Attention Network architecture. SpotV2Net represents assets as nodes within a graph and includes non-parametric high-frequency Fourier estimates of the spot volatility and co-volatility as node features. Further, it incorporates Fourier estimates of the spot volatility of volatility and co-volatility of volatility as features for node edges, to capture spillover effects. We test the forecasting accuracy of SpotV2Net in an extensive empirical exercise, conducted with the components of the Dow Jones Industrial Average index. The results we obtain suggest that SpotV2Net yields statistically significant gains in forecasting accuracy, for both single-step and multi-step forecasts, compared to a panel heterogenous auto-regressive model and alternative machine-learning models. To interpret the forecasts produced by SpotV2Net, we employ GNNExplainer \\citep{ying2019gnnexplainer}, a model-agnostic interpretability tool, and thereby uncover subgraphs that are critical to a node's predictions.",
+        "published": "2024-01-11 20:27:20+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2401.06249v4"
+    },
+    {
+        "title": "A Review of the Long Horizon Forecasting Problem in Time Series Analysis",
+        "authors": [
+            "Hans Krupakar",
+            "Kandappan V A"
+        ],
+        "summary": "The long horizon forecasting (LHF) problem has come up in the time series literature for over the last 35 years or so. This review covers aspects of LHF in this period and how deep learning has incorporated variants of trend, seasonality, fourier and wavelet transforms, misspecification bias reduction and bandpass filters while contributing using convolutions, residual connections, sparsity reduction, strided convolutions, attention masks, SSMs, normalization methods, low-rank approximations and gating mechanisms. We highlight time series decomposition techniques, input data preprocessing and dataset windowing schemes that improve performance. Multi-layer perceptron models, recurrent neural network hybrids, self-attention models that improve and/or address the performances of the LHF problem are described, with an emphasis on the feature space construction. Ablation studies are conducted over the ETTm2 dataset in the multivariate and univariate high useful load (HUFL) forecasting contexts, evaluated over the last 4 months of the dataset. The heatmaps of MSE averages per time step over test set series in the horizon show that there is a steady increase in the error proportionate to its length except with xLSTM and Triformer models and motivate LHF as an error propagation problem. The trained models are available here: https://bit.ly/LHFModelZoo",
+        "published": "2025-06-15 10:49:50+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2506.12809v1"
+    },
+    {
+        "title": "Forecasting with Hyper-Trees",
+        "authors": [
+            "Alexander M\u00e4rz",
+            "Kashif Rasul"
+        ],
+        "summary": "We introduce Hyper-Trees as a novel framework for modeling time series data using gradient boosted trees. Unlike conventional tree-based approaches that forecast time series directly, Hyper-Trees learn the parameters of a target time series model, such as ARIMA or Exponential Smoothing, as functions of features. These parameters are then used by the target model to generate the final forecasts. Our framework combines the effectiveness of decision trees on tabular data with classical forecasting models, thereby inducing a time series inductive bias into tree-based models. To resolve the scaling limitations of boosted trees when estimating a high-dimensional set of target model parameters, we combine decision trees and neural networks within a unified framework. In this hybrid approach, the trees generate informative representations from the input features, which a shallow network then uses as input to learn the parameters of a time series model. With our research, we explore the effectiveness of Hyper-Trees across a range of forecasting tasks and extend tree-based modeling beyond its conventional use in time series analysis.",
+        "published": "2024-05-13 15:22:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2405.07836v5"
+    },
+    {
+        "title": "Seamless multi-model postprocessing for air temperature forecasts in complex topography",
+        "authors": [
+            "Regula Keller",
+            "Jan Rajczak",
+            "Jonas Bhend",
+            "Christoph Spirig",
+            "Stephan Hemri",
+            "Mark A. Liniger",
+            "Heini Wernli"
+        ],
+        "summary": "Statistical postprocessing is routinely applied to correct systematic errors of numerical weather prediction models (NWP) and to automatically produce calibrated local forecasts for end-users. Postprocessing is particularly relevant in complex terrain, where even state-of-the-art high-resolution NWP systems cannot resolve many of the small-scale processes shaping local weather conditions. In addition, statistical postprocessing can also be used to combine forecasts from multiple NWP systems. Here we assess an ensemble model output statistics (EMOS) approach to produce seamless temperature forecasts based on a combination of short-term ensemble forecasts from a convection-permitting limited-area ensemble and a medium-range global ensemble forecasting model. We quantify the benefit of this approach compared to only processing the high-resolution NWP. We calibrate and combine 2-m air temperature predictions for a large set of Swiss weather stations at the hourly time-scale. The multi-model EMOS approach ('Mixed EMOS') is able to improve forecasts by 30\\% with respect to direct model output from the high-resolution NWP. A detailed evaluation of Mixed EMOS reveals that it outperforms either single-model EMOS version by 8-12\\%. Valley location profit particularly from the model combination. All forecast variants perform worst in winter (DJF), however calibration and model combination improves forecast quality substantially.",
+        "published": "2020-08-18 11:08:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2008.07857v2"
+    },
+    {
+        "title": "Probabilistic Solar Power Forecasting: Long Short-Term Memory Network vs Simpler Approaches",
+        "authors": [
+            "Vinayak Sharma",
+            "Jorge Angel Gonzalez Ordiano",
+            "Ralf Mikut",
+            "Umit Cali"
+        ],
+        "summary": "The high penetration of volatile renewable energy sources such as solar make methods for coping with the uncertainty associated with them of paramount importance. Probabilistic forecasts are an example of these methods, as they assist energy planners in their decision-making process by providing them with information about the uncertainty of future power generation. Currently, there is a trend towards the use of deep learning probabilistic forecasting methods. However, the point at which the more complex deep learning methods should be preferred over more simple approaches is not yet clear. Therefore, the current article presents a simple comparison between a long short-term memory neural network and other more simple approaches. The comparison consists of training and comparing models able to provide one-day-ahead probabilistic forecasts for a solar power system. Moreover, the current paper makes use of an open-source dataset provided during the Global Energy Forecasting Competition of 2014 (GEFCom14).",
+        "published": "2021-01-20 18:13:07+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2101.08236v1"
+    },
+    {
+        "title": "Forecast Encompassing Tests for the Expected Shortfall",
+        "authors": [
+            "Timo Dimitriadis",
+            "Julie Schnaitmann"
+        ],
+        "summary": "We introduce new forecast encompassing tests for the risk measure Expected Shortfall (ES). The ES currently receives much attention through its introduction into the Basel III Accords, which stipulate its use as the primary market risk measure for the international banking regulation. We utilize joint loss functions for the pair ES and Value at Risk to set up three ES encompassing test variants. The tests are built on misspecification robust asymptotic theory and we investigate the finite sample properties of the tests in an extensive simulation study. We use the encompassing tests to illustrate the potential of forecast combination methods for different financial assets.",
+        "published": "2019-08-13 10:26:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1908.04569v3"
+    },
+    {
+        "title": "Online Advertising Revenue Forecasting: An Interpretable Deep Learning Approach",
+        "authors": [
+            "Max W\u00fcrfel",
+            "Qiwei Han",
+            "Maximilian Kaiser"
+        ],
+        "summary": "Online advertising revenues account for an increasing share of publishers' revenue streams, especially for small and medium-sized publishers who depend on the advertisement networks of tech companies such as Google and Facebook. Thus publishers may benefit significantly from accurate online advertising revenue forecasts to better manage their website monetization strategies. However, publishers who only have access to their own revenue data lack a holistic view of the total ad market of publishers, which in turn limits their ability to generate insights into their own future online advertising revenues. To address this business issue, we leverage a proprietary database encompassing Google Adsense revenues from a large collection of publishers in diverse areas. We adopt the Temporal Fusion Transformer (TFT) model, a novel attention-based architecture to predict publishers' advertising revenues. We leverage multiple covariates, including not only the publisher's own characteristics but also other publishers' advertising revenues. Our prediction results outperform several benchmark deep-learning time-series forecast models over multiple time horizons. Moreover, we interpret the results by analyzing variable importance weights to identify significant features and self-attention weights to reveal persistent temporal patterns.",
+        "published": "2021-11-16 23:55:02+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2111.08840v1"
+    },
+    {
+        "title": "Valeo4Cast: A Modular Approach to End-to-End Forecasting",
+        "authors": [
+            "Yihong Xu",
+            "\u00c9loi Zablocki",
+            "Alexandre Boulch",
+            "Gilles Puy",
+            "Mickael Chen",
+            "Florent Bartoccioni",
+            "Nermin Samet",
+            "Oriane Sim\u00e9oni",
+            "Spyros Gidaris",
+            "Tuan-Hung Vu",
+            "Andrei Bursuc",
+            "Eduardo Valle",
+            "Renaud Marlet",
+            "Matthieu Cord"
+        ],
+        "summary": "Motion forecasting is crucial in autonomous driving systems to anticipate the future trajectories of surrounding agents such as pedestrians, vehicles, and traffic signals. In end-to-end forecasting, the model must jointly detect and track from sensor data (cameras or LiDARs) the past trajectories of the different elements of the scene and predict their future locations. We depart from the current trend of tackling this task via end-to-end training from perception to forecasting, and instead use a modular approach. We individually build and train detection, tracking and forecasting modules. We then only use consecutive finetuning steps to integrate the modules better and alleviate compounding errors. We conduct an in-depth study on the finetuning strategies and it reveals that our simple yet effective approach significantly improves performance on the end-to-end forecasting benchmark. Consequently, our solution ranks first in the Argoverse 2 End-to-end Forecasting Challenge, with 63.82 mAPf. We surpass forecasting results by +17.1 points over last year's winner and by +13.3 points over this year's runner-up. This remarkable performance in forecasting can be explained by our modular paradigm, which integrates finetuning strategies and significantly outperforms the end-to-end-trained counterparts. The code, model weights and results are made available https://github.com/valeoai/valeo4cast.",
+        "published": "2024-06-12 11:50:51+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2406.08113v3"
+    },
+    {
+        "title": "Scaling-aware rating of Poisson-limited demand forecasts",
+        "authors": [
+            "Malte C. Tichy",
+            "Illia Babounikau",
+            "Nikolas Wolke",
+            "Stefan Ulbrich",
+            "Michael Feindt"
+        ],
+        "summary": "Forecast quality should be assessed in the context of what is possible in theory and what is reasonable to expect in practice. Often, one can identify an approximate upper bound to a probabilistic forecast's sharpness, which sets a lower, not necessarily achievable, limit to error metrics. In retail forecasting, a simple, but often unconquerable sharpness limit is given by the Poisson distribution. When evaluating forecasts using traditional metrics such as Mean Absolute Error, it is hard to judge whether a certain achieved value reflects unavoidable Poisson noise or truly indicates an over-dispersed prediction model. Moreover, every evaluation metric suffers from precision scaling: The metric's value is mostly defined by the selling rate and by the resulting rate-dependent Poisson noise, and only secondarily by the forecast quality. Comparing two groups of forecasted products often yields \"the slow movers are performing worse than the fast movers\" or vice versa, which we call the na\u00efve scaling trap. To distill the intrinsic quality of a forecast, we stratify predictions into buckets of approximately equal predicted values and evaluate metrics separately per bucket. By comparing the achieved value per bucket to benchmarks defined by the theoretical expectation value of the metric, we obtain an intuitive visualization of forecast quality. This representation can be summarized by a single rating that makes forecast quality comparable among different products or even industries. The thereby developed scaling-aware forecast rating is applied to forecasting models used on the M5 competition dataset as well as to real-life forecasts provided by Blue Yonder's Demand Edge for Retail solution for grocery products in Sainsbury's supermarkets in the United Kingdom. The results permit a clear interpretation and high-level understanding of model quality by non-experts.",
+        "published": "2022-11-29 15:53:42+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2211.16313v5"
+    },
+    {
+        "title": "A probabilistic forecast methodology for volatile electricity prices in the Australian National Electricity Market",
+        "authors": [
+            "Cameron Cornell",
+            "Nam Trong Dinh",
+            "S. Ali Pourmousavi"
+        ],
+        "summary": "The South Australia region of the Australian National Electricity Market (NEM) displays some of the highest levels of price volatility observed in modern electricity markets. This paper outlines an approach to probabilistic forecasting under these extreme conditions, including spike filtration and several post-processing steps. We propose using quantile regression as an ensemble tool for probabilistic forecasting, with our combined forecasts achieving superior results compared to all constituent models. Within our ensemble framework, we demonstrate that averaging models with varying training length periods leads to a more adaptive model and increased prediction accuracy. The applicability of the final model is evaluated by comparing our median forecasts with the point forecasts available from the Australian NEM operator, with our model outperforming these NEM forecasts by a significant margin.",
+        "published": "2023-11-13 12:33:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2311.07289v2"
+    },
+    {
+        "title": "Mid-flight Forecasting for CPA Lines in Online Advertising",
+        "authors": [
+            "Hao He",
+            "Tian Zhou",
+            "Lihua Ren",
+            "Niklas Karlsson",
+            "Aaron Flores"
+        ],
+        "summary": "For Verizon MediaDemand Side Platform(DSP), forecasting of ad campaign performance not only feeds key information to the optimization server to allow the system to operate on a high-performance mode, but also produces actionable insights to the advertisers. In this paper, the forecasting problem for CPA lines in the middle of the flight is investigated by taking the bidding mechanism into account. The proposed methodology generates relationships between various key performance metrics and optimization signals. It can also be used to estimate the sensitivity of ad campaign performance metrics to the adjustments of optimization signal, which is important to the design of a campaign management system. The relationship between advertiser spends and effective Cost Per Action(eCPA) is also characterized, which serves as a guidance for mid-flight line adjustment to the advertisers. Several practical issues in implementation, such as downsampling of the dataset, are also discussed in the paper. At last, the forecasting results are validated against actual deliveries and demonstrates promising accuracy.",
+        "published": "2021-07-15 17:48:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2107.07494v1"
+    },
+    {
+        "title": "Semantics-Enhanced Retrieval-Augmented Time Series Forecasting",
+        "authors": [
+            "Shiqiao Zhou",
+            "Zipeng Wu",
+            "Holger Sch\u00f6ner",
+            "Edouard Fouch\u00e9",
+            "IAG Wilson",
+            "Shuo Wang"
+        ],
+        "summary": "Time series forecasting models often benefit from historical patterns. Inspired by Retrieval-Augmented Generation (RAG), recent research explored retrieving relevant historical time series segments to enhance forecasting. However, relying solely on time series similarity is often insufficient for retrieval under non-stationarity. To address this, we propose a multimodal approach: a \\textbf{S}emantics-\\textbf{E}nhanced \\textbf{R}etrieval-\\textbf{A}ugmented Time Series \\textbf{F}orecasting framework, SERAF. Unlike mainstream approaches that depend only on time series similarity, SERAF conducts dual retrieval over the time series and their self-generated textual descriptions. It retrieves two complementary sets of historical patterns and corresponding futures, which are selectively and jointly used to guide future predictions. Experiments across seven real-world datasets demonstrate the effectiveness of SERAF in bridging numerical and semantic views of time series compared with state-of-the-art baselines.",
+        "published": "2026-06-12 20:32:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2606.14941v1"
+    },
+    {
+        "title": "A comparative assessment of deep learning models for day-ahead load forecasting: Investigating key accuracy drivers",
+        "authors": [
+            "Sotiris Pelekis",
+            "Ioannis-Konstantinos Seisopoulos",
+            "Evangelos Spiliotis",
+            "Theodosios Pountridis",
+            "Evangelos Karakolis",
+            "Spiros Mouzakitis",
+            "Dimitris Askounis"
+        ],
+        "summary": "Short-term load forecasting (STLF) is vital for the effective and economic operation of power grids and energy markets. However, the non-linearity and non-stationarity of electricity demand as well as its dependency on various external factors renders STLF a challenging task. To that end, several deep learning models have been proposed in the literature for STLF, reporting promising results. In order to evaluate the accuracy of said models in day-ahead forecasting settings, in this paper we focus on the national net aggregated STLF of Portugal and conduct a comparative study considering a set of indicative, well-established deep autoregressive models, namely multi-layer perceptrons (MLP), long short-term memory networks (LSTM), neural basis expansion coefficient analysis (N-BEATS), temporal convolutional networks (TCN), and temporal fusion transformers (TFT). Moreover, we identify factors that significantly affect the demand and investigate their impact on the accuracy of each model. Our results suggest that N-BEATS consistently outperforms the rest of the examined models. MLP follows, providing further evidence towards the use of feed-forward networks over relatively more sophisticated architectures. Finally, certain calendar and weather features like the hour of the day and the temperature are identified as key accuracy drivers, providing insights regarding the forecasting approach that should be used per case.",
+        "published": "2023-02-23 17:11:04+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2302.12168v2"
+    },
+    {
+        "title": "A projected nonlinear state-space model for forecasting time series signals",
+        "authors": [
+            "Christian Donner",
+            "Anuj Mishra",
+            "Hideaki Shimazaki"
+        ],
+        "summary": "Learning and forecasting stochastic time series is essential in various scientific fields. However, despite the proposals of nonlinear filters and deep-learning methods, it remains challenging to capture nonlinear dynamics from a few noisy samples and predict future trajectories with uncertainty estimates while maintaining computational efficiency. Here, we propose a fast algorithm to learn and forecast nonlinear dynamics from noisy time series data. A key feature of the proposed model is kernel functions applied to projected lines, enabling fast and efficient capture of nonlinearities in the latent dynamics. Through empirical case studies and benchmarking, the model demonstrates its effectiveness in learning and forecasting complex nonlinear dynamics, offering a valuable tool for researchers and practitioners in time series analysis.",
+        "published": "2023-11-22 09:05:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2311.13247v2"
+    },
+    {
+        "title": "Long-Term Forecasts of Military Technologies for a 20-30 Year Horizon: An Empirical Assessment of Accuracy",
+        "authors": [
+            "Alexander Kott",
+            "Philip Perconti"
+        ],
+        "summary": "During the 1990s, while exploring the impact of the collapse of the Soviet Union on developments in future warfare, a number of authors offered forecasts of military technology appearing by the year 2020. This paper offers a quantitative assessment of the accuracy of this group of forecasts. The overall accuracy - by several measures - was assessed as quite high, thereby pointing to the potential value of such forecasts in managing investments in long-term research and development. Major differences in accuracy, with strong statistical significance, were found between forecasts pertaining primarily to information acquisition and processing technologies, as opposed to technologies that aim primarily at physical effects. This paper also proposes several recommendations regarding methodological aspects of forecast accuracy assessments. Although the assessments were restricted to information available in open literature, the expert assessors did not find this constraint a significant detriment to the assessment process.",
+        "published": "2018-07-22 18:37:32+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1807.08339v1"
+    },
+    {
+        "title": "Urban Water Consumption Forecasting Using Deep Learning and Correlated District Metered Areas",
+        "authors": [
+            "Kleanthis Malialis",
+            "Nefeli Mavri",
+            "Stelios G. Vrachimis",
+            "Marios S. Kyriakou",
+            "Demetrios G. Eliades",
+            "Marios M. Polycarpou"
+        ],
+        "summary": "Accurate water consumption forecasting is a crucial tool for water utilities and policymakers, as it helps ensure a reliable supply, optimize operations, and support infrastructure planning. Urban Water Distribution Networks (WDNs) are divided into District Metered Areas (DMAs), where water flow is monitored to efficiently manage resources. This work focuses on short-term forecasting of DMA consumption using deep learning and aims to address two key challenging issues. First, forecasting based solely on a DMA's historical data may lack broader context and provide limited insights. Second, DMAs may experience sensor malfunctions providing incorrect data, or some DMAs may not be monitored at all due to computational costs, complicating accurate forecasting. We propose a novel method that first identifies DMAs with correlated consumption patterns and then uses these patterns, along with the DMA's local data, as input to a deep learning model for forecasting. In a real-world study with data from five DMAs, we show that: i) the deep learning model outperforms a classical statistical model; ii) accurate forecasting can be carried out using only correlated DMAs' consumption patterns; and iii) even when a DMA's local data is available, including correlated DMAs' data improves accuracy.",
+        "published": "2024-12-30 22:03:54+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2501.00158v1"
+    },
+    {
+        "title": "Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting",
+        "authors": [
+            "Tarasha Khurana",
+            "Peiyun Hu",
+            "David Held",
+            "Deva Ramanan"
+        ],
+        "summary": "Predicting how the world can evolve in the future is crucial for motion planning in autonomous systems. Classical methods are limited because they rely on costly human annotations in the form of semantic class labels, bounding boxes, and tracks or HD maps of cities to plan their motion and thus are difficult to scale to large unlabeled datasets. One promising self-supervised task is 3D point cloud forecasting from unannotated LiDAR sequences. We show that this task requires algorithms to implicitly capture (1) sensor extrinsics (i.e., the egomotion of the autonomous vehicle), (2) sensor intrinsics (i.e., the sampling pattern specific to the particular LiDAR sensor), and (3) the shape and motion of other objects in the scene. But autonomous systems should make predictions about the world and not their sensors. To this end, we factor out (1) and (2) by recasting the task as one of spacetime (4D) occupancy forecasting. But because it is expensive to obtain ground-truth 4D occupancy, we render point cloud data from 4D occupancy predictions given sensor extrinsics and intrinsics, allowing one to train and test occupancy algorithms with unannotated LiDAR sequences. This also allows one to evaluate and compare point cloud forecasting algorithms across diverse datasets, sensors, and vehicles.",
+        "published": "2023-02-25 18:12:37+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2302.13130v3"
+    }
+]
