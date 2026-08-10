@@ -29,11 +29,6 @@ from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-from src.evaluation.report_metrics import average_similarity
-
-logger.info(
-    f"Average similarity: {average_similarity(results):.3f}"
-)
 
 
 def load_fusion_payload(ticker: str) -> dict:
