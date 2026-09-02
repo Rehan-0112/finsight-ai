@@ -9,20 +9,8 @@ __pycache__/
 .venv/
 venv/
 
-# Environment variables
+# Environment variables — NEVER commit this
 .env
-
-# Data — generated files (never commit these)
-data/raw/
-data/processed/
-data/models/
-data/shap/
-data/fusion/
-data/anomalies/
-data/vector_store/
-data/cache/
-data/evaluation/
-data/logs/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -33,3 +21,6 @@ Thumbs.db
 
 # Logs
 logs/
+data/logs/
+data/evaluation/
+data/cache/

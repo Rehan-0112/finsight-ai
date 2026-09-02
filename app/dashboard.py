@@ -10,6 +10,11 @@ import plotly.graph_objects as go
 import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
+if "GROQ_API_KEY" not in os.environ:
+    try:
+        os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+    except Exception:
+        pass
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
