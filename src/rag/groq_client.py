@@ -36,9 +36,9 @@ def generate_response(prompt: str) -> str:
     try:
 
         completion = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=GROQ_MODEL,
             temperature=0.3,
-            max_tokens=700,
+            max_tokens=1500,
             messages=[
                 {
                     "role": "system",
@@ -58,7 +58,7 @@ def generate_response(prompt: str) -> str:
     except Exception:
 
         logger.exception(
-            "Groq API request failed (model: llama-3.3-70b-versatile)"
+            f"Groq API request failed (model: {GROQ_MODEL})"
         )
 
         raise

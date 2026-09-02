@@ -52,6 +52,6 @@ def feature_to_query(feature: str) -> str:
     """
 
     return FEATURE_QUERY_MAP.get(
-        feature_name,
-        feature_name.replace("_", " ")
+        feature,
+        feature.replace("_", " ")
     )

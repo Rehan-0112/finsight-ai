@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *.pyo
+.pytest_cache/
+*.log
 
 # Virtual Environment
 .venv/
@@ -10,8 +12,17 @@ venv/
 # Environment variables
 .env
 
-# ChromaDB
-
+# Data — generated files (never commit these)
+data/raw/
+data/processed/
+data/models/
+data/shap/
+data/fusion/
+data/anomalies/
+data/vector_store/
+data/cache/
+data/evaluation/
+data/logs/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -20,11 +31,5 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Runtime generated
-data/cache/
-data/evaluation/
+# Logs
 logs/
-
-__pycache__/
-.pytest_cache/
-*.log

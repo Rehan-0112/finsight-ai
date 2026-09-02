@@ -36,4 +36,4 @@ RECENT_BONUS = 0.20
 MODERN_BONUS = 0.15
 OLDER_BONUS = 0.10
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
